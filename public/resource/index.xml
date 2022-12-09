@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General information | Health Care Markets</title>
+    <link>/resource/</link>
+      <atom:link href="/resource/index.xml" rel="self" type="application/rss+xml" />
+    <description>General information</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Wed, 05 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>General information</title>
+      <link>/resource/</link>
+    </image>
+    
+    <item>
+      <title>Worksheet 3: Adverse Selection</title>
+      <link>/resource/wksheet3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resource/wksheet3/</guid>
+      <description>
+
+
+&lt;p&gt;Assume that the insurer’s cost function is given by &lt;span class=&#34;math inline&#34;&gt;\(C=100q - 2q^{2}\)&lt;/span&gt;, where &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; denotes the number of people enrolled in the plan. Further assume that the inverse demand function takes the form, &lt;span class=&#34;math inline&#34;&gt;\(D=110 - 3q\)&lt;/span&gt;, and that there are 20 individuals total in this market.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 1:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;If the insurer enters the market at a price of &lt;span&gt;$&lt;/span&gt;65, what is the insurer’s profit (or loss)?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;we need to first calculate the marginal cost curve, &lt;span class=&#34;math inline&#34;&gt;\(mc=100-4q\)&lt;/span&gt;, and the average cost curve, &lt;span class=&#34;math inline&#34;&gt;\(ac=100-2q\)&lt;/span&gt;. At a price of &lt;span class=&#34;math inline&#34;&gt;\(p=65\)&lt;/span&gt;, we know that quantity demanded will be &lt;span class=&#34;math inline&#34;&gt;\(q=\)&lt;/span&gt; 15. We can then calculate profit as just total revenue less total cost, &lt;span class=&#34;math inline&#34;&gt;\(\pi = TR - TC =\)&lt;/span&gt; 975 - 1050 = -75.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 2:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;What price does the insurer set next year if they set price equal to average cost in the prior year?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Average cost at &lt;span class=&#34;math inline&#34;&gt;\(p=65\)&lt;/span&gt; is 70. So this is next period’s price.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 3:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;What is the equilibrium price in this market?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The equlibrium price is such that insurers earn zero profits (under our assumptions). We can find that price by finding the quantity such that &lt;span class=&#34;math inline&#34;&gt;\(AC=p\)&lt;/span&gt;. This occurs at &lt;span class=&#34;math inline&#34;&gt;\(110 - 3q = 100 - 2q\)&lt;/span&gt;, or &lt;span class=&#34;math inline&#34;&gt;\(q=10\)&lt;/span&gt;. The price at this quantity is 80. Note that the zero profit condition isn’t necessary to find an equilibrium in this way. We could easily incorporate some minimum “profit” per person by increasing the per unit costs in the cost function.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 4:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;What if there is a &lt;span&gt;$&lt;/span&gt;10 penalty imposed for those that do not purchase health insurance?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The penalty will effectively shift the demand curve out, as each individual is now willing to spend &lt;span&gt;$&lt;/span&gt;10 more on health insurance. The new demand curve is then &lt;span class=&#34;math inline&#34;&gt;\(120 - 3q\)&lt;/span&gt;. Setting this equal to the average cost curve yields &lt;span class=&#34;math inline&#34;&gt;\(q=20\)&lt;/span&gt;. So a &lt;span&gt;$&lt;/span&gt;10 penalty facilitates full insurance in this market.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Worksheet 6: Physician agency and capitated payments</title>
+      <link>/resource/wksheet6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resource/wksheet6/</guid>
+      <description>
+
+
+&lt;p&gt;Assume that the patient’s net benefit function is, &lt;span class=&#34;math inline&#34;&gt;\(NB(x) = B(x) - p_{d}x\)&lt;/span&gt;. Further assume that &lt;span class=&#34;math inline&#34;&gt;\(B(x)=16x-2x^{2}\)&lt;/span&gt; and that the patient is fully insured such that &lt;span class=&#34;math inline&#34;&gt;\(p_{d}=0\)&lt;/span&gt; (i.e., the insurer pays the full price of care, and the patient pays nothing). Finally, assume that the physician’s number of patients in their practice is governed by, &lt;span class=&#34;math inline&#34;&gt;\(n(NB)=NB\)&lt;/span&gt;. The physician receives a fixed payment, &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt;, per patient, along with a margin of &lt;span class=&#34;math inline&#34;&gt;\(p_{s}-c\)&lt;/span&gt; for each unit of care, &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;. The same amount of care &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; is provided to each patient.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 1:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;What is the patient’s optimal amount of care?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If they could, the patient would choose &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; to maximize their net benefit, &lt;span class=&#34;math inline&#34;&gt;\(B(x) - p_{d}x = 16x-2x^{2}\)&lt;/span&gt;. This net benefit is optimized at &lt;span class=&#34;math inline&#34;&gt;\(x=4\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 2:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Write out the physician’s profit function.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The physician’s profit is simply their number of patients times the revenue per patient, &lt;span class=&#34;math inline&#34;&gt;\(\pi = n(NB) \left[R + (p_{s}-c) \right]\)&lt;/span&gt;. Given the functional forms provided in this question, we can rewrite this as, &lt;span class=&#34;math inline&#34;&gt;\(\pi = \left(16x - 2x^{2}\right) \left(R + (p_{s}-c)x\right)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 3:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Find the physician’s optimal amount of care if &lt;span class=&#34;math inline&#34;&gt;\(R=0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(p_{s}-c=1\)&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To find the physician’s optimum, we must first take the derivative of the profit function and set this equal to 0, &lt;span class=&#34;math inline&#34;&gt;\(\frac{\mathrm{d}\pi}{\mathrm{d}x} = (16 - 4x)(R+ (p_{s}-c)x) + (p_{s}-c)(16x-2x^{2})=0\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Setting &lt;span class=&#34;math inline&#34;&gt;\(R=0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(p_{s}-c=1\)&lt;/span&gt;, this reduces to &lt;span class=&#34;math inline&#34;&gt;\((16-4x)x + 16x - 2x^{2} = 16x-4x^{2} + 16x - 2x^{2} = 32x-6x^{2}=0\)&lt;/span&gt;. Solving for &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; yields &lt;span class=&#34;math inline&#34;&gt;\(x=5.33\)&lt;/span&gt;. This is larger than the patient’s optimal, &lt;span class=&#34;math inline&#34;&gt;\(x=4\)&lt;/span&gt;, which should be expected since there is a positive FFS payment in this setup and no capitated payment.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 4:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Find the physician’s optimal amount of care if &lt;span class=&#34;math inline&#34;&gt;\(R=1\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(p_{s}-c=1\)&lt;/span&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Plugging these values into the same first order condition, we get &lt;span class=&#34;math inline&#34;&gt;\((16-4x)(1+x) + 16x - 2x^{2} = 6x^{2} - 28x - 16=0\)&lt;/span&gt;. We can solve this with the quadratic equation, in which case &lt;span class=&#34;math inline&#34;&gt;\(x = \frac{28 \pm \sqrt(1168)}{12} \approx (-0.515, 5.181)\)&lt;/span&gt;. Since we can’t provide negative care, we’ll take the positive root so that &lt;span class=&#34;math inline&#34;&gt;\(x \approx 5.181\)&lt;/span&gt;. While these numbers are small, the important part is that we’ve introduced a capitated payment &lt;span class=&#34;math inline&#34;&gt;\(R=1\)&lt;/span&gt; and managed to bring “overtreatment” down from 1.333 to 1.181. In other words, the inclusion of the capitated payment brought us closer to the patient’s optimal amount of care.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 5:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Find the physician’s optimal if &lt;span class=&#34;math inline&#34;&gt;\(R=1\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(p_{s}-c=0\)&lt;/span&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Again substituting these values into he first order condition, we get &lt;span class=&#34;math inline&#34;&gt;\((16-4x) = 0\)&lt;/span&gt;, or &lt;span class=&#34;math inline&#34;&gt;\(x=4\)&lt;/span&gt;. So now the physician and patient optimal are the same value. Note that this is not a general solution…it only arises due to the linear patient function, &lt;span class=&#34;math inline&#34;&gt;\(n(NB) = a*NB\)&lt;/span&gt;. For nonlinear functions, we won’t generally be able to easily obtain the same optimal values from the physician and patient’s perspective. Instead, &lt;span class=&#34;math inline&#34;&gt;\(R&amp;gt;0\)&lt;/span&gt; will yield some amount of undertreatment as we saw in the general case in class.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Worksheet 5: Physician agency and fixed prices</title>
+      <link>/resource/wksheet5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resource/wksheet5/</guid>
+      <description>
+
+
+&lt;p&gt;Assume &lt;span class=&#34;math inline&#34;&gt;\(B(x)=4x^{1/2}\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(NB^{0}=0\)&lt;/span&gt;, anc &lt;span class=&#34;math inline&#34;&gt;\(c=1\)&lt;/span&gt;. Further assume that prices are fixed administratively at, &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}=2\)&lt;/span&gt;. Note that, in this case, we work only off of the patient’s net benefit constraint.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 1:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;What is the physician’s and patient’s optimal amount of care provided?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The physician maximizes profit, &lt;span class=&#34;math inline&#34;&gt;\(\pi = px - cx\)&lt;/span&gt;, subject to the constraint, &lt;span class=&#34;math inline&#34;&gt;\(4x^{1/2} = px\)&lt;/span&gt;. Since &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; is fixed, the physician simply sets &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; as high as possible, which means they set &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; to the point where the constraint binds. With &lt;span class=&#34;math inline&#34;&gt;\(p=2\)&lt;/span&gt;, this means &lt;span class=&#34;math inline&#34;&gt;\(4x^{1/2} = 2x\)&lt;/span&gt;, and solving for &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; means &lt;span class=&#34;math inline&#34;&gt;\(16x = 4x^{2} \longrightarrow 16=4x \longrightarrow x=4\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;The patient cares about maximizing net benefit, &lt;span class=&#34;math inline&#34;&gt;\(4x^{1/2} - 2x\)&lt;/span&gt;. This is maximized at &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; such that &lt;span class=&#34;math inline&#34;&gt;\(2x^{-1/2}-2=0 \longrightarrow x=1\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 2:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;The government is considering increasing the price to &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}=3\)&lt;/span&gt;. What are the new optimal levels of care for physicians and patients at this new price?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;At this new price, the physician would choose &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; such that &lt;span class=&#34;math inline&#34;&gt;\(4x^{1/2} = 3x \longrightarrow 16x = 9x^{2} \longrightarrow 16=9x \longrightarrow x=\frac{16}{9}\)&lt;/span&gt;. The patient would choose &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; such that &lt;span class=&#34;math inline&#34;&gt;\(2x^{-1/2}-3=0 \longrightarrow x=4/9\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 3:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;How would the price change affect the difference between the patient and physician’s optimal amounts?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;First, note that the amount of care decreases as the administrative price increases (opposite of the standard supply curve). Similarly, the deviation between the patient and physician optimal amounts decreases.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Basic Calculus Review</title>
+      <link>/resource/review1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resource/review1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Throughout the course, we’ll use a handful of elementary concepts from calculus. These basic tools are straightforward and easily mastered. In fact, you have already used calculus when you considered marginal revenue and marginal cost in your other economics classes. Here, I provide some review material to help you get back up-to-speed with the necessary mathematical concepts for this class.&lt;/p&gt;
+&lt;div id=&#34;functions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Functions&lt;/h2&gt;
+&lt;p&gt;A function is just a formal way in which inputs (a functions arguments) are converted into an output. For example, a firm’s total revenue (TR) is a function of the amount they produce (Q), such that: &lt;span class=&#34;math display&#34;&gt;\[TR = TR(Q).\]&lt;/span&gt; This means that total revenue depends on &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt;, the quantity of product produced and sold. Total cost is also a function of &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt;: &lt;span class=&#34;math display&#34;&gt;\[TC = TC(Q).\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As a more explicit example, suppose that the inverse demand for a firm is &lt;span class=&#34;math display&#34;&gt;\[P = 100 - 0.10Q,\]&lt;/span&gt; where &lt;span class=&#34;math inline&#34;&gt;\(P\)&lt;/span&gt; denotes price and &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt; denotes quantity. Since total revenue is the product of price and quantity, we have &lt;span class=&#34;math display&#34;&gt;\[TR = P \times Q = (100 - 0.10Q) \times Q = 100Q - 0.10Q^2.\]&lt;/span&gt; Thus, total revenue is a function of quantity produced and sold.&lt;/p&gt;
+&lt;p&gt;Some functions are more complicated. Producing health care, for example, requires a hospital or some facility (&lt;span class=&#34;math inline&#34;&gt;\(x_{1}\)&lt;/span&gt;); lots of equipment and medical supplies (&lt;span class=&#34;math inline&#34;&gt;\(x_{2}\)&lt;/span&gt;); and physicians, nurses, and staff (&lt;span class=&#34;math inline&#34;&gt;\(x_{3}\)&lt;/span&gt;). We can write the production function of hospitals as &lt;span class=&#34;math display&#34;&gt;\[Q = f(x_{1}, x_{2}, x_{3}),\]&lt;/span&gt; where &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt; denotes the “amount” of health care provided and &lt;span class=&#34;math inline&#34;&gt;\(f()\)&lt;/span&gt; represents the production technology that converts inputs into outputs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;simple-derivatives&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Simple derivatives&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Marginal analysis&lt;/em&gt; involves analyzing the response of some outcome variable to a very small change in some other explanatory variable. Mathematically, these marginal effects are derivatives. For example, the derivative of &lt;span class=&#34;math inline&#34;&gt;\(TR=TR(Q)\)&lt;/span&gt; measures the rate of change in total revenue with respect to a small change in &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt;. The derivative of a function is the slope of that function at a given point. By way of notation, we’ll write &lt;span class=&#34;math inline&#34;&gt;\(\frac{\mathrm{d} TR}{\mathrm{d} Q}\)&lt;/span&gt; to represent the derivative of TR with respect to &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt;. More generally, if &lt;span class=&#34;math inline&#34;&gt;\(y=f(x)\)&lt;/span&gt;, then &lt;span class=&#34;math inline&#34;&gt;\(\frac{\mathrm{d} y}{\mathrm{d} x}\)&lt;/span&gt; is the derivative of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; with respect to &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;. We will also write this as &lt;span class=&#34;math inline&#34;&gt;\(f&amp;#39;(x)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;As an example, consider the total revenue function, &lt;span class=&#34;math inline&#34;&gt;\(TR = 100Q - 0.10Q^{2}\)&lt;/span&gt;. What is the derivative of the total revenue function at &lt;span class=&#34;math inline&#34;&gt;\(Q=10\)&lt;/span&gt;? Well, we know &lt;span class=&#34;math inline&#34;&gt;\(\frac{\mathrm{d} TR}{\mathrm{d} Q} = 100 - 0.20Q\)&lt;/span&gt;, so plugging in &lt;span class=&#34;math inline&#34;&gt;\(Q=10\)&lt;/span&gt; yields &lt;span class=&#34;math inline&#34;&gt;\(98\)&lt;/span&gt;. So at a level of production of &lt;span class=&#34;math inline&#34;&gt;\(Q=10\)&lt;/span&gt;, we know that our total revenue increases by 98 for one more unit produced.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;optimization&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Optimization&lt;/h2&gt;
+&lt;p&gt;A common theme in all of economics is that firms and individuals optimize (i.e., maximize some objective function given their current information and constraints). In most simple cases, the optimum of a function occurs where the slope of that function (i.e., the first derivative) equals zero.&lt;/p&gt;
+&lt;p&gt;For example, suppose that total revenue is &lt;span class=&#34;math display&#34;&gt;\[TR = 100Q - 0.10Q^{2},\]&lt;/span&gt; and assume that want to choose &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt; so as to maximize our total revenue (we’ll ignore costs for now). We can find this revenue-maximizing level of &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt; by taking the derivative and setting it equal to 0, &lt;span class=&#34;math display&#34;&gt;\[\frac{\mathrm{d} TR}{\mathrm{d} Q} = 100 - 0.20Q.\]&lt;/span&gt; In other words, we know that the function is maximized when the derivative is 0, so we’re going to find the level of &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt; where that condition is satisfied. In our case, that is for &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt; such that &lt;span class=&#34;math inline&#34;&gt;\(100 - 0.20Q=0\)&lt;/span&gt;, or &lt;span class=&#34;math inline&#34;&gt;\(Q=500\)&lt;/span&gt;. So a quantity of 500 maximizes total revenue.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;rules-of-differentiation&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Rules of differentiation&lt;/h2&gt;
+&lt;p&gt;There are several rules, or shortcuts, for finding derivatives of common functional forms. These rules are mechanical, but they are useful to remember and only require some basic alebra.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;The derivative of a constant is 0&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;The power rule&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Consider the function, &lt;span class=&#34;math inline&#34;&gt;\(y=f(x)=x^{n}\)&lt;/span&gt;. The derivative of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; is &lt;span class=&#34;math inline&#34;&gt;\(f&amp;#39;(x) = n x^{n-1}\)&lt;/span&gt;. For example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(y=x^{3}\)&lt;/span&gt;, the derivative is &lt;span class=&#34;math inline&#34;&gt;\(\frac{\mathrm{d} y}{\mathrm{d} x} = 3x^{2}\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(y=x^{-2}\)&lt;/span&gt;, the derivative is &lt;span class=&#34;math inline&#34;&gt;\(\frac{\mathrm{d} y}{\mathrm{d} x} = -2x^{-3}\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(y=x\)&lt;/span&gt;, the derivative is &lt;span class=&#34;math inline&#34;&gt;\(\frac{\mathrm{d} y}{\mathrm{d} x} = x^{0} = 1\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;em&gt;Constant multiples&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt; be any constant. Then if &lt;span class=&#34;math inline&#34;&gt;\(y=k x^{n}\)&lt;/span&gt;, the derivative is &lt;span class=&#34;math inline&#34;&gt;\(\frac{\mathrm{d} y}{\mathrm{d} x} = n k x^{n-1}\)&lt;/span&gt;. For example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If &lt;span class=&#34;math inline&#34;&gt;\(y=2x^{4}\)&lt;/span&gt;, the derivative is &lt;span class=&#34;math inline&#34;&gt;\(\frac{\mathrm{d} y}{\mathrm{d} x} = 8x^{3}\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;If &lt;span class=&#34;math inline&#34;&gt;\(y=-2x\)&lt;/span&gt;, the derivative is &lt;span class=&#34;math inline&#34;&gt;\(\frac{\mathrm{d} y}{\mathrm{d} x} = -2\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;em&gt;The sum and difference rule&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let &lt;span class=&#34;math inline&#34;&gt;\(y=f(x) + g(x)\)&lt;/span&gt;. Then the derivative of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; is just the sum of the derivatives of &lt;span class=&#34;math inline&#34;&gt;\(f(x)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(g(x)\)&lt;/span&gt;. Similarly, the derivative of &lt;span class=&#34;math inline&#34;&gt;\(y=f(x) - g(x)\)&lt;/span&gt; is the difference of the derivatives of &lt;span class=&#34;math inline&#34;&gt;\(f(x)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(g(x)\)&lt;/span&gt;. We just differentiate one term at a time.&lt;/p&gt;
+&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;em&gt;Product rule&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(y=f(x) \times g(x)\)&lt;/span&gt;, then ther derivative is &lt;span class=&#34;math display&#34;&gt;\[\frac{\mathrm{d} y}{\mathrm{d} x} = f(x) \times \frac{\mathrm{d} g(x)}{\mathrm{d} x} + g(x) \times \frac{\mathrm{d} f(x)}{\mathrm{d} x}.\]&lt;/span&gt; In words, this is &#34;the derivative of the first times the second plus the derivative of the second times the first. For example:&lt;/p&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(y=(3x^{2} + 5)(x^{2}+1)\)&lt;/span&gt;, the derivative is &lt;span class=&#34;math inline&#34;&gt;\(\frac{\mathrm{d} y}{\mathrm{d} x} = 6x \times (x^{2} + 1) + 2x \times (3x^{2} + 5)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;ol start=&#34;6&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;em&gt;Chain rule&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We use the chain rule when our dependent variable is a function of another function. For example, revenue is a function of &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt;, which in turn may be a function of production inputs. Suppose that our short-run production function is &lt;span class=&#34;math inline&#34;&gt;\(Q=Q(L)\)&lt;/span&gt;, where &lt;span class=&#34;math inline&#34;&gt;\(L\)&lt;/span&gt; is quantity of labor. The firm faces an inverse demand function, &lt;span class=&#34;math inline&#34;&gt;\(P=P(Q)\)&lt;/span&gt;, such that revenue is &lt;span class=&#34;math display&#34;&gt;\[TR = P(Q) \times Q(L).\]&lt;/span&gt; So revenue is a function of &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt;, which is itself a function of &lt;span class=&#34;math inline&#34;&gt;\(L\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;To find the derivative with respect to &lt;span class=&#34;math inline&#34;&gt;\(L\)&lt;/span&gt;, we differentiate &lt;span class=&#34;math inline&#34;&gt;\(P(Q) \times Q\)&lt;/span&gt; using the product rule, and then multiply the result by the derivative of &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt; with respect to &lt;span class=&#34;math inline&#34;&gt;\(L\)&lt;/span&gt;: &lt;span class=&#34;math display&#34;&gt;\[\frac{\mathrm{d} TR}{\mathrm{d} L} = \left(P(Q) + Q \times \frac{\mathrm{d} P(Q)}{\mathrm{d} Q} \right) \frac{\mathrm{d} Q}{\mathrm{d} L}.\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;partial-derivatives&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Partial derivatives&lt;/h2&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(y=f(x,z)\)&lt;/span&gt;, then we may want to know how changes in one of the independent variables affects the outcome while holding the remaining independent variables constant. This is what a partial derivative does. Essentially, you take the usual derivative, treating all of the other variables as constants. So all of the rules above apply here as well. For example, say we have &lt;span class=&#34;math inline&#34;&gt;\(y=3x^{2} + xz + 4z^{2}\)&lt;/span&gt;, then &lt;span class=&#34;math display&#34;&gt;\[\frac{\partial y}{\partial x} = 6x + z,\]&lt;/span&gt; and &lt;span class=&#34;math display&#34;&gt;\[\frac{\partial y}{\partial z} = x + 8z.\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Worksheet 1: Expected Value</title>
+      <link>/resource/wksheet1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resource/wksheet1/</guid>
+      <description>
+
+
+&lt;p&gt;An individual starts with a wealth of &lt;span&gt;$&lt;/span&gt;100,000. With probability 0.3, they will get sick and incur a cost of &lt;span&gt;$&lt;/span&gt;40,000.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 1:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;What is this person’s expected cost of illness?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The expected cost is the probability of being ill (0.3) times the cost of being ill (40,000),&lt;br&gt;&lt;br&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(E[cost]=0.3 \times 40,000 =\)&lt;/span&gt; 12,000.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 2:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Assume this individual has a utility function of the form, &lt;span class=&#34;math inline&#34;&gt;\(u(w) = w^{0.20}\)&lt;/span&gt;. What is this person’s expected utility?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Expected utility works the same as any expectation…the “tricky” part is that we’re using the utility &lt;em&gt;function&lt;/em&gt; to the find the values over which we form the expectation. In this case, we have two possible outcomes: a) healthy, which gives us a wealth of &lt;span&gt;$&lt;/span&gt;100,000; or b) sick, in which case we incur the cost of illness and end up with &lt;span&gt;$&lt;/span&gt;60,000. So to find the expected utility, we need to find the utility associated with each possible wealth value, and then we need to take the expectation over those utility values:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Step 1: Find utility values&lt;/b&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If healthy: &lt;span class=&#34;math inline&#34;&gt;\(u(w)|_{w=100,000} = 100,000^{0.2}=\)&lt;/span&gt; 10&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If sick: &lt;span class=&#34;math inline&#34;&gt;\(u(w)|_{w=60,000} = 60,000^{0.2}=\)&lt;/span&gt; 9.0288&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;b&gt;Step 2: Take the expectation&lt;/b&gt;&lt;br&gt;
+Taking the expectation over these utility values yields: &lt;span class=&#34;math inline&#34;&gt;\(E[u]=0.7 \times\)&lt;/span&gt; 10 &lt;span class=&#34;math inline&#34;&gt;\(+0.3 \times\)&lt;/span&gt; 9.0288 &lt;span class=&#34;math inline&#34;&gt;\(=\)&lt;/span&gt; 9.7086.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 3:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Calculate this person’s utility if they were to incur the expected cost of illness with certainty. Is this utility higher or lower than what you found in part (2)?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If they are definitely going to be sick (i.e., with probability, &lt;span class=&#34;math inline&#34;&gt;\(p=1\)&lt;/span&gt;), then we just need to plug in the wealth value in the sick state (60,000) into the utility function, &lt;span class=&#34;math inline&#34;&gt;\(u=(60,000)^{0.2}=\)&lt;/span&gt; 9.0288. As should be the case, this is lower than our expected utility from part (2).&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Worksheet 2: Demand for Health Insurance</title>
+      <link>/resource/wksheet2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resource/wksheet2/</guid>
+      <description>
+
+
+&lt;p&gt;Assume that utility takes the log form, &lt;span class=&#34;math inline&#34;&gt;\(u(x)=ln(x)\)&lt;/span&gt;. If someone is healthy, they maintain their current wealth of &lt;span&gt;$&lt;/span&gt;100, and if they become ill, they must incur a cost of &lt;span&gt;$&lt;/span&gt;50. Answer the following questions based on this setup.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 1:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Calculate the risk premium and willingness to pay based on a probability of illness of 0.1.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To find the risk premium, we first need to calculate the expected utility: &lt;span class=&#34;math inline&#34;&gt;\(E[u]=0.1*\ln(50) + 0.9*\ln(100)=\)&lt;/span&gt; 4.536. Next, we need to find the monetary value that provides this same level of utility. So we need &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; such that &lt;span class=&#34;math inline&#34;&gt;\(u(y)=\)&lt;/span&gt; 4.536. Since our utility function is &lt;span class=&#34;math inline&#34;&gt;\(\ln(x)\)&lt;/span&gt;, we know that &lt;span class=&#34;math inline&#34;&gt;\(y =\)&lt;/span&gt; exp(4.536) &lt;span class=&#34;math inline&#34;&gt;\(=\)&lt;/span&gt; 93.3. The risk premium is then the difference between this value and our starting wealth (less the expected cost of care), &lt;span class=&#34;math inline&#34;&gt;\(\pi =\)&lt;/span&gt; 100 - 93.3 - 5 &lt;span class=&#34;math inline&#34;&gt;\(=\)&lt;/span&gt; 1.697.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 2:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Repeat part (1) using a probability of illness of 0.2.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Repeating that same process yields an expected utility of 4.467. The monetary value that provides this level of utility with certainty is &lt;span class=&#34;math inline&#34;&gt;\(y =\)&lt;/span&gt; exp(4.467) &lt;span class=&#34;math inline&#34;&gt;\(=\)&lt;/span&gt; 87.06. The risk premium is then the difference between this value and our starting wealth (less the expected cost of care), &lt;span class=&#34;math inline&#34;&gt;\(\pi =\)&lt;/span&gt; 100 - 87.06 - 10 &lt;span class=&#34;math inline&#34;&gt;\(=\)&lt;/span&gt; 2.945.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 3:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Repeat part (1) using a probability of illness of 0.5.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Repeating that same process yields an expected utility of 4.259. The monetary value that provides this level of utility with certainty is &lt;span class=&#34;math inline&#34;&gt;\(y =\)&lt;/span&gt; exp(4.259) &lt;span class=&#34;math inline&#34;&gt;\(=\)&lt;/span&gt; 70.71. The risk premium is then the difference between this value and our starting wealth (less the expected cost of care), &lt;span class=&#34;math inline&#34;&gt;\(\pi =\)&lt;/span&gt; 100 - 70.71 - 25 &lt;span class=&#34;math inline&#34;&gt;\(=\)&lt;/span&gt; 4.289.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 4:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Explain how these values differ and why. What might this say about the profitability of insurance in a market with many sick people?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We see from these examples that the risk premium is increasing as the amount of uncertainty increases. If people are more certain about being ill, then the risk premium is lower. This means that people are unwilling to pay much more than the expected cost of care, leaving less potential profit for insurers.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mid-term Exam Review Sheet</title>
+      <link>/resource/exam-review1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resource/exam-review1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;overview&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Overview&lt;/h1&gt;
+&lt;p&gt;This is a review sheet for our mid-term exam. This material mirrors that of our homework assignments and in-class problems, but this is just for some extra practice. Answers are included below each question, but please try to answer the questions on your own first!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;math-problems&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Math Problems&lt;/h1&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;Assume your utility function is &lt;span class=&#34;math inline&#34;&gt;\(u(w)=\sqrt{w}\)&lt;/span&gt;, and you begin with wealth of &lt;span class=&#34;math inline&#34;&gt;\(w=\)&lt;/span&gt; &lt;span&gt;$&lt;/span&gt;100. I propose a lottery in which I flip a coin. If the coin turns up heads, you win &lt;span&gt;$&lt;/span&gt;30. If the coin turns up tails, you lose &lt;span&gt;$&lt;/span&gt;30. &lt;br&gt;&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;What’s the expected monetary value of this lottery?&lt;/li&gt;
+&lt;li&gt;What is your utility at this expected value?&lt;/li&gt;
+&lt;li&gt;What’s the expected utility from this lottery?&lt;/li&gt;
+&lt;li&gt;In one sentence, explain why your answer in part (c) differs from part (b).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div id=&#34;answers&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Answers&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;Expected wealth is &lt;span class=&#34;math inline&#34;&gt;\(\frac{1}{2}\times 70 + \frac{1}{2} \times 130 = 100\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;At the wealth value of &lt;span&gt;$&lt;/span&gt;100, &lt;span class=&#34;math inline&#34;&gt;\(u(100)=\sqrt{100}=10\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Expected utility is &lt;span class=&#34;math inline&#34;&gt;\(\frac{1}{2} \times \sqrt{70} + \frac{1}{2}\times \sqrt{130} = 9.88.\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;If you choose this lottery, you are entering into a risky scenario, and so your expected utility is lower than if you were to receive the same expected monetary value of the lottery (&lt;span&gt;$&lt;/span&gt;100) with certainty.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;Consider the utility function, &lt;span class=&#34;math inline&#34;&gt;\(u(w)=\ln(w)\)&lt;/span&gt;. Assume an individual starts with wealth of &lt;span&gt;$&lt;/span&gt;50,000. With probability 0.6, this person will get sick and incur a cost of &lt;span&gt;$&lt;/span&gt;10,000.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;What is the expected utility and expected wealth in this situation?&lt;/li&gt;
+&lt;li&gt;What is the risk premium?&lt;/li&gt;
+&lt;li&gt;What is the maximum amount this person is willing to pay for health insurance?&lt;/li&gt;
+&lt;li&gt;What happens to the risk premium if the probability of illness decreases by 0.05? Explain in one sentence.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div id=&#34;answers-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Answers&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;Expected utility is &lt;span class=&#34;math inline&#34;&gt;\(E[u(w)]=0.6 \times \ln (40000) + 0.4 \times \ln (50000) = 10.686\)&lt;/span&gt; and expected wealth is &lt;span class=&#34;math inline&#34;&gt;\(E[w]=0.6 \times 40000 + 0.4 \times 50000 = 44,000\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;The monetary value that provides a level of utility equal to expected utility in this case is &lt;span class=&#34;math inline&#34;&gt;\(u^{-1}\left(E[u(w)]\right) = u^{-1}(10.686) = e^{10.686} \approx 43,740.\)&lt;/span&gt; The risk premium is then &lt;span class=&#34;math inline&#34;&gt;\(\pi = 44000-43740=260\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;This is just the risk premium (&lt;span&gt;$&lt;/span&gt;260) plus the expected cost of care (&lt;span&gt;$&lt;/span&gt;6,000). So they are willing to pay up to &lt;span&gt;$&lt;/span&gt;6,260 for health insurance (i.e., this is the price at which they would be indifferent between purchasing or not purchasing health insurance).&lt;/li&gt;
+&lt;li&gt;In this case, a decrease in the probability of illness will &lt;em&gt;increase&lt;/em&gt; the uncertainty since we’re starting at a probability of 0.6. So this would lead to an increase in the risk premium and a decrease in the maximum willingness to pay for health insurance.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;Assume an insurer’s cost function is given by &lt;span class=&#34;math inline&#34;&gt;\(C=100q - 2q^{2}\)&lt;/span&gt;, where &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; denotes the number of people enrolled in the plan. Further assume that demand is given by &lt;span class=&#34;math inline&#34;&gt;\(D=120-3q\)&lt;/span&gt;. The total size of the population is &lt;span class=&#34;math inline&#34;&gt;\(N=40\)&lt;/span&gt;.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;What is the equilibrium price if the insurer earns &lt;span&gt;$&lt;/span&gt;0 profit?&lt;/li&gt;
+&lt;li&gt;At this equilibrium price, how many people in this market are uninsured?&lt;/li&gt;
+&lt;li&gt;The government is considering providing a fixed dollar subsidy per person. Find the smallest possible subsidy such that all individuals purchase health insurance.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div id=&#34;answers-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Answers&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;The equilibrium price will be at the point were &lt;span class=&#34;math inline&#34;&gt;\(p=D=AC\)&lt;/span&gt;. In this case, &lt;span class=&#34;math inline&#34;&gt;\(AC=\frac{100q - 2q^{2}}{q} = 100-2q.\)&lt;/span&gt; Setting this equal to demand, &lt;span class=&#34;math inline&#34;&gt;\(120-3q = 100-2q\)&lt;/span&gt;, so &lt;span class=&#34;math inline&#34;&gt;\(q=20\)&lt;/span&gt;. Plugging this back into the demand function shows that &lt;span class=&#34;math inline&#34;&gt;\(q=20\)&lt;/span&gt; will occur at a &lt;span class=&#34;math inline&#34;&gt;\(p=120-3q=120-3\times 20=60\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;We know that the equilibrium quantity is &lt;span class=&#34;math inline&#34;&gt;\(q=20\)&lt;/span&gt;, and that the total number of people in the market is &lt;span class=&#34;math inline&#34;&gt;\(N=40\)&lt;/span&gt;. So 20 individuals remain uninsured.&lt;/li&gt;
+&lt;li&gt;The key here is to start with the graph and recognize what a fixed dollar subsidy per person amounts to just a shift in the demand curve (i.e., a change in the intercept and not a change in the slope). If we are trying to have everyone insured, then this fixed subsidy must be such that the demand curve intersects with the AC curve only at &lt;span class=&#34;math inline&#34;&gt;\(N=40\)&lt;/span&gt;. At &lt;span class=&#34;math inline&#34;&gt;\(q=40\)&lt;/span&gt;, we know that &lt;span class=&#34;math inline&#34;&gt;\(AC=100-2q=20\)&lt;/span&gt;. So we need to provide a subsidy such that quantity demanded is 40 and a price of &lt;span&gt;$&lt;/span&gt;20. Turning back to the demand curve, and denoting the subsidy by &lt;span class=&#34;math inline&#34;&gt;\(s\)&lt;/span&gt;, we need to find &lt;span class=&#34;math inline&#34;&gt;\(s\)&lt;/span&gt; such that &lt;span class=&#34;math inline&#34;&gt;\(20=120+s-3\times 40\)&lt;/span&gt; (this tells us &lt;span class=&#34;math inline&#34;&gt;\(s\)&lt;/span&gt; to satisfy &lt;span class=&#34;math inline&#34;&gt;\(D=40\)&lt;/span&gt; at &lt;span class=&#34;math inline&#34;&gt;\(p=20\)&lt;/span&gt;). This means that &lt;span class=&#34;math inline&#34;&gt;\(s=20\)&lt;/span&gt;, so we need to give everyone a &lt;span&gt;$&lt;/span&gt;20 subsidy to buy health insurance if we want everyone in this market to be insured.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;Consider a physician or physician practice that sets quantity of care, &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;, and price, &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;, to maximize profits subject to providing at least enough net benefit to meet a patient’s best outside option. Assume that the patient receives benefit from care according to the benefit function, &lt;span class=&#34;math inline&#34;&gt;\(B(x)=20x-\frac{1}{2}x^{2}\)&lt;/span&gt;. Further assume that &lt;span class=&#34;math inline&#34;&gt;\(NB^{0}=36\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(c=2\)&lt;/span&gt;, and that the patient pays the full price of care.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;Find the physician’s optimal &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Find the patient’s optimal level of care, &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;What happens to the amount of overtreatment if &lt;span class=&#34;math inline&#34;&gt;\(NB^{0}\)&lt;/span&gt; decreases from 36 to 18 (i.e., the patient has a less viable outside option)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div id=&#34;answers-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Answers&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;The physician’s problem is to maximize &lt;span class=&#34;math inline&#34;&gt;\(px - cx\)&lt;/span&gt; subject to the constraint that &lt;span class=&#34;math inline&#34;&gt;\(B(x)-px=NB^{0}\)&lt;/span&gt;. Rewriting the constraint as &lt;span class=&#34;math inline&#34;&gt;\(px=B(x)-NB^{0}\)&lt;/span&gt;, we can first find the physician’s optimal choice of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; as that which maximizes &lt;span class=&#34;math inline&#34;&gt;\(B(x)-NB^{0}-cx = 20x - \frac{1}{2}x^{2} - 36 - 2x\)&lt;/span&gt;. Taking the derivative with respect to &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and setting equal to 0 yields, &lt;span class=&#34;math inline&#34;&gt;\(20-x-2=0\)&lt;/span&gt;, or &lt;span class=&#34;math inline&#34;&gt;\(x^{*}=18\)&lt;/span&gt;. We can then find the price by substituting this level of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; into the constraint, so that &lt;span class=&#34;math inline&#34;&gt;\(p=\frac{1}{x} \times \left( B(x) - NB^{0}\right) = \frac{1}{x} \times \left(20x - \frac{1}{2}x^{2} - 36 \right) = 20-9-2=9\)&lt;/span&gt;. So the physician sets &lt;span class=&#34;math inline&#34;&gt;\(p^{*}=9\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(x^{*}=18\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;The patient simply wants to maximize their net benefit, &lt;span class=&#34;math inline&#34;&gt;\(B(x)-px=20x-\frac{1}{2}x^{2}-px\)&lt;/span&gt;. Again taking the derivative with respect to &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and setting equal to 0 yields &lt;span class=&#34;math inline&#34;&gt;\(20-x-p=0\)&lt;/span&gt; or &lt;span class=&#34;math inline&#34;&gt;\(x=20-p\)&lt;/span&gt;. At &lt;span class=&#34;math inline&#34;&gt;\(p^{*}=9\)&lt;/span&gt;, the patient’s optimal level of care is then &lt;span class=&#34;math inline&#34;&gt;\(\bar{x}=11\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;A decrease in &lt;span class=&#34;math inline&#34;&gt;\(NB^{0}\)&lt;/span&gt; doesn’t change the physician’s first order conditions, and so the physician’s optimal level of care is the same at &lt;span class=&#34;math inline&#34;&gt;\(x^{*}=18\)&lt;/span&gt;. But the price now changes because the physician can increase price and still maintain a net benefit equal to the patient’s best outside option. Specifically, the price now increases to &lt;span class=&#34;math inline&#34;&gt;\(p=20-\frac{1}{2}x - \frac{18}{x} = 10\)&lt;/span&gt;. At this price, the patient’s optimal level of care is &lt;span class=&#34;math inline&#34;&gt;\(\bar{x}=20-p=10\)&lt;/span&gt;. So the amount of overtreatment increased, from 7 units of care to 8.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;Assume that the physician instead faces an administratively set price of &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}\)&lt;/span&gt; and that the best outside option is &lt;span class=&#34;math inline&#34;&gt;\(NB^{0}=0\)&lt;/span&gt;. Maintain the assumption that &lt;span class=&#34;math inline&#34;&gt;\(B(x)=20x - \frac{1}{2}x^{2}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;Find the physician’s optimal quantity of care as a function of &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;How does the physician’s choice of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; change with &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}\)&lt;/span&gt;? If we think of physician services as just a supply curve, is the direction of this relationship surprising or as expected?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div id=&#34;answers-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Answers&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;In this case, the physician simply sets &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; as high as possible (assuming &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}&amp;gt;c\)&lt;/span&gt;). The only thing restricting the physician from increasing &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; is the constraint on net benefit, so to find &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; we just rewrite the net benefit constraint &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}x = 20x - \frac{1}{2}x^{2} - NB^{0} = 20x - \frac{1}{2}x^{2}.\)&lt;/span&gt; We can rewrite this further such that &lt;span class=&#34;math inline&#34;&gt;\(\bar{p} = \frac{1}{x}\times \left(20x - \frac{1}{2}x^{2} \right) = 20-\frac{1}{2}x\)&lt;/span&gt;. Finally, solving for &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; instead of &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}\)&lt;/span&gt;, yields &lt;span class=&#34;math inline&#34;&gt;\(x^{*} = 2 (20-\bar{p})\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;An increase in &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}\)&lt;/span&gt; will lead to a &lt;strong&gt;decrease&lt;/strong&gt; in &lt;span class=&#34;math inline&#34;&gt;\(x^{*}\)&lt;/span&gt;, which is surprising compared to a traditional supply curve but not surprising in the context of this model where physicians set the choice of care. Note that this result only applies because we assume that patients pay &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}\)&lt;/span&gt; for each unit of care received. If physicians received a higher price and the patient’s out of pocket costs were unchanged, then this would lead to no change in the quantity of care and higher profits for the physician. Essentially, the physician is only restricted by the patient’s net benefit, so if the price to the patient increases, the physician must provide less care otherwise the patient would leave the practice and take their outside option.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-6&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 6&lt;/h2&gt;
+&lt;p&gt;Assume a physician is operating with the profit function, &lt;span class=&#34;math display&#34;&gt;\[\pi = NB \left[R + (p_{s}-c)x \right],\]&lt;/span&gt; where &lt;span class=&#34;math inline&#34;&gt;\(NB=B(x) - p_{d}x\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(p_{s}\)&lt;/span&gt; denotes the (fixed) price paid by the insurer to the physician, &lt;span class=&#34;math inline&#34;&gt;\(p_{d}\)&lt;/span&gt; denotes the (fixed) price paid by the patient, &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt; denotes the capitated payment per patient, &lt;span class=&#34;math inline&#34;&gt;\(NB\)&lt;/span&gt; denotes the net benefit to the patient, and &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; denotes the quantity of care per patient.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;Assuming &lt;span class=&#34;math inline&#34;&gt;\(B(x) = 5x - \frac{1}{2}x^{2}\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(p_{d}=0\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(p_{s}-c=1\)&lt;/span&gt;, and &lt;span class=&#34;math inline&#34;&gt;\(R=2\)&lt;/span&gt;, find the physician’s optimal level of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Compare the amount in part (a) with the patient’s optimal. Is this a scenario of overtreatment or undertreatment?&lt;/li&gt;
+&lt;li&gt;Assume instead that the government sets &lt;span class=&#34;math inline&#34;&gt;\(R=3\)&lt;/span&gt;. Does this increase or decrease the amount of overtreatment? Show your answer.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div id=&#34;answers-5&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Answers&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;In this setup, the profit function is &lt;span class=&#34;math inline&#34;&gt;\(\pi = (5x - \frac{1}{2}x^{2})(2+x)\)&lt;/span&gt;. Differentiating with respect to &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; yields &lt;span class=&#34;math inline&#34;&gt;\((5 - x)(2 + x) + (5x - \frac{1}{2}x^{2})\)&lt;/span&gt;. Expanding the first term, we get &lt;span class=&#34;math display&#34;&gt;\[10 + 5x - 2x - x^{2} + 5x - \frac{1}{2}x^{2}=0.\]&lt;/span&gt; Rearranging and combining terms then gives us &lt;span class=&#34;math inline&#34;&gt;\(-\frac{3}{2}x^{2} + 8x + 10=0\)&lt;/span&gt;. We can solve this using the quadratic formula, &lt;span class=&#34;math inline&#34;&gt;\(x=\frac{-8 \pm \sqrt{64 + 4 (3/2) (10)}}{-3} \approx \left( \frac{8-11.1}{3}, \frac{8+11.1}{3}\right)\)&lt;/span&gt;. The positive solution is approximately &lt;span class=&#34;math inline&#34;&gt;\(x^{*} \approx 6.4\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;The patient wants to maximize their net benefit, which in this case is &lt;span class=&#34;math inline&#34;&gt;\(B&amp;#39;(x)=0\)&lt;/span&gt;, or &lt;span class=&#34;math inline&#34;&gt;\(5 - x = 0\)&lt;/span&gt;. So the patient would choose &lt;span class=&#34;math inline&#34;&gt;\(\bar{x}=5\)&lt;/span&gt;. The physician’s choice of &lt;span class=&#34;math inline&#34;&gt;\(x^{*}\approx 6.4\)&lt;/span&gt; therefore represents overtreatment.&lt;/li&gt;
+&lt;li&gt;At &lt;span class=&#34;math inline&#34;&gt;\(R=3\)&lt;/span&gt;, the first order condition becomes &lt;span class=&#34;math inline&#34;&gt;\(-\frac{3}{2}x^{2} + 7x + 15 = 0\)&lt;/span&gt;. We can again solve this using the quadratic formula, &lt;span class=&#34;math inline&#34;&gt;\(x=\frac{-7 \pm \sqrt{49 + 4 (3/2) (15)}}{-3} \approx \left( \frac{7-11.8}{3}, \frac{7+11.8}{3}\right)\)&lt;/span&gt;. The positive solution is approximately &lt;span class=&#34;math inline&#34;&gt;\(x^{*} \approx 6.3\)&lt;/span&gt;. Overtreatment has therefore decreased, which should be the case as we shift the incentive more toward the capitated payment and away from the fee-for-service payment.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;graphs&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Graphs&lt;/h1&gt;
+&lt;p&gt;I expect you to be able to draw a graph supporting many of the calculations (e.g., a graph reflecting the risk premium, adverse selection and unravelling, or the physician’s choice of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; relative to the patient’s optimum). The graph doesn’t need to necessarily fit any specific functional forms - it just needs to reflect the structure of the problem. For example, I don’t care if you correctly draw the square root function versus the natural log - just that you can show how the expected utility line differs from the utility curve and where the risk premium is reflected in such a graph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;published-papers&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Published Papers&lt;/h1&gt;
+&lt;p&gt;The exam will also include 1 or 2 questions related to a new paper that you must read closely and summarize as part of the exam. I will ask you to use this material, alongside the relevant health economics concepts we’ve covered in class, to predict the effects of hypothetical new policies. Any additional reading for the exam will be made available on &lt;strong&gt;Canvas&lt;/strong&gt; prior to the exam.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Worksheet 9: Nash Bargaining</title>
+      <link>/resource/wksheet9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resource/wksheet9/</guid>
+      <description>
+
+
+&lt;p&gt;Assume that two agents are negotiating over how best to divide their quantity of good x, which is normalized to 1. If the players reach an agreement, player 1 receives utility &lt;span class=&#34;math inline&#34;&gt;\(u_{1} = x\)&lt;/span&gt;, and player 2 receives utility &lt;span class=&#34;math inline&#34;&gt;\(u_{2} = (1-x)\)&lt;/span&gt;. If the players do not reach an agreement, player 1 receives a payoff of &lt;span class=&#34;math inline&#34;&gt;\(t1 = 0\)&lt;/span&gt;, and
+player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &amp;gt; 0\)&lt;/span&gt;.&lt;br&gt;&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 1&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Find the Nash bargaining solution to this game.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Nash bargaining solution is to maximize &lt;span class=&#34;math inline&#34;&gt;\(x(1-x-a)\)&lt;/span&gt; (i.e., the product of each person’s payoff under agreement less their payoff under disagreement). We can find the solution by differentiating with respect to &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and setting equal to 0, which yields &lt;span class=&#34;math inline&#34;&gt;\(1-2x - a = 0\)&lt;/span&gt;, or &lt;span class=&#34;math inline&#34;&gt;\(x=\frac{1}{2}(1-a)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 2&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Explain how this solution varies with &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; increases, &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; decreases. Intuitively, this means that as player 2’s outside option improves, less of the total amount &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; goes to player 1. In other words, if player 2 has the least to lose in the negotiation, then player 2 will extract a larger share of the joint surplus.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Worksheet 4: Physician agency</title>
+      <link>/resource/wksheet4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resource/wksheet4/</guid>
+      <description>
+
+
+&lt;p&gt;Denote the quantity of care consumed by &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;, and denote by &lt;span class=&#34;math inline&#34;&gt;\(B(x)\)&lt;/span&gt; the function that determinesthe benefit of care to the patient. Assume that the patient must pay the full price of care, &lt;span class=&#34;math inline&#34;&gt;\(px\)&lt;/span&gt;, so that their net benefit is &lt;span class=&#34;math inline&#34;&gt;\(NB=B(x)−px\)&lt;/span&gt;.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 1:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Find the patient’s optimal &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The patient just wants to maximize their net benefit, &lt;span class=&#34;math inline&#34;&gt;\(B(x) - px\)&lt;/span&gt;. Taking the derivative and setting to 0, this means &lt;span class=&#34;math inline&#34;&gt;\(B&amp;#39;(x) = p\)&lt;/span&gt; (i.e., marginal benefit to the patient is equal to the patient’s marginal cost).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 2:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Draw the marginal benefit on a graph and note the price and patient’s optimal quantity.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/resource/wksheet4_files/figure-html/tikz-agency-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 3:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Find the physician’s optimal &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; assuming &lt;span class=&#34;math inline&#34;&gt;\(NB^{0}=0\)&lt;/span&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The physician is profit maximizing, subject to the constraint that &lt;span class=&#34;math inline&#34;&gt;\(NB^{0}=B(x) - px=0\)&lt;/span&gt;. Plugging this constraint into the profit function yields, &lt;span class=&#34;math inline&#34;&gt;\(\pi = B(x) - NB^{0} - cx = B(x) - cx\)&lt;/span&gt;. Taking the derivative and setting it to 0 yields the expression, &lt;span class=&#34;math inline&#34;&gt;\(B&amp;#39;(x)=c\)&lt;/span&gt;. So the physician also set’s marginal benefit equal to marginal cost…they just focus on their own marginal cost instead of the marginal cost to the patient.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 4:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Add the physician’s optimal &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; to your graph and interpret the difference.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/resource/wksheet4_files/figure-html/tikz-agency2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Calculus Practice Problems</title>
+      <link>/resource/review2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resource/review2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Below are just some review questions. If you can answer all of these without much trouble, then you should be in good shape in terms of the math requirements for the class.&lt;/p&gt;
+&lt;div id=&#34;basic-derivatives&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Basic derivatives&lt;/h2&gt;
+&lt;p&gt;Find the derivative of the following functions&lt;/p&gt;
+&lt;div id=&#34;questions&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Questions&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(f(x)=3x^{9}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(f(x)=5x^{-2}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(f(x)=5x + 5x^{2}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(f(x)=(\frac{1}{2}x - 4x^{2})^{2}\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;answers&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Answers&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(f&amp;#39;(x) = 27x^{8}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(f&amp;#39;(x) = -10x^{-3}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(f&amp;#39;(x) = 5 + 10x\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(f&amp;#39;(x) = 2 ( \frac{1}{2}x - 4x^{2})(\frac{1}{2} - 8x)\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;demand-profits-and-production&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Demand, profits, and production&lt;/h2&gt;
+&lt;div id=&#34;questions-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Questions&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;If inverse demand is given by , &lt;span class=&#34;math inline&#34;&gt;\(P=80-Q\)&lt;/span&gt;, what is marginal revenue?&lt;/li&gt;
+&lt;li&gt;If a firm’s profit function is &lt;span class=&#34;math inline&#34;&gt;\(\pi = (80-Q)Q - 10Q\)&lt;/span&gt;, what quantity will maximize the firm’s profit? What is the price at this level of &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt; (hint: inverse demand is the same as in part 1)?&lt;/li&gt;
+&lt;li&gt;The production function is of the Cobb-Douglas form, &lt;span class=&#34;math inline&#34;&gt;\(Q=AL^{\alpha} K^{1-\alpha}\)&lt;/span&gt;, where &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\alpha\)&lt;/span&gt; are constants. What are the marginal products of labor (&lt;span class=&#34;math inline&#34;&gt;\(L\)&lt;/span&gt;) and capital (&lt;span class=&#34;math inline&#34;&gt;\(K\)&lt;/span&gt;)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;answers-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Answers&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Note that total revenue is &lt;span class=&#34;math inline&#34;&gt;\((80-Q)Q\)&lt;/span&gt;, so marginal revenue is &lt;span class=&#34;math inline&#34;&gt;\(80-2Q\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;To find the optimal &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt;, we need to differentiate, set equal to 0, then solve for &lt;span class=&#34;math inline&#34;&gt;\(Q\)&lt;/span&gt;. In this case, &lt;span class=&#34;math inline&#34;&gt;\(\pi&amp;#39;(Q) = 80 - 2Q - 10\)&lt;/span&gt;, which equals 0 for &lt;span class=&#34;math inline&#34;&gt;\(Q=35\)&lt;/span&gt;. Price at this quantity is &lt;span class=&#34;math inline&#34;&gt;\(P=80-Q=45\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;The marginal product of labor or capital is just the partial derivative of each of those terms. So, &lt;span class=&#34;math display&#34;&gt;\[MP_{L} = \frac{\partial Q}{\partial L} = \alpha A L^{\alpha-1} K^{1-\alpha} = \alpha A \left(\frac{K}{L}\right)^{1-\alpha}\]&lt;/span&gt; and &lt;span class=&#34;math display&#34;&gt;\[MP_{K} = \frac{\partial Q}{\partial K} = (1-\alpha) A L^{\alpha} K^{-\alpha} = (1-\alpha) A \left( \frac{L}{K} \right)^{\alpha}.\]&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Worksheet 8: Pricing in a Two-price Market</title>
+      <link>/resource/wksheet8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resource/wksheet8/</guid>
+      <description>
+
+
+&lt;p&gt;Consider the firm’s inverse demand curve in the private insurance market, &lt;span class=&#34;math inline&#34;&gt;\(d=16-q\)&lt;/span&gt;, and costs, &lt;span class=&#34;math inline&#34;&gt;\(c(q)=5+q^{2}\)&lt;/span&gt;. Assume that there exists a public insurer that pays a fixed price of &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}=10\)&lt;/span&gt;.&lt;br&gt;&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 1&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;How many private patients will the provider serve?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The practice will serve private insurance patients until the marginal revenue from those patients falls below the marginal revenue of a public patient. In this case, the marginal revenue of a public patient is &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}=10\)&lt;/span&gt;. The Marginal revenue of a private practice is &lt;span class=&#34;math inline&#34;&gt;\(16-2q\)&lt;/span&gt;. These are equal at &lt;span class=&#34;math inline&#34;&gt;\(q=3\)&lt;/span&gt;. So the practice will see 3 private insurance patients.&lt;/p&gt;
+&lt;p&gt;Note, we should check first that the practice will see &lt;strong&gt;any&lt;/strong&gt; public patients. The way to do this is to make sure that the marginal revenue from a public patient is above the marginal revenue of &lt;span class=&#34;math inline&#34;&gt;\(MR=MC\)&lt;/span&gt; in the private market. In this case, &lt;span class=&#34;math inline&#34;&gt;\(MR=MC\)&lt;/span&gt; at &lt;span class=&#34;math inline&#34;&gt;\(q=4\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(MR=8\)&lt;/span&gt;. This is below &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}=10\)&lt;/span&gt;, so the practice will servce some portion of the public market whenever &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}&amp;gt;8\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 2&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;How many public patients?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The practice will see patients to the point where &lt;span class=&#34;math inline&#34;&gt;\(MR=\bar{p}=MC\)&lt;/span&gt;, which holds for &lt;span class=&#34;math inline&#34;&gt;\(2q=10\)&lt;/span&gt;, or &lt;span class=&#34;math inline&#34;&gt;\(q=5\)&lt;/span&gt;. Combined with our answer in part 1, the practice will see 3 private insurance patients and 2 public insurance patients.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 3&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;What if &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}\)&lt;/span&gt; drops to &lt;span&gt;$&lt;/span&gt;9.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this case, the practice will again see total patients to the point where &lt;span class=&#34;math inline&#34;&gt;\(MC=\bar{p}\)&lt;/span&gt;. This holds for &lt;span class=&#34;math inline&#34;&gt;\(2q=9\)&lt;/span&gt;, or &lt;span class=&#34;math inline&#34;&gt;\(q=4.5\)&lt;/span&gt;. The practice will switch to the public market at &lt;span class=&#34;math inline&#34;&gt;\(MR=\bar{p}\)&lt;/span&gt;. This holds for &lt;span class=&#34;math inline&#34;&gt;\(16-2q=9\)&lt;/span&gt;, or &lt;span class=&#34;math inline&#34;&gt;\(q=3.5\)&lt;/span&gt;. So the drop in the fixed payment rate will lead to an increase in the number of private insurance patients seen (from 3 to 3.5), and a decrease in the number of public patients seen (from 2 to 1). The total number of patients seen in this case also decreases (from 5 to 4.5).&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Worksheet 7: Unilateral pricing</title>
+      <link>/resource/wksheet7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resource/wksheet7/</guid>
+      <description>
+
+
+&lt;p&gt;Consider the firm’s inverse demand curve, &lt;span class=&#34;math inline&#34;&gt;\(d=40-2q\)&lt;/span&gt;, and cost curve, &lt;span class=&#34;math inline&#34;&gt;\(c(q)=5q+\frac{1}{2}q^{2}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 1&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;What is the firm’s profit maximizing price and quantity?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To solve this, we just need to maximize the firm’s profit with respect to quantity, &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt;. Then we substitute the optimal quantity into the demand function to find the optimal &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;The profit function in this case is &lt;span class=&#34;math inline&#34;&gt;\(\pi=d(q)*q - c(q) = (40-2q)q - 5q - \frac{1}{2}q^{2}\)&lt;/span&gt;. Differentiating and setting equal to 0 yields &lt;span class=&#34;math display&#34;&gt;\[-2q + 40 - 2q - 5 - q = -5q + 35 = 0.\]&lt;/span&gt; This holds for &lt;span class=&#34;math inline&#34;&gt;\(q=7\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Plugging &lt;span class=&#34;math inline&#34;&gt;\(q=7\)&lt;/span&gt; into the demand function then yields &lt;span class=&#34;math inline&#34;&gt;\(p=40-14=26\)&lt;/span&gt;. So the firm optimally sets a price of &lt;span class=&#34;math inline&#34;&gt;\(p=26\)&lt;/span&gt; and sells a quantity of &lt;span class=&#34;math inline&#34;&gt;\(q=7\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 2&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;What is the firm’s markup over marginal cost?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We can find the marginal cost at &lt;span class=&#34;math inline&#34;&gt;\(q=7\)&lt;/span&gt; by plugging this quantity into the marginal cost function, &lt;span class=&#34;math inline&#34;&gt;\(c&amp;#39;(q) = 5 + q = 12\)&lt;/span&gt;. Since the firm’s price is &lt;span class=&#34;math inline&#34;&gt;\(p=26\)&lt;/span&gt;, we know the markup over marginal cost is 14. We usually think of this in percentage terms, where we calculate the markup relative to marginal cost, &lt;span class=&#34;math inline&#34;&gt;\(\frac{p-c}{c} = \frac{14}{12}\)&lt;/span&gt;. So the markup is more than 100% of the cost.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

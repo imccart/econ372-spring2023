@@ -1,0 +1,145 @@
+lessons:
+  - title: 'Module 0: Introduction'
+    header: True
+
+  - title: '<span class="content-title">Motivation</span>'
+    session: "Class 1"
+    date: "Jan 11"
+    content: "00-content"
+    bg: 1
+
+  - title: 'Module 1: Health insurance'
+    header: True
+
+  - title: '<span class="content-title">Understanding risk</span>'
+    session: "Class 2"
+    date: "Jan 18"
+    content: "01-content1"
+    bg: 1
+    bottomborder: True
+
+  - title: '<span class="content-title">Demand for health insurance</span>'
+    session: "Class 3-4"
+    date: "Jan 23, 25"
+    content: "01-content2"
+    bg: 2
+
+  - title: '<span class="content-title">Adverse selection</span>'
+    session: "Class 4-5"
+    date: "Jan 30, Feb 1"
+    content: "01-content3"
+    bg: 3
+
+  - title: '<span class="content-title">Health insurance and current policy</span>'
+    session: "Class 6-7"
+    date: "Feb 6, 8"
+    content: "01-content4"
+    bg: 1
+
+  - title: 'Homework 1'
+    date: "Feb 10"
+    assignment: "homework1"
+    bg: 2
+    bottomborder: True
+
+
+  - title: 'Module 2: Physician agency and treatment decisions'
+    header: True
+
+
+  - title: '<span class="content-title">Physician agency</span>'
+    session: "Class 8-9"
+    date: "Feb 13, 15"
+    content: "02-content1"
+    bg: 1
+
+
+  - title: '<span class="content-title">Fee-for-service payments</span>'
+    session: "Class 10-11"
+    date: "Feb 20, 22"
+    content: "02-content2"
+    bg: 2
+
+
+  - title: '<span class="content-title">Capitated payments</span>'
+    session: "Class 12-13"
+    date: "Feb 27, Mar 1"
+    content: "02-content3"
+    bg: 3
+
+  - title: '<span class="content-title">Hospital and physician payment policies</span>'
+    session: "Class 14-15"
+    date: "Mar 13, 15"
+    content: "02-content4"
+    bg: 1
+  
+  - title: 'Homework 2'
+    date: "Mar 17"
+    assignment: "homework2"
+    bg: 2
+    bottomborder: True
+
+  - title: 'Exam Week'
+    header: True
+
+  - title: '<span class="content-title">Exam Review</span>'
+    session: "Class 16"
+    date: "Mar 20"
+    bg: 1
+
+  - title: '<i class="fas fa-star"></i> **Mid-term Exam**'
+    session: "Class 17"
+    date: "Mar 22"
+    assignment: "exam1"
+    bg: 2
+    bottomborder: True
+
+  - title: 'Module 3: Hospital pricing and competition'
+    header: True
+
+  - title: '<span class="content-title">Pricing in two-price market</span>'
+    session: "Class 18-19"
+    date: "Mar 27, 29"
+    content: "03-content1"
+    bg: 1
+
+
+  - title: '<span class="content-title">Prices and bargaining</span>'
+    session: "Class 20-21"
+    date: "Apr 3, 5"
+    content: "03-content2"
+    bg: 2
+
+  - title: '<span class="content-title">Hospital competition</span>'
+    session: "Class 22-23"
+    date: "Apr 10, 12"
+    content: "03-content3"
+    bg: 3
+
+
+  - title: '<span class="content-title">Mergers and prices</span>'
+    session: "Class 24-25"
+    date: "Apr 17, 19"
+    content: "03-content4"
+    bg: 1
+
+  - title: 'Homework 3'
+    date: "Apr 21"
+    assignment: "homework3"
+    bg: 2
+    bottomborder: True
+
+  - title: 'Last Class!'
+    header: True
+
+  - title: '<span class="content-title">Class Projects</span>'
+    session: "Class 26"
+    date: "Apr 24"
+    assignment: "project"
+    bg: 1
+
+  - title: '<i class="fas fa-star"></i> **Final Project**'
+    date: "April 24"
+    assignment: "project"
+    bg: 2
+    bottomborder: True

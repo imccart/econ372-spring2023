@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Navigating the site | Health Care Markets</title>
+    <link>/content/</link>
+      <atom:link href="/content/index.xml" rel="self" type="application/rss+xml" />
+    <description>Navigating the site</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Wed, 05 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Navigating the site</title>
+      <link>/content/</link>
+    </image>
+    
+    <item>
+      <title>Expectations</title>
+      <link>/content/expect/</link>
+      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>/content/expect/</guid>
+      <description>
+
+
+&lt;p&gt;Please come to class prepared and ready to participate. Attendance is very important for this class because we don’t have a single textbook source that covers everything. That said, life happens and I completely understand that. I’ve tried to structure the grading so that attendance is incentivized without any unnecessary punishment for exceptions.&lt;/p&gt;
+&lt;p&gt;Overall, the class material and assignments are probably 40% theory, 40% empirical work, and 20% linking the data and theory to current policy. By “empirical work,” I do not mean that I expect everyone to have taken an advanced statistics or econometrics course. For all of the homework assignments, I will provide any relevant data to you. I expect you to be able to import the data into your statistics or spreadsheet program of choice — this may be R, or Stata, or SAS, or Excel, etc. Just about any program will do. Once imported, I expect you to be able to calculate basic summary statistics like an average, perhaps by different groups or different time periods. I also expect you to present these calculations in an easily-readable way (i.e., as part of a table or figure).&lt;/p&gt;
+&lt;p&gt;Importantly, if you don’t have much experience working with real data, then I don’t expect you to learn to do this completely on your own. I am a resource for you, and I will be available as much as possible to help you throughout the semester. Of course, I can’t help you if you don’t reach out to me, and I definitely can’t help you if you only reach out a few hours before the due date.&lt;/p&gt;
+&lt;p&gt;So…here are my rules to be successful in this class:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Attend and participate in class&lt;/li&gt;
+&lt;li&gt;Do all of the worksheets, in-class practice problems, and exam review problems&lt;/li&gt;
+&lt;li&gt;Start on the homework assignments and the project early&lt;/li&gt;
+&lt;li&gt;Ask me questions!&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to U.S. Health Care</title>
+      <link>/content/00-content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/00-content/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;For each Module, I have an “airport” idea. This is something I took from &lt;a href=&#34;https://www.amazon.com/Invisible-Learning-legendary-Harvard-statistics-ebook/dp/B08P7TJZSQ&#34;&gt;Invisible Learning&lt;/a&gt;. An “airport” idea is something that is “so memorable, so deeply entrenched in your brain and how you view the world, that in five years’ time – when I see you at an airport – you will be able to explain those ideas to me even if you’ve forgotten everything else.” These are bigger than learning outcomes or learning objectives.&lt;/p&gt;
+&lt;p&gt;The airport idea for Module 0 is this: “Privatized health care introduces a web of complex incentives.” This does &lt;strong&gt;not&lt;/strong&gt; say that privatized health care is bad, or that it is better or worse than fully public health care…just that using private prices to allocate resources in health care is complicated.&lt;/p&gt;
+&lt;p&gt;Below are our specific objectives, activities, and other resources for this introductory module.&lt;/p&gt;
+&lt;div id=&#34;objectives&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Recall the total annual expenditures on health and health care in the U.S.&lt;/li&gt;
+&lt;li&gt;Compare U.S. health expenditures and quality to that of other countries&lt;/li&gt;
+&lt;li&gt;Explain the debate surrounding the role of prices in U.S. health care expenditures&lt;/li&gt;
+&lt;li&gt;Summarize some of the unique economic features of the U.S. health care market&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Review the &lt;a href=&#34;/syllabus/&#34;&gt;syllabus&lt;/a&gt;, &lt;a href=&#34;/schedule/&#34;&gt;schedule&lt;/a&gt;, &lt;a href=&#34;/content/&#34;&gt;content&lt;/a&gt;, and &lt;a href=&#34;/assignment/&#34;&gt;assignments&lt;/a&gt; pages for this class…just to get a feel for the site and how to navigate all of the information.&lt;/li&gt;
+&lt;li&gt;Discussion of U.S. health care expenditures and quality&lt;/li&gt;
+&lt;li&gt;Overview of class and introductions&lt;/li&gt;
+&lt;li&gt;Complete the &lt;a href=&#34;/resource/review1&#34;&gt;Math Review&lt;/a&gt; and &lt;a href=&#34;/resource/review2&#34;&gt;Practice Problems&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings-and-related-info&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Readings and related info&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; These articles are more of a guide for the semester. We’ll touch on most of the topics covered in the articles over the next several weeks. Reading these papers now can really help to prepare you for the whole semester.
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-arrow1963&#34; role=&#34;doc-biblioref&#34;&gt;Kenneth J. Arrow, &lt;span&gt;“Uncertainty and the Welfare Economics of Medical Care,”&lt;/span&gt; &lt;em&gt;The American Economics Review&lt;/em&gt; 53, no. 5 (1963)&lt;/a&gt;.&lt;/span&gt; Link to paper &lt;a href=&#34;https://www.jstor.org/stable/1812044&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-gaynor2015jel&#34; role=&#34;doc-biblioref&#34;&gt;M Gaynor, K Ho, and R Town, &lt;span&gt;“The Industrial Organization of Health Care Markets,”&lt;/span&gt; &lt;em&gt;Journal of Economic Literature&lt;/em&gt; 47, no. 2 (2015): 235–284&lt;/a&gt;.&lt;/span&gt; Link to paper &lt;a href=&#34;https://www.aeaweb.org/articles?id=10.1257/jel.53.2.235&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; Supplemental information we’ll use throughout this module.
+&lt;ul&gt;
+&lt;li&gt;Data from &lt;a href=&#34;https://www.gapminder.org/&#34;&gt;Gapminder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;For a good discussion of hospital prices and something called “charges,” see &lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-anderson2003&#34; role=&#34;doc-biblioref&#34;&gt;Gerard F Anderson et al., &lt;span&gt;“It’s the Prices, Stupid: Why the United States Is so Different from Other Countries,”&lt;/span&gt; &lt;em&gt;Health Affairs&lt;/em&gt; 22, no. 3 (2003): 89–105&lt;/a&gt;.&lt;/span&gt; Link to paper &lt;a href=&#34;https://www.healthaffairs.org/doi/10.1377/hlthaff.22.3.89&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Healthcare triage videos: &lt;a href=&#34;https://www.youtube.com/watch?v=yN-MkRcOJjY&#34;&gt;The Healthcare System of the United States&lt;/a&gt; and &lt;a href=&#34;https://www.youtube.com/watch?v=tFtAohYPSFc&#34;&gt;Why Does the US Spend So Much On Healthcare?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Time, 2013. &lt;a href=&#34;https://time.com/198/bitter-pill-why-medical-bills-are-killing-us/&#34;&gt;Bitter Pill: Why Medical Bills are Killing Us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Forbes, 2018. &lt;a href=&#34;https://www.forbes.com/sites/elliekincaid/2018/03/13/healthcare-its-the-prices-stupid-isnt-it/#52a5fda3198a&#34;&gt;Healthcare: It’s the prices, stupid. Isn’t it?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Blog, Random Critical Analysis, November 2018. &lt;a href=&#34;https://randomcriticalanalysis.com/2018/11/19/why-everything-you-know-about-healthcare-is-wrong-in-one-million-charts-a-response-to-noah-smith/&#34;&gt;“Why everything you have said about the determinants of health expenditure is wrong in one million charts: A response to Noah Smith.”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;The goal of this module is to answer the key questions that anyone should want answered when they start to learn something new, “what, why, who, and how?” That is, “what are we learning and why?” “who is learning it?” and “how are we going to learn it?” Why are you taking this class? What’s so interesting about health economics? Hopefully this part of our discussion convinces you how important and interesting health economics is.&lt;/p&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/00-Introduction/00-intro.html&#34; width=&#34;672&#34; height=&#34;400px&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/00-Introduction/00-intro.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/00-Introduction/00-intro.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 1: Health Insurance</title>
+      <link>/content/01-content0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/01-content0/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;The narrow goal of this module is to understand why people buy health insurance (or any insurance really) and how peoples’ private information may influence health insurance prices (e.g., adverse selection). We’ll finish the module with a discussion of current policy issues related to health insurance in the U.S.&lt;/p&gt;
+&lt;p&gt;The big picture economics concept of this module, or the “airport” idea that I hope you can remember several years later when we run into each other at the airport, is “firms also face uncertainty.” What does that mean? In the context of insurance, it means that insurers really don’t know who will choose their plans (but they definitely try).&lt;/p&gt;
+&lt;p&gt;Below is a list of readings and other similar resources for this module. Please use the navigation pane to see more details and slides for each part of this module.&lt;/p&gt;
+&lt;div id=&#34;readings-and-other-links&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Readings and other links&lt;/h2&gt;
+&lt;p&gt;Links to papers are listed alongside the full reference. PDFs of each paper are also available on &lt;strong&gt;Canvas&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; Readings for this module:
+&lt;ul&gt;
+&lt;li&gt;Sections 5.1-5.2 and 17.1 of &lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-pindyck2018&#34; role=&#34;doc-biblioref&#34;&gt;R. Pindyck and D. Rubinfeld, &lt;em&gt;Microeconomics&lt;/em&gt; (Upper Saddle River, NJ: Prentice Hall, 2018)&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Chapter 4 of &lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-sloan2012&#34; role=&#34;doc-biblioref&#34;&gt;Frank A Sloan and Chee-Ruey Hsieh, &lt;em&gt;Health Economics&lt;/em&gt;, &lt;em&gt;MIT Press Books&lt;/em&gt;, vol. 1 (The MIT Press, 2012)&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-einav2011&#34; role=&#34;doc-biblioref&#34;&gt;Liran Einav and Amy Finkelstein, &lt;span&gt;“Selection in Insurance Markets: Theory and Empirics in Pictures,”&lt;/span&gt; &lt;em&gt;The Journal of Economic Perspectives&lt;/em&gt; 25, no. 1 (2011): 115–138&lt;/a&gt;.&lt;/span&gt; Link to paper &lt;a href=&#34;https://www.aeaweb.org/articles?id=10.1257/jep.25.1.115&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-mcwilliams2012&#34; role=&#34;doc-biblioref&#34;&gt;J Michael McWilliams, John Hsu, and Joseph P Newhouse, &lt;span&gt;“New Risk-Adjustment System Was Associated with Reduced Favorable Selection in Medicare Advantage,”&lt;/span&gt; &lt;em&gt;Health Affairs&lt;/em&gt; 31, no. 12 (2012): 2630–2640&lt;/a&gt;.&lt;/span&gt; Link to paper &lt;a href=&#34;https://www.healthaffairs.org/doi/abs/10.1377/hlthaff.2011.1344&#34;&gt;here&lt;/a&gt;. &lt;strong&gt;We’ll discuss this paper at the end of the module.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; Supplemental information we’ll use throughout this module.
+&lt;ul&gt;
+&lt;li&gt;CNN Business, February 2017, &lt;a href=&#34;https://money.cnn.com/2017/02/14/news/economy/humana-obamacare-insurer/&#34;&gt;“Humana pulls out of Obamacare for 2018”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kaiser Family Foundation, February 2017, &lt;a href=&#34;https://www.kff.org/health-reform/issue-brief/high-risk-pools-for-uninsurable-individuals/&#34;&gt;“High-Risk Pools for Uninsurable Individuals”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Health Affairs article related to adverse selection, August 2020, &lt;a href=&#34;https://www.healthaffairs.org/doi/full/10.1377/hlthaff.2019.01155&#34;&gt;“Costs are Higher for Marketplace Members who Enroll during Special Enrollment Periods Compared with Open Enrollment”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ESPN, January 2019, &lt;a href=&#34;https://www.espn.com/espn/story/_/id/25776964/insurance-market-football-evaporating-causing-major-threat-nfl-pop-warner-colleges-espn&#34;&gt;“A New Threat: An Evaporating Insurance Market”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NPR, December 2018, &lt;a href=&#34;https://www.npr.org/sections/health-shots/2018/12/21/678605152/short-term-health-plans-boost-profits-for-brokers-and-insurers&#34;&gt;“Short-Term Health Plans Boost Profits for Brokers and Insurers.”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Commonwealth Fund, July 2018, &lt;a href=&#34;https://www.commonwealthfund.org/publications/fund-reports/2018/jul/eliminating-individual-mandate-penalty-behavioral-factors&#34;&gt;“The Effect of Eliminating the Individual Mandate Penalty.”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1Nwco7JpbZ-R0C3_PXSDfEASTCAu_5R_JuwrhFjzmy2c/edit?usp=sharing&#34;&gt;Slides on Insurance Terms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1tXKmoT0fjLrIPCgMYWg_SQZOWiQKuBmANvTnwBtjO5M/edit?usp=sharing&#34;&gt;Slides on Health Insurance Trivia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/10oma6GyyympKxUx3pEQRUtCMLfJyHbrN6cDjQTw_woc/edit?usp=sharing&#34;&gt;Slides on ACA Exchange Pricing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance0.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance0.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance0.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 1, Part 1: Risk and Uncertainty</title>
+      <link>/content/01-content1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/01-content1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Part 1 of Module 1 is all about risk and uncertainty. We will eventually use these concepts to study insurance markets and premiums.&lt;/p&gt;
+&lt;div id=&#34;objectives&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Calculate expected values and expected utility&lt;/li&gt;
+&lt;li&gt;Define a risk pool&lt;/li&gt;
+&lt;li&gt;Define risk aversion and diminishing marginal utility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Discussion of Humana and importance of risk pools&lt;/li&gt;
+&lt;li&gt;In-class example on expected values&lt;/li&gt;
+&lt;li&gt;In-class problem on expected costs, expected utilities, and risk aversion. The worksheet is &lt;a href=&#34;/resource/wksheet1.html&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance1.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance1.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance1.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 1, Part 2: Risk Premiums and WTP for Health Insurance</title>
+      <link>/content/01-content2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/01-content2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;This section of the class is all about calculating risk premiums and willingness-to-pay for health insurance.&lt;/p&gt;
+&lt;div id=&#34;objectives&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Explain and draw graphically how the risk premium varies with the curvature of the utility function, probability of illness, and amount of potential loss&lt;/li&gt;
+&lt;li&gt;Calculate risk premium and willingness-to-pay for health insurance&lt;/li&gt;
+&lt;li&gt;Discuss viability of high-risk pools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In-class problem on the demand for health insurance. The worksheet is &lt;a href=&#34;/resource/wksheet2.html&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance2.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance2.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance2.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 1, Part 3: Adverse Selection</title>
+      <link>/content/01-content3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/01-content3/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;In Part 3, we’ll broaden our study of insurance purchasing to the market level and study how the presence of adverse selection can affect insurance markets and premiums.&lt;/p&gt;
+&lt;div id=&#34;objectives&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Explain and draw graphically a simplified insurance market with adverse selection&lt;/li&gt;
+&lt;li&gt;Calculate the insurer loss or profit at a given price&lt;/li&gt;
+&lt;li&gt;Calculate the equilibrium price in the market under some assumptions on insurer profitability&lt;/li&gt;
+&lt;li&gt;Solve for the subsidy amount or penalty amount that would ensure full insurance in a market&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In-class problem on adverse selection. The worksheet is &lt;a href=&#34;/resource/wksheet3.html&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance3.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance3.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance3.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 1, Part 4: Health Insurance Policy Discussion</title>
+      <link>/content/01-content4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/01-content4/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Part 4 concludes our study of health insurance. We’ll finish this module with a discussion of some real world policy issues and some history of health insurance markets in the U.S.&lt;/p&gt;
+&lt;div id=&#34;objectives&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Explain the history of the employer-provided health insurance market in the U.S.&lt;/li&gt;
+&lt;li&gt;Define community ratings and discuss its costs and benefits for insurance markets&lt;/li&gt;
+&lt;li&gt;Define risk-adjustment and its relevance to insurance markets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Review Medicare Advantage and FFS data for Homework 1&lt;/li&gt;
+&lt;li&gt;Discuss &lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-mcwilliams2012&#34; role=&#34;doc-biblioref&#34;&gt;J Michael McWilliams, John Hsu, and Joseph P Newhouse&lt;/a&gt; &lt;a href=&#34;#ref-mcwilliams2012&#34; role=&#34;doc-biblioref&#34;&gt;&lt;span&gt;“New Risk-Adjustment System Was Associated with Reduced Favorable Selection in Medicare Advantage,”&lt;/span&gt; &lt;em&gt;Health Affairs&lt;/em&gt; 31, no. 12 (2012): 2630–2640&lt;/a&gt;.&lt;/span&gt; Link to paper &lt;a href=&#34;https://www.healthaffairs.org/doi/abs/10.1377/hlthaff.2011.1344&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/assignment/homework1.html&#34;&gt;Homework 1&lt;/a&gt; due this Friday!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;supplemental-readings&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Supplemental Readings&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance4.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance4.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/01-Insurance/01-insurance4.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 2: Physician Agency and Treatment Decisions</title>
+      <link>/content/02-content0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/02-content0/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;The narrow goal of this module is to understand the role of physicians in making treatment decisions, and how the consequences of this may differ depending on the type of payment model employed. We’ll finish the module with a discussion of current policy issues related to healthcare payments in the U.S.&lt;/p&gt;
+&lt;p&gt;The big picture economics concept of this module, or the “airport” idea that I hope you can remember several years later when we run into each other at the airport, is “behaviors can reflect both altruism and self interest.” What does that mean? In the context of physician treatment decisions, it means that physicians and hospitals can pursue treatments that offer a benefit to patients but that also offer a financial benefit to them. These aren’t mutually exclusive goals.&lt;/p&gt;
+&lt;div id=&#34;readings-and-other-links&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Readings and other links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; Readings for this module:
+&lt;ul&gt;
+&lt;li&gt;Section 17.4 of &lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-pindyck2018&#34; role=&#34;doc-biblioref&#34;&gt;R. Pindyck and D. Rubinfeld, &lt;em&gt;Microeconomics&lt;/em&gt; (Upper Saddle River, NJ: Prentice Hall, 2018)&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Sections 5.3 and 17.2 of &lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-sloan2012&#34; role=&#34;doc-biblioref&#34;&gt;Frank A Sloan and Chee-Ruey Hsieh, &lt;em&gt;Health Economics&lt;/em&gt;, &lt;em&gt;MIT Press Books&lt;/em&gt;, vol. 1 (The MIT Press, 2012)&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-mcguire2000&#34; role=&#34;doc-biblioref&#34;&gt;Thomas G McGuire, &lt;span&gt;“Physician Agency,”&lt;/span&gt; &lt;em&gt;Handbook of Health Economics&lt;/em&gt; 1 (2000): 461–536&lt;/a&gt;.&lt;/span&gt; Link to Chapter &lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S1574006400801687&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-gruber1996&#34; role=&#34;doc-biblioref&#34;&gt;Jonathan Gruber and Maria Owings, &lt;span&gt;“Physician Financial Incentives and Cesarean Section Delivery,”&lt;/span&gt; &lt;em&gt;The RAND Journal of Economics&lt;/em&gt; 27, no. 1 (1996): 99–123&lt;/a&gt;.&lt;/span&gt; Link to paper &lt;a href=&#34;https://www.jstor.org/stable/2555794&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-clemens2014&#34; role=&#34;doc-biblioref&#34;&gt;Jeffrey Clemens and Joshua D Gottlieb, &lt;span&gt;“Do Physicians’ Financial Incentives Affect Medical Treatment and Patient Health?”&lt;/span&gt; &lt;em&gt;American Economic Review&lt;/em&gt; 104, no. 4 (2014): 1320–1349&lt;/a&gt;.&lt;/span&gt; &lt;strong&gt;We’ll discuss this paper at the end of the module.&lt;/strong&gt; Link to paper &lt;a href=&#34;https://www.aeaweb.org/articles?id=10.1257/aer.104.4.1320&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; Supplemental information we’ll use throughout this module.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dartmouthatlas.org/interactive-apps/&#34;&gt;The Dartmouth Atlas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Atlantic, December 2013, &lt;a href=&#34;https://www.theatlantic.com/health/archive/2013/12/youre-getting-too-much-healthcare/281896/&#34;&gt;&#34;You’re Getting Too Much Healthcare&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;MIT News Office, June 2018, &lt;a href=&#34;http://news.mit.edu/2018/value-late-life-health-care-spending-medicare-0628&#34;&gt;“The value of late-in-life health care spending”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/episode/11QshS7vlTptfBVkV8WkTG?si=sCnpjaDNT5mF3lDC6obB4g&#34;&gt;All About Medicare, Podcast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/episode/5wV95SFHGv9trpZrXACELP?si=DFnzeWj7R1eIv9w2Xr3PtQ&#34;&gt;All Aboud Medicaid, Podcast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=SFNuztrgQY0&#34;&gt;Healthcare Triage, Pay for Performance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://catalyst.nejm.org/doi/full/10.1056/CAT.18.0245&#34;&gt;NEJM Report, What is Pay for Performance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency0.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency0.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency0.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 2, Part 1: Introduction to Physician Agency</title>
+      <link>/content/02-content1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/02-content1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;In part 1, we introduce the idea of physician agency and our study of physician treatment decisions. Just as asymmetric information between patients and insurance companies was a big part of the adverse selection problem, this module will show how asymmetric information between physicians and patients can also create some interesting dynamics and incentives.&lt;/p&gt;
+&lt;div id=&#34;objectives&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Explain the principal-agent problem in the context of medical care&lt;/li&gt;
+&lt;li&gt;Solve for treatment levels when physicians set prices and quantity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In-class problem on physician agency. The worksheet is &lt;a href=&#34;/resource/wksheet4.html&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency1.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency1.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency1.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 2, Part 2: Physician Agency and Fee-for-Service Payments</title>
+      <link>/content/02-content2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/02-content2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;In part 2, we continue our study of physician agency and treatment decisions, focusing in particular on fee-for-service payments, with Medicare or Medicaid in mind.&lt;/p&gt;
+&lt;div id=&#34;objectives&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Define fee-for-service payments&lt;/li&gt;
+&lt;li&gt;Briefly discuss the Medicare prospective payment system&lt;/li&gt;
+&lt;li&gt;Solve for treatment levels with fixed prices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In-class problem on physician agency with fixed prices. The worksheet is &lt;a href=&#34;/resource/wksheet5.html&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Incidental Economist&lt;/strong&gt; on &lt;a href=&#34;https://theincidentaleconomist.com/wordpress/upcoding-pt-one-what-and-how/&#34;&gt;Upcoding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency2.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency2.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency2.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 2, Part 3: Physician Agency and Capitated Payments</title>
+      <link>/content/02-content3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/02-content3/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;In part 3, we continue our study of physician agency and treatment decisions, focusing on capitated payments.&lt;/p&gt;
+&lt;div id=&#34;objectives&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Define a capitated payment&lt;/li&gt;
+&lt;li&gt;Solve for treatment levels with capitated payments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In-class problem on physician agency with capitated payments. The worksheet is &lt;a href=&#34;/resource/wksheet6.html&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency3.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency3.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency3.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 2, Part 4: Policy Discussion</title>
+      <link>/content/02-content4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/02-content4/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;This final part of Module 2 concludes our discussion of physician agency. We’ll talk about recent policy events including pay-for-performance and capitated payment models. We’ll also discuss an academic paper in this area to help us practice reading and discussing this type of material.&lt;/p&gt;
+&lt;div id=&#34;objectives-for-this-week&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Objectives for this week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Explain at least one recent hospital pay for performance program&lt;/li&gt;
+&lt;li&gt;Identify and explain two pros and two cons from health care pay for performance models&lt;/li&gt;
+&lt;li&gt;Define a capitated payment and describe at least one type of capitated payment currently in the U.S.&lt;/li&gt;
+&lt;li&gt;Discuss the merits and drawbacks of a capitated payment model&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Review homework 2&lt;/li&gt;
+&lt;li&gt;Discuss &lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-clemens2014&#34; role=&#34;doc-biblioref&#34;&gt;Jeffrey Clemens and Joshua D Gottlieb, &lt;span&gt;“Do Physicians’ Financial Incentives Affect Medical Treatment and Patient Health?”&lt;/span&gt; &lt;em&gt;American Economic Review&lt;/em&gt; 104, no. 4 (2014): 1320–1349&lt;/a&gt;.&lt;/span&gt; Link to paper &lt;a href=&#34;https://www.aeaweb.org/articles?id=10.1257/aer.104.4.1320&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency4.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency4.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/02-Agency/02-agency4.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 3: Hospital Pricing and Competition</title>
+      <link>/content/03-content0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/03-content0/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;The narrow goal of this module is to understand hospital pricing, how we measure competition (in general, but also some specific aspects of health care markets), and how competition affects hospital/insurer negotiations.&lt;/p&gt;
+&lt;p&gt;The big picture economics concept of this module, or the “airport” idea that I hope you can remember several years later when we run into each other at the airport, is “profit matters, even for non-profits.” What does that mean? In the context of hospitals (the majority of which are designated as not-for-profit entities), it means that hospitals still have to make some money. As one CEO put it regularly in my past life, “there’s no mission without margin.”&lt;/p&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; Readings for this module:
+&lt;ul&gt;
+&lt;li&gt;Section 5.4 of &lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-sloan2012&#34; role=&#34;doc-biblioref&#34;&gt;Frank A Sloan and Chee-Ruey Hsieh, &lt;em&gt;Health Economics&lt;/em&gt;, &lt;em&gt;MIT Press Books&lt;/em&gt;, vol. 1 (The MIT Press, 2012)&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-reinhardt2006&#34; role=&#34;doc-biblioref&#34;&gt;Uwe E Reinhardt, &lt;span&gt;“The Pricing of US Hospital Services: Chaos Behind a Veil of Secrecy,”&lt;/span&gt; &lt;em&gt;Health Affairs&lt;/em&gt; 25, no. 1 (2006): 57–69&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-gaynor2015jel&#34; role=&#34;doc-biblioref&#34;&gt;M Gaynor, K Ho, and R Town, &lt;span&gt;“The Industrial Organization of Health Care Markets,”&lt;/span&gt; &lt;em&gt;Journal of Economic Literature&lt;/em&gt; 47, no. 2 (2015): 235–284&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-gaynor2017brookings&#34; role=&#34;doc-biblioref&#34;&gt;M Gaynor, F Mostashari, and P Ginsburg, &lt;em&gt;Making Health Care Markets Work: Competition Policy for Health Care&lt;/em&gt;, Policy Report (Brookings Institute, 2017)&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-cooper2019&#34; role=&#34;doc-biblioref&#34;&gt;Zack Cooper et al., &lt;span&gt;“The Price Ain’t Right? Hospital Prices and Health Spending on the Privately Insured,”&lt;/span&gt; &lt;em&gt;The Quarterly Journal of Economics&lt;/em&gt; 134, no. 1 (2019): 51–107&lt;/a&gt;.&lt;/span&gt; &lt;strong&gt;We’ll discuss this paper at the end of the module.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; Supplemental information we’ll use throughout this module.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://theincidentaleconomist.com/wordpress/hospital-cost-shifting-brief-history-and-possible-future/&#34;&gt;“History of Cost Shifting”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reinhardt, Uwe. 2006. &lt;a href=&#34;https://www.healthaffairs.org/doi/full/10.1377/hlthaff.25.1.57&#34;&gt;“The Pricing of US Hospital Services: Chaos Behind a Veil of Secrecy.”&lt;/a&gt; &lt;em&gt;Health Affairs&lt;/em&gt;, 25(1):57-69.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.washingtonpost.com/national/health-science/value-of-tax-breaks-for-nonprofit-hospitals-doubled-in-a-decade/2015/06/17/4162c640-1450-11e5-9ddc-e3353542100c_story.html&#34;&gt;“Value of tax breaks for non-profit hospitals doubled in a decade,”&lt;/a&gt; &lt;em&gt;Washington Post&lt;/em&gt;, 2015&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.washingtonpost.com/national/health-science/value-of-tax-breaks-for-nonprofit-hospitals-doubled-in-a-decade/2015/06/17/4162c640-1450-11e5-9ddc-e3353542100c_story.html&#34;&gt;“Nonprofit hospitals’ community benefit requirements,”&lt;/a&gt; &lt;em&gt;Health Affairs&lt;/em&gt; policy brief, 2016&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://healthcarepricingproject.org/&#34;&gt;Health Care Pricing Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://healthcostinstitute.org/research/hmi-interactive&#34;&gt;Health Care Cost Institute, Healthy Marketplace Index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.brookings.edu/research/making-health-care-markets-work-competition-policy-for-health-care/&#34;&gt;“Making healthcare markets work: Competition policy for health care”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=c2rLy4FWn_g&#34;&gt;Hearing on health care consolidation and anticompetitive conduct&lt;/a&gt;. Please focus just on the testimony of Martin Gaynor, as this is most relevant for our class. But if you’re interested in pharmaceuticals, there is some great content in this video from other members of the panel as well.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://truecostofhealthcare.org/hospitalization/&#34;&gt;Hospital Billing&lt;/a&gt;. This is a 6 minute video explaining some of the confusing aspects of hospital billing, which plays into what it really means to be a not-for-profit versus for-profit hospital.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing0.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing0.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing0.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 3, Part 1: Pricing in a Two-price Market</title>
+      <link>/content/03-content1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/03-content1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;In this section, we’ll introduce a theoretical framework for studying hospital pricing decisions, focusing first on a simplified setting in which hospitals can set prices in one market and must take a fixed price in another market.&lt;/p&gt;
+&lt;div id=&#34;objectives-for-this-week&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Objectives for this week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Use our two-price model to predict the effect of a change in public (e.g. Medicare or Medicaid) prices&lt;/li&gt;
+&lt;li&gt;Identify the minimum price at which public insurance patients lose access to care&lt;/li&gt;
+&lt;li&gt;Define cost-shifting and summarize the key aspects of the cost-shifting debate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Watch &lt;a href=&#34;https://truecostofhealthcare.org/hospitalization/&#34;&gt;video&lt;/a&gt; on hospital billing and what we mean by hospital “price.”&lt;/li&gt;
+&lt;li&gt;Solve for the profit maximizing price and quantity for a monopolistically competitive firm. Worksheet available &lt;a href=&#34;/resource/wksheet7.html&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Solve the practice problem on the two-price model. Worksheet available &lt;a href=&#34;/resource/wksheet8.html&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing1.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing1.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing1.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 3, Part 2: Negotiations between Providers and Insurers</title>
+      <link>/content/03-content2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/03-content2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;This week we’ll talk more specifically about how hospital prices are determined in the private insurance market.&lt;/p&gt;
+&lt;div id=&#34;objectives-for-this-week&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Objectives for this week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Define and explain the differences between hospital prices, charges, and costs&lt;/li&gt;
+&lt;li&gt;Understand variation in hospital pricing and investigate price variation with the Health Care Pricing Project materials&lt;/li&gt;
+&lt;li&gt;Describe the hospital negotiation process as a Nash bargaining problem and solve a simple version of a Nash bargaining model&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Solve for a Nash bargaining problem. The class worksheet is &lt;a href=&#34;/resource/wksheet9.html&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing2.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing2.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing2.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 3, Part 3: Competition and Prices</title>
+      <link>/content/03-content3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/03-content3/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;This week we continue our coverage of hospital pricing, focusing on the role of competition and mergers.&lt;/p&gt;
+&lt;div id=&#34;objectives-for-this-week&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Objectives for this week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Explain the role of competition on pricing and describe how we measure competition in health care&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Review data from the Hospital Cost Report Information System (HCRIS)&lt;/li&gt;
+&lt;li&gt;Discuss &lt;span class=&#34;citation&#34;&gt;&lt;a href=&#34;#ref-cooper2019&#34; role=&#34;doc-biblioref&#34;&gt;Zack Cooper et al.&lt;/a&gt; &lt;a href=&#34;#ref-cooper2019&#34; role=&#34;doc-biblioref&#34;&gt;&lt;span&gt;“The Price Ain’t Right? Hospital Prices and Health Spending on the Privately Insured,”&lt;/span&gt; &lt;em&gt;The Quarterly Journal of Economics&lt;/em&gt; 134, no. 1 (2019): 51–107&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing3.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing3.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing3.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module 3, Part 4: Hospital Mergers</title>
+      <link>/content/03-content4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/content/03-content4/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;We made it! This is our last week of new content. We’ll finish this semester with a nice discussion of mergers and prices, interpreting this literature in the context of the negotiation model we’ve covered previously.&lt;/p&gt;
+&lt;div id=&#34;objectives-for-this-week&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Objectives for this week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Summarize the existing data on hospital mergers and their effects on hospital prices and quality&lt;/li&gt;
+&lt;li&gt;Differentiate between in- and out-of-market mergers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+&lt;iframe src=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing4.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;
+&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing4.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://imccart.github.io/econ372-content/03-Pricing/03-pricing4.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;
+&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

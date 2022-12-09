@@ -1,0 +1,96 @@
+---
+title: "Homework 3"
+linktitle: "Homework 3"
+due_date: "2022-04-22"
+due_time: "11:59 PM"
+output:
+  blogdown::html_page:
+    toc: false
+menu:
+  assignment:
+    parent: Homework
+    weight: 3
+type: docs
+---
+
+## Instructions
+This is our third and final homework assignment of the semester. It covers questions related to hospital pricing and competition. 
+
+## Theory Questions
+1. Consider a for-profit practice facing the following demand and cost curves: $p=75-\frac{1}{2}q$ for private insurance patients and $c(q)=\frac{1}{4}q^{2}$.
+
+    + How many patients will this practice see and at what price?
+    
+    + Now assume that there is also a public market (e.g., Medicaid) where the price is set to $\bar{p}=\$40$ for each patient. Calculate the total number of patients that will be seen by this practice. How many of these patients are private insurance patients and how many are Medicaid patients?
+    
+    + Medicaid is considering lowering their payments to $30 per visit. What is the new number of patients seen by this practice? How many of these patients are privately insured versus Medicaid?
+    
+    + Find the price at which this practice would exit the Medicaid market altogether and serve only private insurance patients.
+
+2. Suppose Town A and Town B each have four hospitals. The tables below provide the bed size and output of each hospital. Use this information to answer the following questions:
+
+    + What is the Hirfindahl-Hirschman Index (HHI) for each town if we define market share as the share of total beds? 
+    
+    + What if we instead define market share as the share of total discharges? 
+    
+    + Which market (Town A or Town B) is more concentrated?
+
+
+<b>Town A</b><br>
+
+ Hospital     | Bed Size | Discharges
+ -------------| -------- | ---------
+ A            | 250      | 8,000
+ B            | 250      | 7,300
+ C            | 250      | 6,400
+ D            | 250      | 5,400
+ 
+<br>
+<b>Town B</b><br>
+
+ Hospital     | Bed Size | Discharges
+ -------------| -------- | ---------
+ A            | 100      | 2,200
+ B            |  50      | 1,100
+ C            | 500      | 6,000
+ D            | 350      | 5,000
+
+
+<br> 
+
+
+
+3. From our Nash bargaining framework, assume that two agents are negotiating over how best to divide their quantity of good $x$. Normalize the value of the good to 1, and assume that player 1 receives utility $u_{1}=x^{\alpha}$ and player 2 receives utility $u_{2}=(1-x)^{\beta}$. If the players fail to reach an agreement, they each receive utility of 0.
+
+    + Find the symmetric Nash bargaining solution to this game and explain how the solution depends on $\alpha$ and $\beta$
+    
+    + What can you conclude about the outcome of bargaining in the case of one risk neutral and one risk averse agent?
+    
+    + Assume instead that $\alpha=\beta$ and that player 2 now has some positive payoff, $a$, if the players fail to reach an agreement. In this case, player 2's gain from an agreement is then $u_{2}=(1-a-x)^{\beta}$. What is the bargaining solution in this game?
+    
+    + Interpret your answer in part (3) in terms of the "outside option" of player 1 and player 2.
+
+
+## Empirical Questions
+4. Let's study how our assessment of hospital markets and competitiveness changes depending on our definition of a market. For these questions, we're going to work with the hospital data available on our *Canvas* page. I created this dataset from the Hospital Cost Report Information System (HCRIS) and the Hospital Service Area Files.
+
+    + Calculate hospital market shares when defining the "market" by zip code and using hospital discharges as your measure of quantity. Create a "violin plot" or a box plot of market shares over time.
+
+    + Calculate hospital market shares when defining the "market" as the HRR, again using hospital discharges as your measure of quantity. Create a violin plot or box plot of market shares over time. 
+
+    + Calculate hospital market shares when defining the market based on the community detection algorithms described [here](https://github.com/graveja0/health-care-markets). These "markets" are already provided for you in the data. Continue to use hospital discharges as your measure of quantity, and summarize your results with a violin plot. 
+    
+    + Explain the differences in your results from parts (1)-(3).
+
+    + Plot the average market shares over time for each of the three market definitions you've considered. Be sure to put all plots on the same graph.
+    
+    
+5. Now let's think about hospital prices. To do this, we're going to summarize some pricing data and see how prices correlate with market structure. We'll use the same hospital data from question 4.
+
+    + Calculate the average price for each year and show your results in a graph.
+    
+    + Identify hospitals that are monopolists in their market (using the community detection measure of markets). Show in a graph the count of all such markets over time.
+    
+    + Identify markets with more than 4 hospitals. Show in a graph the count of all such markets over time.
+    
+    + Calculate the average price in each year among the markets in part (2) and (3). Show your results in a table or a figure. How do these average prices compare?

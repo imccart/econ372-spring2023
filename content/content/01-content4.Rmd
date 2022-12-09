@@ -1,0 +1,54 @@
+---
+title: "Module 1, Part 4: Health Insurance Policy Discussion"
+linktitle: "M1.4: Policy"
+menu:
+  content:
+    parent: Module 1
+    weight: 5
+type: docs
+bibliography: "../../static/bib/BibTeX_Library.bib"
+csl: "../../static/bib/chicago-syllabus-no-bib.csl"
+output:
+  blogdown::html_page:
+    toc: false
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
+```
+
+Part 4 concludes our study of health insurance. We'll finish this module with a discussion of some real world policy issues and some history of health insurance markets in the U.S.
+
+## Objectives
+- Explain the history of the employer-provided health insurance market in the U.S.
+- Define community ratings and discuss its costs and benefits for insurance markets
+- Define risk-adjustment and its relevance to insurance markets
+
+## Activities
+- Review Medicare Advantage and FFS data for Homework 1
+- Discuss @mcwilliams2012. Link to paper [here](https://www.healthaffairs.org/doi/abs/10.1377/hlthaff.2011.1344)
+- [Homework 1](/assignment/homework1.html) due this Friday!
+
+### Supplemental Readings
+
+
+## Slides
+Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.
+
+:::fyi
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+:::
+
+<center>
+
+```{r}
+knitr::include_url("https://imccart.github.io/econ372-content/01-Insurance/01-insurance4.html")
+```
+
+
+<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ372-content/01-Insurance/01-insurance4.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ372-content/01-Insurance/01-insurance4.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+
+</center>
+    
+
+    

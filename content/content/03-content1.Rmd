@@ -1,0 +1,51 @@
+---
+title: "Module 3, Part 1: Pricing in a Two-price Market"
+linktitle: "M3.1: Two-price Market"
+menu:
+  content:
+    parent: Module 3
+    weight: 2
+type: docs
+bibliography: "../../static/bib/BibTeX_Library.bib"
+csl: "../../static/bib/chicago-syllabus-no-bib.csl"
+output:
+  blogdown::html_page:
+    toc: false
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
+```
+
+In this section, we'll introduce a theoretical framework for studying hospital pricing decisions, focusing first on a simplified setting in which hospitals can set prices in one market and must take a fixed price in another market. 
+
+## Objectives for this week
+
+- Use our two-price model to predict the effect of a change in public (e.g. Medicare or Medicaid) prices
+- Identify the minimum price at which public insurance patients lose access to care
+- Define cost-shifting and summarize the key aspects of the cost-shifting debate
+
+
+## Activities
+- Watch [video](https://truecostofhealthcare.org/hospitalization/) on hospital billing and what we mean by hospital "price".
+- Solve for the profit maximizing price and quantity for a monopolistically competitive firm. Worksheet available [here](/resource/wksheet7.html).
+- Solve the practice problem on the two-price model. Worksheet available [here](/resource/wksheet8.html).
+
+
+## Slides
+Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.
+
+:::fyi
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+:::
+
+<center>
+
+```{r}
+knitr::include_url("https://imccart.github.io/econ372-content/03-Pricing/03-pricing1.html")
+```
+
+
+<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ372-content/03-Pricing/03-pricing1.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ372-content/03-Pricing/03-pricing1.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+
+</center>

@@ -1,0 +1,63 @@
+---
+title: "Module 1: Health Insurance"
+linktitle: "M1: Overview"
+menu:
+  content:
+    parent: Module 1
+    weight: 1
+type: docs
+bibliography: "../../static/bib/BibTeX_Library.bib"
+csl: "../../static/bib/chicago-syllabus-no-bib.csl"
+output:
+  blogdown::html_page:
+    toc: false
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
+```
+
+The narrow goal of this module is to understand why people buy health insurance (or any insurance really) and how peoples' private information may influence health insurance prices (e.g., adverse selection). We'll finish the module with a discussion of current policy issues related to health insurance in the U.S.
+
+The big picture economics concept of this module, or the "airport" idea that I hope you can remember several years later when we run into each other at the airport, is "firms also face uncertainty." What does that mean? In the context of insurance, it means that insurers really don't know who will choose their plans (but they definitely try).
+
+Below is a list of readings and other similar resources for this module. Please use the navigation pane to see more details and slides for each part of this module.
+
+## Readings and other links
+
+Links to papers are listed alongside the full reference. PDFs of each paper are also available on **Canvas**.
+
+- <i class="fas fa-book"></i> Readings for this module:
+    - Sections 5.1-5.2 and 17.1 of [@pindyck2018]
+    - Chapter 4 of [@sloan2012]
+    - [@einav2011]. Link to paper [here](https://www.aeaweb.org/articles?id=10.1257/jep.25.1.115).
+    - [@mcwilliams2012]. Link to paper [here](https://www.healthaffairs.org/doi/abs/10.1377/hlthaff.2011.1344). **We'll discuss this paper at the end of the module.**
+- <i class="fas fa-external-link-square-alt"></i> Supplemental information we'll use throughout this module.
+    - CNN Business, February 2017, ["Humana pulls out of Obamacare for 2018"](https://money.cnn.com/2017/02/14/news/economy/humana-obamacare-insurer/)
+    - Kaiser Family Foundation, February 2017, ["High-Risk Pools for Uninsurable Individuals"](https://www.kff.org/health-reform/issue-brief/high-risk-pools-for-uninsurable-individuals/)
+    - Health Affairs article related to adverse selection, August 2020, ["Costs are Higher for Marketplace Members who Enroll during Special Enrollment Periods Compared with Open Enrollment"](https://www.healthaffairs.org/doi/full/10.1377/hlthaff.2019.01155)
+    - ESPN, January 2019, ["A New Threat: An Evaporating Insurance Market"](https://www.espn.com/espn/story/_/id/25776964/insurance-market-football-evaporating-causing-major-threat-nfl-pop-warner-colleges-espn)
+    - NPR, December 2018, ["Short-Term Health Plans Boost Profits for Brokers and Insurers."](https://www.npr.org/sections/health-shots/2018/12/21/678605152/short-term-health-plans-boost-profits-for-brokers-and-insurers)
+    - Commonwealth Fund, July 2018, ["The Effect of Eliminating the Individual Mandate Penalty."](https://www.commonwealthfund.org/publications/fund-reports/2018/jul/eliminating-individual-mandate-penalty-behavioral-factors)
+    - [Slides on Insurance Terms](https://docs.google.com/presentation/d/1Nwco7JpbZ-R0C3_PXSDfEASTCAu_5R_JuwrhFjzmy2c/edit?usp=sharing)
+    - [Slides on Health Insurance Trivia](https://docs.google.com/presentation/d/1tXKmoT0fjLrIPCgMYWg_SQZOWiQKuBmANvTnwBtjO5M/edit?usp=sharing)
+    - [Slides on ACA Exchange Pricing](https://docs.google.com/presentation/d/10oma6GyyympKxUx3pEQRUtCMLfJyHbrN6cDjQTw_woc/edit?usp=sharing)
+    
+
+## Slides
+Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.
+
+:::fyi
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+:::
+
+<center>
+
+```{r}
+knitr::include_url("https://imccart.github.io/econ372-content/01-Insurance/01-insurance0.html")
+```
+
+
+<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ372-content/01-Insurance/01-insurance0.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ372-content/01-Insurance/01-insurance0.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+
+</center>

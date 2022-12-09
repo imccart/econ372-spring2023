@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en-us" 
+      xmlns:og="http://ogp.me/ns#" 
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Assume that the patient’s net benefit function is, \(NB(x) = B(x) - p_{d}x\). Further assume that \(B(x)=16x-2x^{2}\) and that the patient is fully insured such that \(p_{d}=0\) (i.e., the insurer pays the full price of care, and the patient pays nothing). Finally, assume that the physician’s number of patients in their practice is governed by, \(n(NB)=NB\). The physician receives a fixed payment, \(R\), per patient, along with a margin of \(p_{s}-c\) for each unit of care, \(x\).">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/resource/wksheet6/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:400,400i,700,700i%7CNunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="/resource/wksheet6/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@ianhealthecon">
+  <meta property="twitter:creator" content="@ianhealthecon">
+  
+  <meta property="og:site_name" content="Health Care Markets">
+  <meta property="og:url" content="/resource/wksheet6/">
+  <meta property="og:title" content="Worksheet 6: Physician agency and capitated payments | Health Care Markets">
+  <meta property="og:description" content="Assume that the patient’s net benefit function is, \(NB(x) = B(x) - p_{d}x\). Further assume that \(B(x)=16x-2x^{2}\) and that the patient is fully insured such that \(p_{d}=0\) (i.e., the insurer pays the full price of care, and the patient pays nothing). Finally, assume that the physician’s number of patients in their practice is governed by, \(n(NB)=NB\). The physician receives a fixed payment, \(R\), per patient, along with a margin of \(p_{s}-c\) for each unit of care, \(x\)."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+  
+    
+    
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+    <link rel="stylesheet" type="text/css" href="/custom-css/print.css" media="print" />
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="Econ 372: Health Care Markets" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/img/mstile-144x144.png" />
+
+
+  <title>Worksheet 6: Physician agency and capitated payments | Health Care Markets</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70"
+    data-target="#TableOfContents"
+    >
+
+    <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+    
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Health Care Markets</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Health Care Markets</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/syllabus"><span>Syllabus</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/schedule"><span>Schedule</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/content"><span>Content</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/assignment"><span>Assignments</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/resource"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+    
+
+<div class="container-fluid docs">
+    <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+            
+
+
+
+
+
+  
+    
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/resource/">Resources</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/resource/">General information</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/resource/review1/">Math Review</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/resource/review1/">Basic concepts</a>
+      </li>
+      
+      <li >
+        <a href="/resource/review2/">Practice problems</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/resource/wksheet1/">Worksheets</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/resource/wksheet1/">Expected value</a>
+      </li>
+      
+      <li >
+        <a href="/resource/wksheet2/">Insurance demand</a>
+      </li>
+      
+      <li >
+        <a href="/resource/wksheet3/">Adverse selection</a>
+      </li>
+      
+      <li >
+        <a href="/resource/wksheet4/">Physician agency</a>
+      </li>
+      
+      <li >
+        <a href="/resource/wksheet5/">Agency with fixed prices</a>
+      </li>
+      
+      <li class="active">
+        <a href="/resource/wksheet6/">Agency with capitation</a>
+      </li>
+      
+      <li >
+        <a href="/resource/wksheet7/">Unilateral pricing</a>
+      </li>
+      
+      <li >
+        <a href="/resource/wksheet8/">Two-price market</a>
+      </li>
+      
+      <li >
+        <a href="/resource/wksheet9/">Nash bargaining</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/resource/exam-review1/">Exam Review</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/resource/exam-review1/">Mid-term Review</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+        </div>
+
+        
+
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+            <article class="article">
+
+                <div class="docs-article-container">
+                    <h1>Worksheet 6: Physician agency and capitated payments</h1>
+
+                    
+
+                    
+
+                    <div class="article-style">
+                        
+
+
+<p>Assume that the patient’s net benefit function is, <span class="math inline">\(NB(x) = B(x) - p_{d}x\)</span>. Further assume that <span class="math inline">\(B(x)=16x-2x^{2}\)</span> and that the patient is fully insured such that <span class="math inline">\(p_{d}=0\)</span> (i.e., the insurer pays the full price of care, and the patient pays nothing). Finally, assume that the physician’s number of patients in their practice is governed by, <span class="math inline">\(n(NB)=NB\)</span>. The physician receives a fixed payment, <span class="math inline">\(R\)</span>, per patient, along with a margin of <span class="math inline">\(p_{s}-c\)</span> for each unit of care, <span class="math inline">\(x\)</span>. The same amount of care <span class="math inline">\(x\)</span> is provided to each patient.</p>
+<div id="question-1" class="section level3">
+<h3>Question 1:</h3>
+<p><strong>What is the patient’s optimal amount of care?</strong></p>
+<p>If they could, the patient would choose <span class="math inline">\(x\)</span> to maximize their net benefit, <span class="math inline">\(B(x) - p_{d}x = 16x-2x^{2}\)</span>. This net benefit is optimized at <span class="math inline">\(x=4\)</span>.</p>
+</div>
+<div id="question-2" class="section level3">
+<h3>Question 2:</h3>
+<p><strong>Write out the physician’s profit function.</strong></p>
+<p>The physician’s profit is simply their number of patients times the revenue per patient, <span class="math inline">\(\pi = n(NB) \left[R + (p_{s}-c) \right]\)</span>. Given the functional forms provided in this question, we can rewrite this as, <span class="math inline">\(\pi = \left(16x - 2x^{2}\right) \left(R + (p_{s}-c)x\right)\)</span>.</p>
+</div>
+<div id="question-3" class="section level3">
+<h3>Question 3:</h3>
+<p><strong>Find the physician’s optimal amount of care if <span class="math inline">\(R=0\)</span> and <span class="math inline">\(p_{s}-c=1\)</span></strong></p>
+<p>To find the physician’s optimum, we must first take the derivative of the profit function and set this equal to 0, <span class="math inline">\(\frac{\mathrm{d}\pi}{\mathrm{d}x} = (16 - 4x)(R+ (p_{s}-c)x) + (p_{s}-c)(16x-2x^{2})=0\)</span>.</p>
+<p>Setting <span class="math inline">\(R=0\)</span> and <span class="math inline">\(p_{s}-c=1\)</span>, this reduces to <span class="math inline">\((16-4x)x + 16x - 2x^{2} = 16x-4x^{2} + 16x - 2x^{2} = 32x-6x^{2}=0\)</span>. Solving for <span class="math inline">\(x\)</span> yields <span class="math inline">\(x=5.33\)</span>. This is larger than the patient’s optimal, <span class="math inline">\(x=4\)</span>, which should be expected since there is a positive FFS payment in this setup and no capitated payment.</p>
+</div>
+<div id="question-4" class="section level3">
+<h3>Question 4:</h3>
+<p><strong>Find the physician’s optimal amount of care if <span class="math inline">\(R=1\)</span> and <span class="math inline">\(p_{s}-c=1\)</span>.</strong></p>
+<p>Plugging these values into the same first order condition, we get <span class="math inline">\((16-4x)(1+x) + 16x - 2x^{2} = 6x^{2} - 28x - 16=0\)</span>. We can solve this with the quadratic equation, in which case <span class="math inline">\(x = \frac{28 \pm \sqrt(1168)}{12} \approx (-0.515, 5.181)\)</span>. Since we can’t provide negative care, we’ll take the positive root so that <span class="math inline">\(x \approx 5.181\)</span>. While these numbers are small, the important part is that we’ve introduced a capitated payment <span class="math inline">\(R=1\)</span> and managed to bring “overtreatment” down from 1.333 to 1.181. In other words, the inclusion of the capitated payment brought us closer to the patient’s optimal amount of care.</p>
+</div>
+<div id="question-5" class="section level3">
+<h3>Question 5:</h3>
+<p><strong>Find the physician’s optimal if <span class="math inline">\(R=1\)</span> and <span class="math inline">\(p_{s}-c=0\)</span>.</strong></p>
+<p>Again substituting these values into he first order condition, we get <span class="math inline">\((16-4x) = 0\)</span>, or <span class="math inline">\(x=4\)</span>. So now the physician and patient optimal are the same value. Note that this is not a general solution…it only arises due to the linear patient function, <span class="math inline">\(n(NB) = a*NB\)</span>. For nonlinear functions, we won’t generally be able to easily obtain the same optimal values from the physician and patient’s perspective. Instead, <span class="math inline">\(R&gt;0\)</span> will yield some amount of undertreatment as we saw in the general case in class.</p>
+</div>
+
+                    </div>
+
+                    
+
+
+
+                    
+                </div>
+
+            </article>
+
+            <footer>
+    <hr>
+
+    <div class="row course-info">
+        <div class="col-md-6">
+            <p>
+                <strong>Econ 372: Health Care Markets (Spring 2023)</strong><br>
+
+                <a href="https://www.emory.edu/home/index.html" target="_blank" rel="noopener">Emory University</a> <br>
+                <a href="http://economics.emory.edu/home/index.html" target="_blank" rel="noopener">Department of Economics</a>
+            </p>
+
+            <p>
+                <a href="https://www.ianmccarthyecon.com" target="_blank" rel="noopener"><i class="fas fa-user"></i>
+                    Prof. Ian McCarthy</a><br>
+                <a href="mailto:ian.mccarthy@emory.edu"><i class="fas fa-envelope"></i>
+                    ian.mccarthy@emory.edu</a>
+            </p>
+
+        </div>
+
+        <div class="col-md-6 credits">
+            <p>Content <i class="fab fa-creative-commons"></i> 2023 <a href="https://www.ianmccarthyecon.com" target="_blank" rel="noopener">Ian McCarthy</a></p>
+
+            <p>All content licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
+            
+
+            <p>This site created with the <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> in <a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">blogdown</a> and <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>. </p>
+            
+            <p><a href="https://github.com/imccart/econ372-spring2023" target="_blank" rel="noopener"><i class="fab fa-github"></i> View the source at GitHub.</a></p>
+        </div>
+    </div>
+</footer>
+
+
+        </main>
+    </div>
+</div>
+
+        
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.a0f52cd61d0242fd8ed5d785d9bff037.js"></script>
+
+    
+
+
+
+    
+    
+
+    
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

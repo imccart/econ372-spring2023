@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General information | Health Care Markets</title>
+    <link>/assignment/</link>
+      <atom:link href="/assignment/index.xml" rel="self" type="application/rss+xml" />
+    <description>General information</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Wed, 05 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>General information</title>
+      <link>/assignment/</link>
+    </image>
+    
+    <item>
+      <title>Final Project</title>
+      <link>/assignment/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/assignment/project/</guid>
+      <description>
+
+
+&lt;p&gt;The final project is a big part of your grade. This essentially replaces what would otherwise be a final exam. Please start as early as possible and save yourself lots of stress in May!&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Hospital price transparency is an important topic and one that has been at the forefront of health policy debates for many years. Recently, CMS mandated that hospitals provide their negotiated payment rates in a “machine-readable” format for patients to be able to see actual hospital prices for selected procedures. For more info on the initiative, see &lt;a href=&#34;https://www.cms.gov/hospital-price-transparency&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Building off of this new policy, this project is all about hospital “prices”. There are three main elements of the project:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Combine data on hospital prices with information on Medicare payment rates and hospital charges for specific procedures&lt;/li&gt;
+&lt;li&gt;Examine “compliance” with the transparency policies&lt;/li&gt;
+&lt;li&gt;Discuss the differences between different measures of “price”&lt;/li&gt;
+&lt;li&gt;Examine the relationship between hospital market power and compliance, and the relationship between market power and prices (where available)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;steps&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Project Details&lt;/h2&gt;
+&lt;p&gt;Your project analysis should proceed with the following steps:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Select your markets:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;First, select 10 hospital markets in the U.S. that you would like to study. You can find a list of hospital markets on the shared Google Sheet, &lt;a href=&#34;&#34;&gt;econ372-hospital-markets&lt;/a&gt;, on the &lt;strong&gt;Markets&lt;/strong&gt; tab. Put your name by the markets you’d like to study. If someone has already selected your market, just add another column for your name.&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Organize pricing data:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Construct a dataset consisting of the hospital information and hospital prices among all hospitals in your selected markets. A dataset on hospital characteristics and a dataset on hospital prices will be made available on Canvas. You will need to combine these data and focus only on the markets you selected in step 1. Note that, if a hospital price is missing from the pricing data, then that hospital can be considered as “non-compliant” (i.e., they did not make their pricing data publicly available as mandated).&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Collect other payment data:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Collect data on Medicare payment rates and charges for the same hospitals and same procedures. These data are often provided as part of the same machine-readable file you found earlier, but if not, Medicare payments and charges are also publicly available from the &lt;a href=&#34;https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Inpatient&#34;&gt;Medicare Provider Utilization and Payment Data: Inpatient&lt;/a&gt; files. Focus on the 2019 data.&lt;/p&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Combine your data:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Select five DRG codes that you’d like to study in more detail, and create a dataset that contains data from 2 and 3. In these data, each row should be a hospital/procedure pair, and the columns should include information such as: “hospital ID”; “DRG code”; “gross charge”; “Medicare payment”; “compliance”; and “negotiated payment” (if the hospital is compliant). Save your dataset as a “.csv” file and include it as part of your project submission on Canvas.&lt;/p&gt;
+&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Summarize the data:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Based on your combined dataset, provide a table of summary values for each market and each DRG code. For example, your table could show the mean charge and payments, as well as the count of hospitals that are compliant.&lt;/p&gt;
+&lt;ol start=&#34;6&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Summarize the data for a specific procedures:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Select a single DRG code to study. Calculate the range of negotiated prices in each market for this DRG code and show these ranges in a figure.&lt;/p&gt;
+&lt;ol start=&#34;7&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Think about your data:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Highlight one interesting aspect of your data and discuss this in your report. Support your discussion with at least one figure or table. You get to choose what is “interesting” here.&lt;/p&gt;
+&lt;ol start=&#34;8&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Examine pricing and competition:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now let’s think about how these pricing figures relate to competition. Calculate each hospital’s market share and provide a scatterplot of the market share and negotiated payments. Do this for just one procedure (whatever procedure you’d like to focus on). In your figure, please highlight the different hospitals in some way (e.g., use different colors for each hospital or different shapes for each plot). Note: to calculate market share, you may need to collect more data, such as data on total discharges. These are available from the &lt;a href=&#34;https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Inpatient&#34;&gt;Medicare Provider Utilization and Payment Data: Inpatient&lt;/a&gt; files.&lt;/p&gt;
+&lt;ol start=&#34;9&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Examine compliance and competition:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Finally, let’s think about how hospital compliance is related to competition and market power. Is there anything common among hospitals that you find to be non-compliant?&lt;/p&gt;
+&lt;ol start=&#34;10&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Reflection:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Reflect on your work. Describe one thing you learned from this process and one area that left you confused or unclear. Given your analysis and your experience collecting these data, do you think the price transparency initiative will help to reduce hospital prices?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;format&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Formatting and Report Structure&lt;/h2&gt;
+&lt;p&gt;As with your homework assignments, you will turn in your project via &lt;em&gt;Canvas&lt;/em&gt;. Your final project must meet the following basic formatting requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Format&lt;/strong&gt;: Double-spaced text with clearly defined section headings and subheadings&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Length&lt;/strong&gt;: At least 3 and no more than 8 pages, excluding references, tables, or figures&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Visualization&lt;/strong&gt;: At least one table and one figure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please organize your final report along the following sections:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Description of your selected market and hospitals&lt;/strong&gt;: Relates to Q1 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hospital prices, charges, and Medicare payments&lt;/strong&gt;: Relates to Q2-Q7 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pricing and competition&lt;/strong&gt;: Relates to Q8 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compliance and competition&lt;/strong&gt;: Relates to Q9 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Summary and conclusions&lt;/strong&gt;: Relates to Q10 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;grading-criteria&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Grading Criteria&lt;/h2&gt;
+&lt;p&gt;Your final project grade is based off of 140 points as allocated below. Components worth 5 points will be graded in single point increments. All other components will be graded in 5 point increments. For example, the “Discussion of Payments” component can receive credit of 0, 5, 10, 15, or 20 points. This rubric is designed to ensure grading is fair across all students, as it is nearly impossible to discern single-point differences in credit for long-answer questions, figures, etc.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Follow instructions&lt;/strong&gt; (10 points): Does your report meet the requirements for length, formatting, and data visualization?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grammar&lt;/strong&gt; (5 points): Does your report have sufficiently few grammatical mistakes, typos, etc.?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Complete data&lt;/strong&gt; (15 points): Did you create and submit the final dataset as described in Q4 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data summary&lt;/strong&gt; (20 points): Did you summarize your data as described in Q5 and Q6 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discussion of payments&lt;/strong&gt; (20 points): Did you discuss your pricing data as described in Q7 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Payments and competition&lt;/strong&gt; (25 points): Did you incorporate and summarize data on hospital market power and prices as described in Q8 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compliance and competition&lt;/strong&gt; (25 points): Did you discuss your findings related to compliance and competition as described in Q9 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reflection&lt;/strong&gt; (20 points): Did you reflect on your work as described in Q10 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework 1</title>
+      <link>/assignment/homework1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/assignment/homework1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;instructions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;This is our first homework assignment of the semester. It covers questions related to health insurance purchasing and adverse selection.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;theory-questions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Theory questions&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Consider a risk-averse individual with probability &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; of getting sick. Let &lt;span class=&#34;math inline&#34;&gt;\(W_{s}\)&lt;/span&gt; be the person’s wealth if they are to become sick, and &lt;span class=&#34;math inline&#34;&gt;\(W_{h}\)&lt;/span&gt; the wealth if they stay healthy, where &lt;span class=&#34;math inline&#34;&gt;\(W_{h}&amp;gt;W_{s}\)&lt;/span&gt;. In this setup, the person’s expected utility would then be:
+&lt;span class=&#34;math display&#34;&gt;\[E\left[u(W)\right] = p u(W_{s}) + (1-p) u(W_{h}).\]&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Draw the consumer’s utility curve under the assumption of diminishing marginal utility of wealth, with wealth on the x-axis and utility on the y-axis. Indicate the person’s utility at &lt;span class=&#34;math inline&#34;&gt;\(W_{h}\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(W_{s}\)&lt;/span&gt;. On this same graph, indicate the person’s expected utility for &lt;span class=&#34;math inline&#34;&gt;\(p=0.5\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Explain in no more than two sentences why the person’s expected utility differs from their original utility curve.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show on a new graph the highest possible amount that the person would be willing to pay in order to avoid the (financial) risk of illness.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Briefly explain how an increase in the probability of sickness, &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;, would impact the risk premium illustrated in part c.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Consider the utility function, &lt;span class=&#34;math inline&#34;&gt;\(u(w)=w^\alpha\)&lt;/span&gt; for &lt;span class=&#34;math inline&#34;&gt;\(\alpha \in (0,1)\)&lt;/span&gt;. An individual starts with a wealth of &lt;span&gt;$&lt;/span&gt;80,000. With probability 0.5, this person will get sick and incur a cost of &lt;span&gt;$&lt;/span&gt;60,000.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;What is the risk premium for &lt;span class=&#34;math inline&#34;&gt;\(\alpha=0.4\)&lt;/span&gt;?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;What is the maximum amount this person is willing to pay for health insurance (again at &lt;span class=&#34;math inline&#34;&gt;\(\alpha=0.4\)&lt;/span&gt;)?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Does this amount increase or decrease with &lt;span class=&#34;math inline&#34;&gt;\(\alpha\)&lt;/span&gt;? (show your work)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Based on the model of adverse selection covered in class, assume an insurer’s cost function is given by &lt;span class=&#34;math inline&#34;&gt;\(C=120q - 3q^{2}\)&lt;/span&gt;, where &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; denotes the number of people enrolled in the plan. Further assume that demand is given by &lt;span class=&#34;math inline&#34;&gt;\(D=140-5q\)&lt;/span&gt;. The total size of the population is &lt;span class=&#34;math inline&#34;&gt;\(N=20\)&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Assume the insurer enters this market at time &lt;span class=&#34;math inline&#34;&gt;\(t=1\)&lt;/span&gt; with a price of &lt;span class=&#34;math inline&#34;&gt;\(p=50\)&lt;/span&gt;. What is the insurer’s profit (or loss) at this price?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If the insurer sets price in the next period (&lt;span class=&#34;math inline&#34;&gt;\(t=2\)&lt;/span&gt;) equal to average cost at &lt;span class=&#34;math inline&#34;&gt;\(t=1\)&lt;/span&gt;, how many individuals will leave the market?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;What is the equilibrium price in this market if insurers earn &lt;span&gt;$&lt;/span&gt;0 profits?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Draw a graph of the marginal cost, average cost, and demand curves in this market. Indicate on this graph the equilibrium price.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;empirical-questions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Empirical questions&lt;/h2&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;New Jersey’s Health Insurance market is sometimes used as an example of a “death spiral.” Answer the following questions based on data from the &lt;a href=&#34;http://www.state.nj.us/dobi/division_insurance/ihcseh/data_ihc.htm&#34;&gt;New Jersey Department of Banking and Insurance&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Provide a summary table of monthly premiums and enrollments from 1997 to 2008. Focus only on family premiums for three specific insurers/plans: 1) Horizon Blue Cross / Blue Shield of NJ, Plan B, &lt;span&gt;$&lt;/span&gt;1,000 deductible; 2) Aetna Life Insurance Company, Plan D, &lt;span&gt;$&lt;/span&gt;1,000 deductible; and 3) Celtic Insurance Company, Plan C, &lt;span&gt;$&lt;/span&gt;2,500 deductible. Also focus only on the “Individual Health Coverage” (IHC) Program, so no need to worry about the small employer premiums. Your final table should include the years as rows and the monthly premiums for each plan as the columns. Please include one additional column showing the total number of “standard” enrollments across all plans at year end.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Please graph the premium for all three plans on a single graph. What do you see?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;On a separate graph, show total enrollments over time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Are these data suggestive of a “death spiral?” Why or why not?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In practice, adverse selection is really a problem for which insurance plan people select (rather than the decision to be insured or not, which is how our theoretical structure envisioned things). To look at this in the real world, we’re going to use some data from &lt;strong&gt;Medicare&lt;/strong&gt;. These data are available on our &lt;strong&gt;Canvas&lt;/strong&gt; page…just look for the &lt;strong&gt;Data&lt;/strong&gt; section on the main landing page. Take a look at the data in your favorite software, and answer the following questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;How has enrollment in Medicare Advantage plans changed over time? Use a graph to support your answer.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;How have Medicare FFS costs changed over time? Use a graph to support your answer.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Interpret enrollment patterns and FFS costs in the context of adverse selection. Can adverse selection explain these trends? Why or why not?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Read the paper &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3535470/&#34;&gt;Steps to reduce favorable risk selection in medicare advantage largely succeeded, boding well for health insurance exchanges&lt;/a&gt; and list three strategies that were used to minimize the effects of selection in the Medicare Advantage market.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pick one of these strategies and explain how you think it might work in the context of the Health Insurance Exchanges. Support your discussion with at least one source from either a peer-reviewed journal or a reputable news/policy agency.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework 2</title>
+      <link>/assignment/homework2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/assignment/homework2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;instructions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;This is our second homework assignment of the semester. It covers questions related to physician treatment decisions and asymmetric information. For some hints, take a look at these &lt;a href=&#34;https://docs.google.com/presentation/d/1hiZPH_dIAT5XatfQ6xaNkDiLc_JuXEjhiq4eNJugb14/edit?usp=sharing&#34;&gt;supplemental homework 2 slides&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;theory-questions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Theory Questions&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Assume a physician is operating with the standard profit function, &lt;span class=&#34;math inline&#34;&gt;\(\pi = (p-c)x\)&lt;/span&gt;, where &lt;span class=&#34;math inline&#34;&gt;\(c\)&lt;/span&gt; reflects a constant marginal cost of production, &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; denotes quantity of healthcare provided, and &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; denotes the price per unit of healthcare provided. Assume also that patients receive some total benefit from care received, reflected by the equation &lt;span class=&#34;math inline&#34;&gt;\(B(x)=20x - (1/2)x^{2}\)&lt;/span&gt;. Patients must pay the full price, &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;, of any care received, so that the net benefit of care to the patient is then &lt;span class=&#34;math inline&#34;&gt;\(B(x)-px\)&lt;/span&gt; (their total benefit less their costs). Finally, assume that the best outside option for the patient yields a net benefit of 0.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If the patient were to choose &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; to maximize their net benefit, what level of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; would they choose?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Find the physician’s profit maximizing choice of quantity, &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;. You need to solve this as a function of &lt;span class=&#34;math inline&#34;&gt;\(c\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;At a marginal cost of &lt;span class=&#34;math inline&#34;&gt;\(c=6\)&lt;/span&gt;, find the physician’s optimal price, &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Compare the physician’s profit maximizing choice of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; to the patient’s optimal choice of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;. Are these the same? Why or why not?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Assume instead that the physician faces a fixed price, &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}=8\)&lt;/span&gt;. The setup is otherwise identical to question 1.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If the patient were to choose &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; to maximize their net benefit, what level of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; would they choose?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Again assuming &lt;span class=&#34;math inline&#34;&gt;\(c=6\)&lt;/span&gt;, find the physician’s profit maximizing choice of quantity, &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;. Hint: marginal cost doesn’t matter here except to ensure that &lt;span class=&#34;math inline&#34;&gt;\(c&amp;lt;\bar{p}\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;How does the deviation in the physician and patient optima differ from what you found in question 1? Explain your answer in a couple of sentences.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Assume now that the physician can affect the number of their patients through their influence on the net benefit (NB) provided to patients. Assume also that the physician faces a fixed price paid by the insurer, denoted &lt;span class=&#34;math inline&#34;&gt;\(p_{s}\)&lt;/span&gt;, along with a capitated payment per patient, &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt;, and that the patient faces a price of &lt;span&gt;$&lt;/span&gt;0, &lt;span class=&#34;math inline&#34;&gt;\(p_{d}=0\)&lt;/span&gt;. In this extension, the physician’s goal is to choose &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; so as to maximize profit, &lt;span class=&#34;math display&#34;&gt;\[\pi = n\left(NB\right) \left[R + (p_{s}-c)x \right].\]&lt;/span&gt; Finally, assume the functional forms &lt;span class=&#34;math inline&#34;&gt;\(n(NB)=\sqrt{NB}\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(B(x)=10x-x^{2}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Find the patient’s optimal level of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Find the first order condition for the physician’s choice of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;. Don’t try to solve this for &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Assuming that the physician makes &lt;span&gt;$&lt;/span&gt;1 on each quantity of care provided (&lt;span class=&#34;math inline&#34;&gt;\(p_{s}-c=1\)&lt;/span&gt;), find the value of the capitated payment, &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt;, such that overtreatment is minimized. Please assume that &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; can only take discrete values, so that the minimum amount of overtreatment is 1 “unit of care” per patient.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Assuming that the physician loses &lt;span&gt;$&lt;/span&gt;1 on each quantity of care provided (&lt;span class=&#34;math inline&#34;&gt;\(p_{s}-c=-1\)&lt;/span&gt;), find the value of the capitated payment, &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt;, such that undertreatment is minimized. Again, assume that &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; can only take discrete values, so that the minimum amount of undertreatment is 1 “unit of care” per patient.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Which scenario (minimizing overtreatment or undertreatment) is better for the physician’s profit.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;empirical-questions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Empirical Questions&lt;/h2&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;In January 2014, CMS reduced it’s payments to physicians for epidural steroidal injections (CPT codes 62310, 62311, 62318, and 62319). The reduction was part of an effort to adjust “potentially misvalued services,” in which CMS lowered the payment rates back to 2013 levels. CMS subsequently increased the payment levels in 2015. Talk about whiplash! For this question, we’re going to use the Medicare Provider Utilization and Payment Data from 2013 through 2015 to see how these payment changes may have affected the frequency of epidural steroidal injections. These data are available on our &lt;strong&gt;Canvas&lt;/strong&gt; page…just look for the &lt;strong&gt;Data&lt;/strong&gt; section on the main landing page. Take a look at the data in your favorite software, and answer the following questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;How many unique physicians administered at least one epidural steroidal injection in 2013?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Among those physicians, what was the average number of injections in each year (2013 through 2015)? Use a graph to support your answer.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Among physicians with some injections in both 2013 and 2014, identify the physicians with the 10 largest reductions in injections from 2013 to 2014 (i.e., I want to see the physicians with the largest reductions, but exclude physicians that dropped to 0).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For the physicians identified in part 3, plot the number of injections for each physician over time (scatter plot with the count of injections on the vertical axis and year on the horizontal axis).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In January 2021, CMS changed its physician fee schedule, instituting relatively large increases for “Evaluation and Management” (E&amp;amp;M, or just office visits) codes. &lt;strong&gt;But&lt;/strong&gt;, due to budget neutrality requirements, such an increase required an offset for other services. Therefore, CMS also lowered the overall “conversion factor”. This made more expensive services in 2020 relatively less profitable, while payments for otherwise less expensive services were less affected (E&amp;amp;M services, of course, actually increased in payment rate). For a decent discussion of these issues, see the “CMS Final Rule Discussion” on the Homework 2 page on &lt;strong&gt;Canvas&lt;/strong&gt;. For this question, we’re going to again work with the Medicare Provider Utilization and Payment Data available on &lt;strong&gt;Canvas&lt;/strong&gt;. We’ll focus just on the 2018 data. We’ll also focus only on physicians in Georgia because the full data is a little too much to manage for this assignment.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Identify a set of HCPCS codes that capture physician office visits. Do some internet digging first, just to see if you can find the codes that way. Ultimately, the best strategy is probably to identify the relevant codes based on the observed descriptions in the data.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Identify the physicians with the most (top 10) E&amp;amp;M visits in 2018.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;How much would these physicians from part B (the top 10 physicians) stand to gain from the increased RVU rate? Show your results in a table. You can see the percentage increases from the CMS Final Rule Discussion document on Canvas.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the context of physician agency, what might you predict will happen to utilization of more expensive services after the 2021 fee schedule update?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework 3</title>
+      <link>/assignment/homework3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/assignment/homework3/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;instructions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;This is our third and final homework assignment of the semester. It covers questions related to hospital pricing and competition.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;theory-questions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Theory Questions&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Consider a for-profit practice facing the following demand and cost curves: &lt;span class=&#34;math inline&#34;&gt;\(p=75-\frac{1}{2}q\)&lt;/span&gt; for private insurance patients and &lt;span class=&#34;math inline&#34;&gt;\(c(q)=\frac{1}{4}q^{2}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;How many patients will this practice see and at what price?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now assume that there is also a public market (e.g., Medicaid) where the price is set to &lt;span class=&#34;math inline&#34;&gt;\(\bar{p}=\$40\)&lt;/span&gt; for each patient. Calculate the total number of patients that will be seen by this practice. How many of these patients are private insurance patients and how many are Medicaid patients?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Medicaid is considering lowering their payments to $30 per visit. What is the new number of patients seen by this practice? How many of these patients are privately insured versus Medicaid?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Find the price at which this practice would exit the Medicaid market altogether and serve only private insurance patients.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Suppose Town A and Town B each have four hospitals. The tables below provide the bed size and output of each hospital. Use this information to answer the following questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;What is the Hirfindahl-Hirschman Index (HHI) for each town if we define market share as the share of total beds?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;What if we instead define market share as the share of total discharges?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Which market (Town A or Town B) is more concentrated?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;b&gt;Town A&lt;/b&gt;&lt;br&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;Hospital&lt;/th&gt;
+&lt;th&gt;Bed Size&lt;/th&gt;
+&lt;th&gt;Discharges&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;td&gt;8,000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;td&gt;7,300&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;td&gt;6,400&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;td&gt;5,400&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;b&gt;Town B&lt;/b&gt;&lt;br&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;Hospital&lt;/th&gt;
+&lt;th&gt;Bed Size&lt;/th&gt;
+&lt;th&gt;Discharges&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;td&gt;2,200&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;td&gt;1,100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;500&lt;/td&gt;
+&lt;td&gt;6,000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;td&gt;350&lt;/td&gt;
+&lt;td&gt;5,000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;From our Nash bargaining framework, assume that two agents are negotiating over how best to divide their quantity of good &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;. Normalize the value of the good to 1, and assume that player 1 receives utility &lt;span class=&#34;math inline&#34;&gt;\(u_{1}=x^{\alpha}\)&lt;/span&gt; and player 2 receives utility &lt;span class=&#34;math inline&#34;&gt;\(u_{2}=(1-x)^{\beta}\)&lt;/span&gt;. If the players fail to reach an agreement, they each receive utility of 0.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Find the symmetric Nash bargaining solution to this game and explain how the solution depends on &lt;span class=&#34;math inline&#34;&gt;\(\alpha\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\beta\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;What can you conclude about the outcome of bargaining in the case of one risk neutral and one risk averse agent?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Assume instead that &lt;span class=&#34;math inline&#34;&gt;\(\alpha=\beta\)&lt;/span&gt; and that player 2 now has some positive payoff, &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt;, if the players fail to reach an agreement. In this case, player 2’s gain from an agreement is then &lt;span class=&#34;math inline&#34;&gt;\(u_{2}=(1-a-x)^{\beta}\)&lt;/span&gt;. What is the bargaining solution in this game?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Interpret your answer in part (3) in terms of the “outside option” of player 1 and player 2.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;empirical-questions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Empirical Questions&lt;/h2&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Let’s study how our assessment of hospital markets and competitiveness changes depending on our definition of a market. For these questions, we’re going to work with the hospital data available on our &lt;em&gt;Canvas&lt;/em&gt; page. I created this dataset from the Hospital Cost Report Information System (HCRIS) and the Hospital Service Area Files.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Calculate hospital market shares when defining the “market” by zip code and using hospital discharges as your measure of quantity. Create a “violin plot” or a box plot of market shares over time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Calculate hospital market shares when defining the “market” as the HRR, again using hospital discharges as your measure of quantity. Create a violin plot or box plot of market shares over time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Calculate hospital market shares when defining the market based on the community detection algorithms described &lt;a href=&#34;https://github.com/graveja0/health-care-markets&#34;&gt;here&lt;/a&gt;. These “markets” are already provided for you in the data. Continue to use hospital discharges as your measure of quantity, and summarize your results with a violin plot.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Explain the differences in your results from parts (1)-(3).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Plot the average market shares over time for each of the three market definitions you’ve considered. Be sure to put all plots on the same graph.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now let’s think about hospital prices. To do this, we’re going to summarize some pricing data and see how prices correlate with market structure. We’ll use the same hospital data from question 4.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Calculate the average price for each year and show your results in a graph.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Identify hospitals that are monopolists in their market (using the community detection measure of markets). Show in a graph the count of all such markets over time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Identify markets with more than 4 hospitals. Show in a graph the count of all such markets over time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Calculate the average price in each year among the markets in part (2) and (3). Show your results in a table or a figure. How do these average prices compare?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mid-term Exam</title>
+      <link>/assignment/exam1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/assignment/exam1/</guid>
+      <description>
+
+
+&lt;p&gt;We only have one exam this semester. It will cover all content from Modules 1 and 2. This includes our coverage of insurance purchases and insurance markets (risk aversion, the risk premium and willingness to pay, and adverse selection), as well as our coverage of physician agency (agency under fee-for-service payments, capitated payments, and fixed prices).&lt;/p&gt;
+&lt;div id=&#34;format&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Format&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The exam will consist of at least 5 general problems, each with between 3 and 5 individual questions. I anticipate 20 to 25 questions in total. Just as we’ve done in our homework assignments, some of these will require you to solve an optimization problem, some will require a brief explanation, and some parts will require you to draw a graph. See the &lt;a href=&#34;#content&#34;&gt;content&lt;/a&gt; section below for more information.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;content&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Content&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The overall content of the exam will match very closely the content that we’ve covered in class and in our homework assignments. The homework and the in-class worksheets should be excellent practice for the exam. I will also post an exam review sheet to the &lt;a href=&#34;/resource/&#34;&gt;resources&lt;/a&gt; page sometime before the week of the exam, and we’ll have time to review this in class.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Many questions will have some element in which you are asked to examine a real-world health policy in the context of the problem. We will practice this in class and in your homework assignments as well, so it should be nothing new by the time the exam comes.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Due to time constraints, I &lt;strong&gt;will not&lt;/strong&gt; ask you to collect or work with any data on the exam.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

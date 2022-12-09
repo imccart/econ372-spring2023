@@ -1,0 +1,47 @@
+---
+title: "Module 3, Part 2: Negotiations between Providers and Insurers"
+linktitle: "M3.2: Bargaining"
+menu:
+  content:
+    parent: Module 3
+    weight: 3
+type: docs
+bibliography: "../../static/bib/BibTeX_Library.bib"
+csl: "../../static/bib/chicago-syllabus-no-bib.csl"
+output:
+  blogdown::html_page:
+    toc: false
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
+```
+
+This week we'll talk more specifically about how hospital prices are determined in the private insurance market.
+
+## Objectives for this week
+- Define and explain the differences between hospital prices, charges, and costs
+- Understand variation in hospital pricing and investigate price variation with the Health Care Pricing Project materials
+- Describe the hospital negotiation process as a Nash bargaining problem and solve a simple version of a Nash bargaining model
+
+## Activities
+- Solve for a Nash bargaining problem. The class worksheet is [here](/resource/wksheet9.html).
+
+
+## Slides
+Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.
+
+:::fyi
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+:::
+
+<center>
+
+```{r}
+knitr::include_url("https://imccart.github.io/econ372-content/03-Pricing/03-pricing2.html")
+```
+
+
+<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ372-content/03-Pricing/03-pricing2.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ372-content/03-Pricing/03-pricing2.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+
+</center>

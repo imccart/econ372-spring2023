@@ -1,0 +1,74 @@
+---
+title: "Homework 1"
+linktitle: "Homework 1"
+due_date: "2022-02-11"
+due_time: "11:59 PM"
+output:
+  blogdown::html_page:
+    toc: false
+menu:
+  assignment:
+    parent: Homework
+    weight: 1
+type: docs
+---
+
+## Instructions
+This is our first homework assignment of the semester. It covers questions related to health insurance purchasing and adverse selection. 
+
+## Theory questions
+1. Consider a risk-averse individual with probability $p$ of getting sick. Let $W_{s}$ be the person's wealth if they are to become sick, and $W_{h}$ the wealth if they stay healthy, where $W_{h}>W_{s}$. In this setup, the person's expected utility would then be:
+$$E\left[u(W)\right] = p u(W_{s}) + (1-p) u(W_{h}).$$
+
+    + Draw the consumer's utility curve under the assumption of diminishing marginal utility of wealth, with wealth on the x-axis and utility on the y-axis. Indicate the person's utility at $W_{h}$ and $W_{s}$. On this same graph, indicate the person's expected utility for $p=0.5$.
+    
+    + Explain in no more than two sentences why the person's expected utility differs from their original utility curve.
+    
+    + Show on a new graph the highest possible amount that the person would be willing to pay in order to avoid the (financial) risk of illness.
+    
+    + Briefly explain how an increase in the probability of sickness, $p$, would impact the risk premium illustrated in part c.
+
+
+2. Consider the utility function, $u(w)=w^\alpha$ for $\alpha \in (0,1)$. An individual starts with a wealth of <span>&#36;</span>80,000. With probability 0.5, this person will get sick and incur a cost of <span>&#36;</span>60,000.
+
+    + What is the risk premium for $\alpha=0.4$?
+    
+    + What is the maximum amount this person is willing to pay for health insurance (again at $\alpha=0.4$)?
+    
+    + Does this amount increase or decrease with $\alpha$? (show your work)
+
+
+3. Based on the model of adverse selection covered in class, assume an insurer's cost function is given by $C=120q - 3q^{2}$, where $q$ denotes the number of people enrolled in the plan. Further assume that demand is given by $D=140-5q$. The total size of the population is $N=20$.
+
+    + Assume the insurer enters this market at time $t=1$ with a price of $p=50$. What is the insurer's profit (or loss) at this price?
+  
+    + If the insurer sets price in the next period ($t=2$) equal to average cost at $t=1$, how many individuals will leave the market?
+    
+    + What is the equilibrium price in this market if insurers earn <span>&#36;</span>0 profits?
+    
+    + Draw a graph of the marginal cost, average cost, and demand curves in this market. Indicate on this graph the equilibrium price.
+
+
+## Empirical questions
+
+4. New Jersey's Health Insurance market is sometimes used as an example of a "death spiral." Answer the following questions based on data from the [New Jersey Department of Banking and Insurance](http://www.state.nj.us/dobi/division_insurance/ihcseh/data_ihc.htm).
+
+    + Provide a summary table of monthly premiums and enrollments from 1997 to 2008. Focus only on family premiums for three specific insurers/plans: 1) Horizon Blue Cross / Blue Shield of NJ, Plan B, <span>&#36;</span>1,000 deductible; 2) Aetna Life Insurance Company, Plan D, <span>&#36;</span>1,000 deductible; and 3) Celtic Insurance Company, Plan C, <span>&#36;</span>2,500 deductible. Also focus only on the "Individual Health Coverage" (IHC) Program, so no need to worry about the small employer premiums. Your final table should include the years as rows and the monthly premiums for each plan as the columns. Please include one additional column showing the total number of "standard" enrollments across all plans at year end.
+    
+    + Please graph the premium for all three plans on a single graph. What do you see? 
+    
+    + On a separate graph, show total enrollments over time. 
+    
+    + Are these data suggestive of a "death spiral?" Why or why not?
+    
+5. In practice, adverse selection is really a problem for which insurance plan people select (rather than the decision to be insured or not, which is how our theoretical structure envisioned things). To look at this in the real world, we're going to use some data from **Medicare**. These data are available on our **Canvas** page...just look for the **Data** section on the main landing page. Take a look at the data in your favorite software, and answer the following questions:
+
+    + How has enrollment in Medicare Advantage plans changed over time? Use a graph to support your answer.
+    
+    + How have Medicare FFS costs changed over time? Use a graph to support your answer.
+    
+    + Interpret enrollment patterns and FFS costs in the context of adverse selection. Can adverse selection explain these trends? Why or why not?
+    
+    + Read the paper [Steps to reduce favorable risk selection in medicare advantage largely succeeded, boding well for health insurance exchanges](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3535470/) and list three strategies that were used to minimize the effects of selection in the Medicare Advantage market.
+    
+    + Pick one of these strategies and explain how you think it might work in the context of the Health Insurance Exchanges. Support your discussion with at least one source from either a peer-reviewed journal or a reputable news/policy agency.
