@@ -34,7 +34,7 @@ The empirical part of the assignments can be completed in any data software, inc
 We only have one exam this semester, and it will cover content from Modules 1 and 2. The exam is worth 60 points toward your final grade. Please see the [Mid-term Exam](/assignment/exam1/) page for more details. 
 
 ## Project
-We do not have a final exam in this class. Instead, we have a final project that asks you to use real data and interpret some summary statistics in the context of the material we've covered in class. The final project is due on the date of our final exam, which is May 2nd this year. The project is worth 140 points toward your final grade.
+We do not have a final exam in this class. Instead, we have a final project that asks you to compile a short policy brief on a topic of your choosing. The final project is due on the last day of class, April 24, 2023, and is worth 140 points toward your final grade.
 
 Please see the [Final Project](/assignment/project/) for more details.
 

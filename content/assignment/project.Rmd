@@ -12,7 +12,7 @@ menu:
     weight: 1
 type: docs
 ---
-The final project is a big part of your grade. This essentially replaces what would otherwise be a final exam. Please start as early as possible and save yourself lots of stress in May!
+The final project is a big part of your grade. This essentially replaces what would otherwise be a final exam. Please start as early as possible and save yourself lots of stress in April!
 
 
 ## Overview
