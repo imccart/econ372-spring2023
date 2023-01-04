@@ -33,26 +33,25 @@ This course examines the industrial organization of health care markets in the U
 
 The broad goal of the class is to understand the structure of health care markets in the U.S. The course is designed around three areas, reflecting the different interactions an individual would have when navigating the health care system --- first choosing an insurance plan, then visiting a physician, and ultimately receiving hospital care. Our discussion of hospital care is further divided into issues of hospital objective functions, measuring hospital quality, and hospital competition and pricing. For each segment, we will examine underlying theoretical model(s), consider empirical evidence in the area, and discuss relevant health care policy. My specific goals are that, by the end of this course, you will be able to:
 
-1. Explain the structure of the U.S. health care system, its main components, and its history
+1. Explain the structure of the U.S. health care system, its main components, and its history;
 
-2. Model adverse selection in health insurance, examine its effects on health insurance markets, and support your arguments with existing data
+2. Model adverse selection in health insurance, examine its effects on health insurance markets, and support your arguments with existing data;
 
-3. Explain the physician agency problem, use a model of physician agency to examine financial incentives in health care, and summarize empirical evidence on the presence of physician agency
+3. Explain the physician agency problem, use a model of physician agency to examine financial incentives in health care, and summarize empirical evidence on the presence of physician agency;
 
-4. Describe hospital pricing, negotiation with insurers, and explain (qualitatively and quantitatively) the differences between charges and prices
+4. Describe hospital pricing, negotiation with insurers, and explain (qualitatively and quantitatively) the differences between charges and prices; and
 
-5. Analyze hospital data in a real-life setting and predict effects of real-life policies
+5. Analyze hospital data in a real-life setting and discuss the likely effects of real-life policies.
 
-There are more specific learning outcomes for each module described on the relevant module's section of the [content page](/content/).
 
 ## Course materials
 
 ### Where to go
-If you're here, then you know where to find our class website. Well done! Hopefully it's clear by the existence of the site that this is where I plan to host most of our information such as course materials, notes/slides, assignments. I'll also use Canvas to distribute any papers or specific readings that aren't available publicly, as well as post information that I don't want public like virtual meeting passwords (if needed) and grades. 
+If you're here, then you know where to find our class website. Well done! Hopefully it's clear by the existence of the site that this is where I plan to host most of our course materials such as notes/slides, assignments, practice problems, etc. I'll also use Canvas to distribute any papers or specific readings that aren't available publicly, as well as post information that I don't want public like virtual meeting passwords (if needed) and grades. 
 
 
 ### Readings
-There are two recommended textbooks for this class. One is an intermediate microeconomics textbook that will cover much of the basic economic theory, and another is a health economics textbook. We will supplement these textbooks with other readings listed below in the detailed schedule, as well as online presentations, policy papers, and videos.
+There are two optional textbooks for this class. One is an intermediate microeconomics textbook that will cover much of the basic economic theory, and another is a health economics textbook. We will supplement these textbooks with other readings listed below in the detailed schedule, as well as online presentations, policy papers, and videos. These books are in now way required, but they may be helpful for some students as an additional resource.
 
   - @pindyck2018
   - @sloan2012
@@ -61,13 +60,13 @@ There are two recommended textbooks for this class. One is an intermediate micro
 Each assignment will generally include both a theoretical and empirical section. Most of the empirical work involves basic summary statistics. This can be done in just about any spreadsheet or statistics package. I'll use `R` for my work, but you are free to use whatever software you're most comfortable with. I encourage you to use `R` or `Python` simply because these are the most common programs used in applied data analysis right now, but you can certainly use Excel or Google Sheets if you'd prefer. This is **not** a statistics or econometrics class, so I do not expect you to have any statistics programming knowledge.
 
 ### Accessing data
-For all assignments and in-class activities, I will house all of the links to the data on our class website, and I'll place the relevant datasets on Canvas. For transparency, I will also point you to other GitHub repositories where available. If you're new to Git or GitHub and want to understand some of that better, take a look at [Grant McDermott's](https://grantmcdermott.com/) notes on [Data Science for Economists](https://github.com/uo-ec607/lectures) as well as [Jenny Bryan's](https://jennybryan.org/) online reference book, [Happy Git and GitHub with R](https://happygitwithr.com/). But again, knowledge of Git or GitHub is not expected or required for this class.
+For all assignments and in-class activities, I will house all of the links to the data on our class website, and I'll place the relevant datasets in a shared OneDrive folder. For transparency, I will also point you to other GitHub repositories where available. If you're new to Git or GitHub and want to understand some of that better, take a look at [Grant McDermott's](https://grantmcdermott.com/) notes on [Data Science for Economists](https://github.com/uo-ec607/lectures) as well as [Jenny Bryan's](https://jennybryan.org/) online reference book, [Happy Git and GitHub with R](https://happygitwithr.com/). But please note, knowledge of Git or GitHub is not expected or required for this class.
 
 
 ### Turning things in
-All assignments should be submitted as PDF files on Canvas. Since we'll be using some math in all of our answers, I suggest that assignments be completed through [Overleaf](https://www.overleaf.com/). As an Emory student, everyone has access to an institutional Overleaf account, which provides you with all the nice features of the product. You can use this to easily write PDF documents in a language known as "LaTeX". For a brief introductory video and links to more info, please see the video [here](https://www.overleaf.com/learn/latex/Questions/Getting_started_with_LaTeX_and_Overleaf_(formerly_writeLaTeX)). Overleaf is not a requirement, but I think it will save some you time in the long run. You are also welcome to use Word, Google Docs, LibreOffice, etc., and convert to PDF for your final submission.
+All assignments should be submitted as PDF files on Canvas. Since we'll be using some math in all of our answers, I encourage everyone to complete your assignments in [Overleaf](https://www.overleaf.com/). As an Emory student, everyone has access to an institutional Overleaf account, which provides you with all the nice features of the product. You can use this to easily write PDF documents in a language known as "LaTeX". For a brief introductory video and links to more info, please see the video [here](https://www.overleaf.com/learn/latex/Questions/Getting_started_with_LaTeX_and_Overleaf_(formerly_writeLaTeX)). Overleaf is not a requirement, but I think it will save some you time in the long run. You are also welcome to use Word, Google Docs, LibreOffice, etc., and convert to PDF for your final submission.
 
-The only **requirements** are that your submission is a PDF and that your answers are legible and organized. Please **DO NOT** write tiny answers in margins of papers, scan as PDF, and submit. I will deduct some points for these types of submissions.
+The only **requirements** are that your submission is a PDF and that your answers are legible and organized. Please **DO NOT** write tiny answers in margins of papers, scan as PDF, and submit. I will not grade these types of submissions, and the assignment will be considered late until a legible submission is available.
 
 
 ## Course policies
@@ -83,7 +82,9 @@ All regular class meetings will take place in **White Hall, Room 103** on Monday
 
 ### Office hours
 
-My designated office hours will be on Monday and Wednesday from 1:30 to 2:30pm in R. Rollins, R432. I'm also available outside of these times. I just ask that you schedule an appointment in advance. [Make an appointment with me here.](https://mccarthy-meetings.youcanbook.me/) While we call these "office hours" they really should be "student hours". These are set times dedicated to all of you. This means that I will be in my office waiting for you to come by with whatever questions you have. Take a look at this video for a more interesting presentation of what office hours really are and why you should come!
+My designated office hours will be on Monday and Wednesday from 1:30 to 2:30pm in R. Rollins, R432. I'm also available outside of these times. I just ask that you schedule an appointment in advance. [Make an appointment with me here.](https://mccarthy-meetings.youcanbook.me/) 
+
+While we call these "office hours" they really should be "student hours". These are set times dedicated to all of you. This means that I will be in my office waiting for you to come by with whatever questions you have. Take a look at this video for a more interesting presentation of what office hours really are and why you should come!
 
 <iframe src="https://player.vimeo.com/video/270014784" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen style="display: block; margin: 0 auto 1rem;"></iframe>
 
@@ -91,7 +92,7 @@ For any questions that you don't think need a meeting, you can always reach out 
 
 ### Academic integrity
 
-The Emory University Honor Code is taken seriously and governs all work in this course. Details about the Honor Code are available at [Emory Honor Code](http://catalog.college.emory.edu/academic/policies-regulations/honor-code.html). By taking this course, you affirm that it is a violation of the code to cheat on exams, to plagiarize, to deviate from the instructions about collaboration on work that is submitted for grades, to give false information to a faculty member, and to undertake any other form of academic misconduct. You agree that the teacher is entitled to move you to another seat during examinations, without explanation. You also affirm that if you witness others violating the code you have a duty to report them to the honor council.
+The Emory University Honor Code is taken seriously and governs all work in this course. Details about the Honor Code are available [here](http://catalog.college.emory.edu/academic/policies-regulations/honor-code.html). By taking this course, you affirm that it is a violation of the code to cheat on exams, to plagiarize, to deviate from the instructions about collaboration on work that is submitted for grades, to give false information to a faculty member, and to undertake any other form of academic misconduct. You agree that the teacher is entitled to move you to another seat during examinations, without explanation. You also affirm that if you witness others violating the code you have a duty to report them to the honor council.
 
 ### Accessibility services
 
@@ -99,7 +100,7 @@ If you anticipate issues related to the format or requirements of this course, p
 
 ### Class-wide announcements
 
-I will post regular announcements to the class on *Canvas*, so please set up your notifications on *Canvas* accordingly. I will also use *Canvas* to post all grades and any other information that needs to stay in the class. All other course materials will be available on our class website, [econ372s23.classes.ianmccarthyecon.com](https://econ372s23.classes.ianmccarthyecon.com).
+I will post regular announcements to the class on **Canvas**, so please set up your notifications accordingly. I will also use Canvas to post all grades and any other information that needs to stay in the class. All other course materials will be available on our class website, [econ372s23.classes.ianmccarthyecon.com](https://econ372s23.classes.ianmccarthyecon.com).
 
 ### Lauren's Promise
 
@@ -118,7 +119,7 @@ Detailed descriptions of all assignments are on the [assignments page](/assignme
 
 ```{r assignments-grades, include=FALSE}
 assignments <- tibble(
-  Assignment = c("Weekly check-in", "Homework (60 x 3)", "Mid-term exam", "Final project"),  
+  Assignment = c("Participation", "Homework (60 x 3)", "Mid-term exam", "Final project"),  
   Points = c(20, 60*3, 60, 140)
 )
 
