@@ -135,7 +135,6 @@ lessons:
   - title: '<span class="content-title">Class Projects</span>'
     session: "Class 27"
     date: "Apr 24"
-    assignment: "project"
     bg: 1
 
   - title: '<i class="fas fa-star"></i> **Final Project**'
