@@ -26,6 +26,7 @@ A policy brief is a short publication to provide policymakers and other interest
 Policy briefs should be timely — addressing issues that are currently being faced at the local, regional, or national levels. They should also balance being informative and sufficiently nuanced while not being overly technical or complicated. The best policy briefs are visually engaging, well-organized, easy to navigate, and memorable.
 
 The term "policy brief" can mean many things. In this class, a policy brief is a succinct 1-2 page document that
+
 - Targets a non-technical audience including policymakers and stakeholders
 - Provides an overview rather than specifics with enough information that someone can become relatively informed about and issue and have some idea of how to address it
 - Raises awareness of an issue and potential policy solutions
@@ -33,9 +34,7 @@ The term "policy brief" can mean many things. In this class, a policy brief is a
 To help stay on track throughout the semester, we've divided the brief into three stages. Please use the links (or just navigate below) for details of each stage. Please also check out the section on [Other Resources] for additional information, including examples of policy briefs and other guides.
 
 1. [Annotated Bibliography]
-
 2. [Factsheet]
-
 3. [Final Policy Brief]
 
 # Annotated Bibliography
@@ -46,6 +45,7 @@ While you have wide discretion to select a topic of your choosing, it should rem
 
 ## Narrowing down a topic
 Spend a bit of time really thinking about your brief’s direction. You have enough time in the semester to learn about a new policy topic, so don’t feel like you need to pick something you already know a lot about. Here are a few strategies to generate some ideas:
+
 - Read local and national newspapers, newsletters, and magazines to see what issues are getting discussed (or not) in the media
 - Review the syllabus to see if there is a topic area within the class to focus your policy brief
 - Look at the policy platforms of politicians and political parties at the local, state, or national level
@@ -61,6 +61,7 @@ Your sources should be carefully selected to contribute different pieces to the 
 
 ## Writing annotations
 The annotated bibliography will serve as the foundation for the basic facts you will outline for the reader to understand the problem at hand, and it will provide the basis of the evidence you provide to substantiate your claims. Basically, the annotated bibliography is a bibliography with a brief summary (i.e., annotation) of each source. Your annotations may include the following information:
+
 - What question do(es) the author(s) seek to answer?
 - What is the primary thesis/argument/theory of the work?
 - How is this source relevant to my topic? What aspect of my research question/topic does this source illuminate?
