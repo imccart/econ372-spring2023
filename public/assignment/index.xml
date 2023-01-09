@@ -20,93 +20,8 @@
       <description>
 
 
-&lt;p&gt;The final project is a big part of your grade. This essentially replaces what would otherwise be a final exam. Please start as early as possible and save yourself lots of stress in May!&lt;/p&gt;
-&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Hospital price transparency is an important topic and one that has been at the forefront of health policy debates for many years. Recently, CMS mandated that hospitals provide their negotiated payment rates in a “machine-readable” format for patients to be able to see actual hospital prices for selected procedures. For more info on the initiative, see &lt;a href=&#34;https://www.cms.gov/hospital-price-transparency&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Building off of this new policy, this project is all about hospital “prices”. There are three main elements of the project:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Combine data on hospital prices with information on Medicare payment rates and hospital charges for specific procedures&lt;/li&gt;
-&lt;li&gt;Examine “compliance” with the transparency policies&lt;/li&gt;
-&lt;li&gt;Discuss the differences between different measures of “price”&lt;/li&gt;
-&lt;li&gt;Examine the relationship between hospital market power and compliance, and the relationship between market power and prices (where available)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div id=&#34;steps&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Project Details&lt;/h2&gt;
-&lt;p&gt;Your project analysis should proceed with the following steps:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Select your markets:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;First, select 10 hospital markets in the U.S. that you would like to study. You can find a list of hospital markets on the shared Google Sheet, &lt;a href=&#34;&#34;&gt;econ372-hospital-markets&lt;/a&gt;, on the &lt;strong&gt;Markets&lt;/strong&gt; tab. Put your name by the markets you’d like to study. If someone has already selected your market, just add another column for your name.&lt;/p&gt;
-&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Organize pricing data:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Construct a dataset consisting of the hospital information and hospital prices among all hospitals in your selected markets. A dataset on hospital characteristics and a dataset on hospital prices will be made available on Canvas. You will need to combine these data and focus only on the markets you selected in step 1. Note that, if a hospital price is missing from the pricing data, then that hospital can be considered as “non-compliant” (i.e., they did not make their pricing data publicly available as mandated).&lt;/p&gt;
-&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Collect other payment data:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Collect data on Medicare payment rates and charges for the same hospitals and same procedures. These data are often provided as part of the same machine-readable file you found earlier, but if not, Medicare payments and charges are also publicly available from the &lt;a href=&#34;https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Inpatient&#34;&gt;Medicare Provider Utilization and Payment Data: Inpatient&lt;/a&gt; files. Focus on the 2019 data.&lt;/p&gt;
-&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Combine your data:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Select five DRG codes that you’d like to study in more detail, and create a dataset that contains data from 2 and 3. In these data, each row should be a hospital/procedure pair, and the columns should include information such as: “hospital ID”; “DRG code”; “gross charge”; “Medicare payment”; “compliance”; and “negotiated payment” (if the hospital is compliant). Save your dataset as a “.csv” file and include it as part of your project submission on Canvas.&lt;/p&gt;
-&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Summarize the data:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Based on your combined dataset, provide a table of summary values for each market and each DRG code. For example, your table could show the mean charge and payments, as well as the count of hospitals that are compliant.&lt;/p&gt;
-&lt;ol start=&#34;6&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Summarize the data for a specific procedures:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Select a single DRG code to study. Calculate the range of negotiated prices in each market for this DRG code and show these ranges in a figure.&lt;/p&gt;
-&lt;ol start=&#34;7&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Think about your data:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Highlight one interesting aspect of your data and discuss this in your report. Support your discussion with at least one figure or table. You get to choose what is “interesting” here.&lt;/p&gt;
-&lt;ol start=&#34;8&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Examine pricing and competition:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Now let’s think about how these pricing figures relate to competition. Calculate each hospital’s market share and provide a scatterplot of the market share and negotiated payments. Do this for just one procedure (whatever procedure you’d like to focus on). In your figure, please highlight the different hospitals in some way (e.g., use different colors for each hospital or different shapes for each plot). Note: to calculate market share, you may need to collect more data, such as data on total discharges. These are available from the &lt;a href=&#34;https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Inpatient&#34;&gt;Medicare Provider Utilization and Payment Data: Inpatient&lt;/a&gt; files.&lt;/p&gt;
-&lt;ol start=&#34;9&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Examine compliance and competition:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Finally, let’s think about how hospital compliance is related to competition and market power. Is there anything common among hospitals that you find to be non-compliant?&lt;/p&gt;
-&lt;ol start=&#34;10&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Reflection:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Reflect on your work. Describe one thing you learned from this process and one area that left you confused or unclear. Given your analysis and your experience collecting these data, do you think the price transparency initiative will help to reduce hospital prices?&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;format&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Formatting and Report Structure&lt;/h2&gt;
-&lt;p&gt;As with your homework assignments, you will turn in your project via &lt;em&gt;Canvas&lt;/em&gt;. Your final project must meet the following basic formatting requirements:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Format&lt;/strong&gt;: Double-spaced text with clearly defined section headings and subheadings&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Length&lt;/strong&gt;: At least 3 and no more than 8 pages, excluding references, tables, or figures&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Data Visualization&lt;/strong&gt;: At least one table and one figure&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Please organize your final report along the following sections:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;strong&gt;Description of your selected market and hospitals&lt;/strong&gt;: Relates to Q1 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hospital prices, charges, and Medicare payments&lt;/strong&gt;: Relates to Q2-Q7 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Pricing and competition&lt;/strong&gt;: Relates to Q8 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Compliance and competition&lt;/strong&gt;: Relates to Q9 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Summary and conclusions&lt;/strong&gt;: Relates to Q10 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div id=&#34;grading-criteria&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Grading Criteria&lt;/h2&gt;
-&lt;p&gt;Your final project grade is based off of 140 points as allocated below. Components worth 5 points will be graded in single point increments. All other components will be graded in 5 point increments. For example, the “Discussion of Payments” component can receive credit of 0, 5, 10, 15, or 20 points. This rubric is designed to ensure grading is fair across all students, as it is nearly impossible to discern single-point differences in credit for long-answer questions, figures, etc.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Follow instructions&lt;/strong&gt; (10 points): Does your report meet the requirements for length, formatting, and data visualization?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Grammar&lt;/strong&gt; (5 points): Does your report have sufficiently few grammatical mistakes, typos, etc.?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Complete data&lt;/strong&gt; (15 points): Did you create and submit the final dataset as described in Q4 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Data summary&lt;/strong&gt; (20 points): Did you summarize your data as described in Q5 and Q6 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Discussion of payments&lt;/strong&gt; (20 points): Did you discuss your pricing data as described in Q7 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Payments and competition&lt;/strong&gt; (25 points): Did you incorporate and summarize data on hospital market power and prices as described in Q8 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Compliance and competition&lt;/strong&gt; (25 points): Did you discuss your findings related to compliance and competition as described in Q9 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reflection&lt;/strong&gt; (20 points): Did you reflect on your work as described in Q10 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
+&lt;p&gt;The final project is a big part of your grade. This essentially replaces what would otherwise be a final exam. Please start as early as possible and save yourself lots of stress in April!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Details coming shortly&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -116,7 +31,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/assignment/homework1/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;instructions&#34; class=&#34;section level2&#34;&gt;
@@ -178,7 +92,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/assignment/homework2/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;instructions&#34; class=&#34;section level2&#34;&gt;
@@ -239,7 +152,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/assignment/homework3/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;instructions&#34; class=&#34;section level2&#34;&gt;

@@ -244,93 +244,8 @@ Taking the expectation over these utility values yields: &lt;span class=&#34;mat
       <description>
 
 
-&lt;p&gt;The final project is a big part of your grade. This essentially replaces what would otherwise be a final exam. Please start as early as possible and save yourself lots of stress in May!&lt;/p&gt;
-&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Hospital price transparency is an important topic and one that has been at the forefront of health policy debates for many years. Recently, CMS mandated that hospitals provide their negotiated payment rates in a “machine-readable” format for patients to be able to see actual hospital prices for selected procedures. For more info on the initiative, see &lt;a href=&#34;https://www.cms.gov/hospital-price-transparency&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Building off of this new policy, this project is all about hospital “prices”. There are three main elements of the project:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Combine data on hospital prices with information on Medicare payment rates and hospital charges for specific procedures&lt;/li&gt;
-&lt;li&gt;Examine “compliance” with the transparency policies&lt;/li&gt;
-&lt;li&gt;Discuss the differences between different measures of “price”&lt;/li&gt;
-&lt;li&gt;Examine the relationship between hospital market power and compliance, and the relationship between market power and prices (where available)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div id=&#34;steps&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Project Details&lt;/h2&gt;
-&lt;p&gt;Your project analysis should proceed with the following steps:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Select your markets:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;First, select 10 hospital markets in the U.S. that you would like to study. You can find a list of hospital markets on the shared Google Sheet, &lt;a href=&#34;&#34;&gt;econ372-hospital-markets&lt;/a&gt;, on the &lt;strong&gt;Markets&lt;/strong&gt; tab. Put your name by the markets you’d like to study. If someone has already selected your market, just add another column for your name.&lt;/p&gt;
-&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Organize pricing data:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Construct a dataset consisting of the hospital information and hospital prices among all hospitals in your selected markets. A dataset on hospital characteristics and a dataset on hospital prices will be made available on Canvas. You will need to combine these data and focus only on the markets you selected in step 1. Note that, if a hospital price is missing from the pricing data, then that hospital can be considered as “non-compliant” (i.e., they did not make their pricing data publicly available as mandated).&lt;/p&gt;
-&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Collect other payment data:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Collect data on Medicare payment rates and charges for the same hospitals and same procedures. These data are often provided as part of the same machine-readable file you found earlier, but if not, Medicare payments and charges are also publicly available from the &lt;a href=&#34;https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Inpatient&#34;&gt;Medicare Provider Utilization and Payment Data: Inpatient&lt;/a&gt; files. Focus on the 2019 data.&lt;/p&gt;
-&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Combine your data:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Select five DRG codes that you’d like to study in more detail, and create a dataset that contains data from 2 and 3. In these data, each row should be a hospital/procedure pair, and the columns should include information such as: “hospital ID”; “DRG code”; “gross charge”; “Medicare payment”; “compliance”; and “negotiated payment” (if the hospital is compliant). Save your dataset as a “.csv” file and include it as part of your project submission on Canvas.&lt;/p&gt;
-&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Summarize the data:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Based on your combined dataset, provide a table of summary values for each market and each DRG code. For example, your table could show the mean charge and payments, as well as the count of hospitals that are compliant.&lt;/p&gt;
-&lt;ol start=&#34;6&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Summarize the data for a specific procedures:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Select a single DRG code to study. Calculate the range of negotiated prices in each market for this DRG code and show these ranges in a figure.&lt;/p&gt;
-&lt;ol start=&#34;7&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Think about your data:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Highlight one interesting aspect of your data and discuss this in your report. Support your discussion with at least one figure or table. You get to choose what is “interesting” here.&lt;/p&gt;
-&lt;ol start=&#34;8&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Examine pricing and competition:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Now let’s think about how these pricing figures relate to competition. Calculate each hospital’s market share and provide a scatterplot of the market share and negotiated payments. Do this for just one procedure (whatever procedure you’d like to focus on). In your figure, please highlight the different hospitals in some way (e.g., use different colors for each hospital or different shapes for each plot). Note: to calculate market share, you may need to collect more data, such as data on total discharges. These are available from the &lt;a href=&#34;https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Inpatient&#34;&gt;Medicare Provider Utilization and Payment Data: Inpatient&lt;/a&gt; files.&lt;/p&gt;
-&lt;ol start=&#34;9&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Examine compliance and competition:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Finally, let’s think about how hospital compliance is related to competition and market power. Is there anything common among hospitals that you find to be non-compliant?&lt;/p&gt;
-&lt;ol start=&#34;10&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Reflection:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Reflect on your work. Describe one thing you learned from this process and one area that left you confused or unclear. Given your analysis and your experience collecting these data, do you think the price transparency initiative will help to reduce hospital prices?&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;format&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Formatting and Report Structure&lt;/h2&gt;
-&lt;p&gt;As with your homework assignments, you will turn in your project via &lt;em&gt;Canvas&lt;/em&gt;. Your final project must meet the following basic formatting requirements:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Format&lt;/strong&gt;: Double-spaced text with clearly defined section headings and subheadings&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Length&lt;/strong&gt;: At least 3 and no more than 8 pages, excluding references, tables, or figures&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Data Visualization&lt;/strong&gt;: At least one table and one figure&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Please organize your final report along the following sections:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;strong&gt;Description of your selected market and hospitals&lt;/strong&gt;: Relates to Q1 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hospital prices, charges, and Medicare payments&lt;/strong&gt;: Relates to Q2-Q7 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Pricing and competition&lt;/strong&gt;: Relates to Q8 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Compliance and competition&lt;/strong&gt;: Relates to Q9 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Summary and conclusions&lt;/strong&gt;: Relates to Q10 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div id=&#34;grading-criteria&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Grading Criteria&lt;/h2&gt;
-&lt;p&gt;Your final project grade is based off of 140 points as allocated below. Components worth 5 points will be graded in single point increments. All other components will be graded in 5 point increments. For example, the “Discussion of Payments” component can receive credit of 0, 5, 10, 15, or 20 points. This rubric is designed to ensure grading is fair across all students, as it is nearly impossible to discern single-point differences in credit for long-answer questions, figures, etc.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Follow instructions&lt;/strong&gt; (10 points): Does your report meet the requirements for length, formatting, and data visualization?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Grammar&lt;/strong&gt; (5 points): Does your report have sufficiently few grammatical mistakes, typos, etc.?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Complete data&lt;/strong&gt; (15 points): Did you create and submit the final dataset as described in Q4 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Data summary&lt;/strong&gt; (20 points): Did you summarize your data as described in Q5 and Q6 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Discussion of payments&lt;/strong&gt; (20 points): Did you discuss your pricing data as described in Q7 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Payments and competition&lt;/strong&gt; (25 points): Did you incorporate and summarize data on hospital market power and prices as described in Q8 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Compliance and competition&lt;/strong&gt; (25 points): Did you discuss your findings related to compliance and competition as described in Q9 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reflection&lt;/strong&gt; (20 points): Did you reflect on your work as described in Q10 in &lt;a href=&#34;#steps&#34;&gt;Project Details&lt;/a&gt;?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
+&lt;p&gt;The final project is a big part of your grade. This essentially replaces what would otherwise be a final exam. Please start as early as possible and save yourself lots of stress in April!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Details coming shortly&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -340,7 +255,6 @@ Taking the expectation over these utility values yields: &lt;span class=&#34;mat
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/assignment/homework1/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;instructions&#34; class=&#34;section level2&#34;&gt;
@@ -402,7 +316,6 @@ Taking the expectation over these utility values yields: &lt;span class=&#34;mat
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/assignment/homework2/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;instructions&#34; class=&#34;section level2&#34;&gt;
@@ -463,7 +376,6 @@ Taking the expectation over these utility values yields: &lt;span class=&#34;mat
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/assignment/homework3/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;instructions&#34; class=&#34;section level2&#34;&gt;
@@ -1610,13 +1522,12 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/schedule/</guid>
       <description>
-&lt;script src=&#34;/schedule/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Here’s your roadmap for the semester!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;/content/&#34;&gt;&lt;strong&gt;Module Content&lt;/strong&gt;&lt;/a&gt; (&lt;i class=&#34;fas fa-book-reader&#34;&gt;&lt;/i&gt;): Links and information on readings, slides, and any pre-recorded lectures. I &lt;strong&gt;will not&lt;/strong&gt; post any recordings of our live class sessions on the website. Those are available only on Canvas.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/assignment/&#34;&gt;&lt;strong&gt;Assignment&lt;/strong&gt;&lt;/a&gt; (&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt;): Detailed information, instructions, and grading criteria for each assignment. &lt;strong&gt;Assignments are due by 11:59 PM on the day they’re listed.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/content/&#34;&gt;&lt;strong&gt;Module Content&lt;/strong&gt;&lt;/a&gt; (&lt;i class=&#34;fas fa-book-reader&#34;&gt;&lt;/i&gt;): Links and information on readings, slides, and any supplemental information.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/assignment/&#34;&gt;&lt;strong&gt;Assignment&lt;/strong&gt;&lt;/a&gt; (&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt;): Detailed information, instructions, and grading criteria for each assignment. Please check the respective assignments page for information on due dates and times.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;table class=&#34;table schedule&#34; style=&#34;max-width:100%&#34;&gt;
     &lt;tbody&gt;
@@ -1684,7 +1595,7 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
             class=&#34; schedule-bg-3&#34;&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:32%;text-align:right&#34;&gt;
                 &lt;strong&gt;Jan 30, Feb 1&lt;/strong&gt;&lt;br&gt;
-                &lt;small&gt;(Class 4-5)&lt;/small&gt;&lt;/td&gt;
+                &lt;small&gt;(Class 5-6)&lt;/small&gt;&lt;/td&gt;
             &lt;td style=&#34;width:75%;text-align:left&#34;&gt;&lt;span class=&#34;content-title&#34;&gt;Adverse selection&lt;/span&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;/content/01-content3/&#34;&gt;
@@ -1698,7 +1609,7 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
             class=&#34; schedule-bg-1&#34;&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:32%;text-align:right&#34;&gt;
                 &lt;strong&gt;Feb 6, 8&lt;/strong&gt;&lt;br&gt;
-                &lt;small&gt;(Class 6-7)&lt;/small&gt;&lt;/td&gt;
+                &lt;small&gt;(Class 7-8)&lt;/small&gt;&lt;/td&gt;
             &lt;td style=&#34;width:75%;text-align:left&#34;&gt;&lt;span class=&#34;content-title&#34;&gt;Health insurance and current policy&lt;/span&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;/content/01-content4/&#34;&gt;
@@ -1734,7 +1645,7 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
             class=&#34; schedule-bg-1&#34;&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:32%;text-align:right&#34;&gt;
                 &lt;strong&gt;Feb 13, 15&lt;/strong&gt;&lt;br&gt;
-                &lt;small&gt;(Class 8-9)&lt;/small&gt;&lt;/td&gt;
+                &lt;small&gt;(Class 9-10)&lt;/small&gt;&lt;/td&gt;
             &lt;td style=&#34;width:75%;text-align:left&#34;&gt;&lt;span class=&#34;content-title&#34;&gt;Physician agency&lt;/span&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;/content/02-content1/&#34;&gt;
@@ -1748,7 +1659,7 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
             class=&#34; schedule-bg-2&#34;&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:32%;text-align:right&#34;&gt;
                 &lt;strong&gt;Feb 20, 22&lt;/strong&gt;&lt;br&gt;
-                &lt;small&gt;(Class 10-11)&lt;/small&gt;&lt;/td&gt;
+                &lt;small&gt;(Class 11-12)&lt;/small&gt;&lt;/td&gt;
             &lt;td style=&#34;width:75%;text-align:left&#34;&gt;&lt;span class=&#34;content-title&#34;&gt;Fee-for-service payments&lt;/span&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;/content/02-content2/&#34;&gt;
@@ -1762,7 +1673,7 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
             class=&#34; schedule-bg-3&#34;&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:32%;text-align:right&#34;&gt;
                 &lt;strong&gt;Feb 27, Mar 1&lt;/strong&gt;&lt;br&gt;
-                &lt;small&gt;(Class 12-13)&lt;/small&gt;&lt;/td&gt;
+                &lt;small&gt;(Class 13-14)&lt;/small&gt;&lt;/td&gt;
             &lt;td style=&#34;width:75%;text-align:left&#34;&gt;&lt;span class=&#34;content-title&#34;&gt;Capitated payments&lt;/span&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;/content/02-content3/&#34;&gt;
@@ -1776,7 +1687,7 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
             class=&#34; schedule-bg-1&#34;&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:32%;text-align:right&#34;&gt;
                 &lt;strong&gt;Mar 13, 15&lt;/strong&gt;&lt;br&gt;
-                &lt;small&gt;(Class 14-15)&lt;/small&gt;&lt;/td&gt;
+                &lt;small&gt;(Class 15-16)&lt;/small&gt;&lt;/td&gt;
             &lt;td style=&#34;width:75%;text-align:left&#34;&gt;&lt;span class=&#34;content-title&#34;&gt;Hospital and physician payment policies&lt;/span&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;/content/02-content4/&#34;&gt;
@@ -1812,7 +1723,7 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
             class=&#34; schedule-bg-1&#34;&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:32%;text-align:right&#34;&gt;
                 &lt;strong&gt;Mar 20&lt;/strong&gt;&lt;br&gt;
-                &lt;small&gt;(Class 16)&lt;/small&gt;&lt;/td&gt;
+                &lt;small&gt;(Class 17)&lt;/small&gt;&lt;/td&gt;
             &lt;td style=&#34;width:75%;text-align:left&#34;&gt;&lt;span class=&#34;content-title&#34;&gt;Exam Review&lt;/span&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -1827,7 +1738,7 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
             class=&#34; section-bottom schedule-bg-2&#34;&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:32%;text-align:right&#34;&gt;
                 &lt;strong&gt;Mar 22&lt;/strong&gt;&lt;br&gt;
-                &lt;small&gt;(Class 17)&lt;/small&gt;&lt;/td&gt;
+                &lt;small&gt;(Class 18)&lt;/small&gt;&lt;/td&gt;
             &lt;td style=&#34;width:75%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-star&#34;&gt;&lt;/i&gt; &lt;strong&gt;Mid-term Exam&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -1850,7 +1761,7 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
             class=&#34; schedule-bg-1&#34;&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:32%;text-align:right&#34;&gt;
                 &lt;strong&gt;Mar 27, 29&lt;/strong&gt;&lt;br&gt;
-                &lt;small&gt;(Class 18-19)&lt;/small&gt;&lt;/td&gt;
+                &lt;small&gt;(Class 19-20)&lt;/small&gt;&lt;/td&gt;
             &lt;td style=&#34;width:75%;text-align:left&#34;&gt;&lt;span class=&#34;content-title&#34;&gt;Pricing in two-price market&lt;/span&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;/content/03-content1/&#34;&gt;
@@ -1864,7 +1775,7 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
             class=&#34; schedule-bg-2&#34;&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:32%;text-align:right&#34;&gt;
                 &lt;strong&gt;Apr 3, 5&lt;/strong&gt;&lt;br&gt;
-                &lt;small&gt;(Class 20-21)&lt;/small&gt;&lt;/td&gt;
+                &lt;small&gt;(Class 21-22)&lt;/small&gt;&lt;/td&gt;
             &lt;td style=&#34;width:75%;text-align:left&#34;&gt;&lt;span class=&#34;content-title&#34;&gt;Prices and bargaining&lt;/span&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;/content/03-content2/&#34;&gt;
@@ -1878,7 +1789,7 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
             class=&#34; schedule-bg-3&#34;&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:32%;text-align:right&#34;&gt;
                 &lt;strong&gt;Apr 10, 12&lt;/strong&gt;&lt;br&gt;
-                &lt;small&gt;(Class 22-23)&lt;/small&gt;&lt;/td&gt;
+                &lt;small&gt;(Class 23-24)&lt;/small&gt;&lt;/td&gt;
             &lt;td style=&#34;width:75%;text-align:left&#34;&gt;&lt;span class=&#34;content-title&#34;&gt;Hospital competition&lt;/span&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;/content/03-content3/&#34;&gt;
@@ -1892,7 +1803,7 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
             class=&#34; schedule-bg-1&#34;&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:32%;text-align:right&#34;&gt;
                 &lt;strong&gt;Apr 17, 19&lt;/strong&gt;&lt;br&gt;
-                &lt;small&gt;(Class 24-25)&lt;/small&gt;&lt;/td&gt;
+                &lt;small&gt;(Class 25-26)&lt;/small&gt;&lt;/td&gt;
             &lt;td style=&#34;width:75%;text-align:left&#34;&gt;&lt;span class=&#34;content-title&#34;&gt;Mergers and prices&lt;/span&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;/content/03-content4/&#34;&gt;
@@ -1928,15 +1839,16 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
             class=&#34; schedule-bg-1&#34;&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:32%;text-align:right&#34;&gt;
                 &lt;strong&gt;Apr 24&lt;/strong&gt;&lt;br&gt;
-                &lt;small&gt;(Class 26)&lt;/small&gt;&lt;/td&gt;
+                &lt;small&gt;(Class 27)&lt;/small&gt;&lt;/td&gt;
             &lt;td style=&#34;width:75%;text-align:left&#34;&gt;&lt;span class=&#34;content-title&#34;&gt;Class Projects&lt;/span&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
-                    href=&#34;/assignment/project/&#34;&gt;
-                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
+                &lt;font color=&#34;f1f1f1&#34;&gt;
+                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+            &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr
             class=&#34; section-bottom schedule-bg-2&#34;&gt;
@@ -2028,25 +1940,24 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
 &lt;/div&gt;
 &lt;div id=&#34;learning-outcomes&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Learning outcomes&lt;/h2&gt;
-&lt;p&gt;The broad goal of the class is to understand the structure of health care markets in the U.S. The course is designed around three areas, reflecting the different interactions an individual would have when navigating the health care system — first choosing an insurance plan, then visiting a physician, and ultimately receiving hospital care. Our discussion of hospital care is further divided into issues of hospital objective functions, measuring hospital quality, and hospital competition. For each segment, we will develop the underlying theoretical model(s), cover recent empirical studies in the area, and discuss relevant health care policy. My specific goals are that, by the end of this course, you will be able to:&lt;/p&gt;
+&lt;p&gt;The broad goal of the class is to understand the structure of health care markets in the U.S. The course is designed around three areas, reflecting the different interactions an individual would have when navigating the health care system — first choosing an insurance plan, then visiting a physician, and ultimately receiving hospital care. Our discussion of hospital care is further divided into issues of hospital objective functions, measuring hospital quality, and hospital competition and pricing. For each segment, we will examine underlying theoretical model(s), consider empirical evidence in the area, and discuss relevant health care policy. My specific goals are that, by the end of this course, you will be able to:&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;Explain the structure of the U.S. health care system, its main components, and its history&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Model adverse selection in health insurance, examine its effects on health insurance markets, and support your arguments with existing data&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Explain the physician agency problem, use a model of physician agency to examine financial incentives in health care, and summarize empirical evidence on the presence of physician agency&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Describe hospital pricing, negotiation with insurers, and explain (qualitatively and quantitatively) the differences between charges and prices&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Analyze hospital data in a real-life setting and predict effects of real-life policies&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Explain the structure of the U.S. health care system, its main components, and its history;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Model adverse selection in health insurance, examine its effects on health insurance markets, and support your arguments with existing data;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Explain the physician agency problem, use a model of physician agency to examine financial incentives in health care, and summarize empirical evidence on the presence of physician agency;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Describe hospital pricing, negotiation with insurers, and explain (qualitatively and quantitatively) the differences between charges and prices; and&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Analyze hospital data in a real-life setting and discuss the likely effects of real-life policies.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;There are more specific learning outcomes for each module described on the relevant module’s section of the &lt;a href=&#34;/content/&#34;&gt;content page&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;course-materials&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Course materials&lt;/h2&gt;
 &lt;div id=&#34;where-to-go&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Where to go&lt;/h3&gt;
-&lt;p&gt;If you’re here, then you know where to find our class website. Well done! Hopefully it’s clear by the existence of the site that this is where I plan to host most of our information such as course materials, notes/slides, assignments. I’ll also use Canvas to distribute any papers or specific readings that aren’t available publicly, as well as post information that I don’t want public like virtual meeting passwords (if needed) and grades.&lt;/p&gt;
+&lt;p&gt;If you’re here, then you know where to find our class website. Well done! Hopefully it’s clear by the existence of the site that this is where I plan to host most of our course materials such as notes/slides, assignments, practice problems, etc. I’ll also use Canvas to distribute any papers or specific readings that aren’t available publicly, as well as post information that I don’t want public like virtual meeting passwords (if needed) and grades.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;readings&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Readings&lt;/h3&gt;
-&lt;p&gt;There are two recommended textbooks for this class. One is an intermediate microeconomics textbook that will cover much of the basic economic theory, and another is a health economics textbook. We will supplement these textbooks with other readings listed below in the detailed schedule, as well as online presentations, policy papers, and videos.&lt;/p&gt;
+&lt;p&gt;There are two optional textbooks for this class. One is an intermediate microeconomics textbook that will cover much of the basic economic theory, and another is a health economics textbook. We will supplement these textbooks with other readings listed below in the detailed schedule, as well as online presentations, policy papers, and videos. These books are in now way required, but they may be helpful for some students as an additional resource.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span class=&#34;citation&#34;&gt;R. Pindyck and D. Rubinfeld &lt;a href=&#34;#ref-pindyck2018&#34; role=&#34;doc-biblioref&#34;&gt;&lt;em&gt;Microeconomics&lt;/em&gt; (Upper Saddle River, NJ: Prentice Hall, 2018)&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class=&#34;citation&#34;&gt;Frank A Sloan and Chee-Ruey Hsieh &lt;a href=&#34;#ref-sloan2012&#34; role=&#34;doc-biblioref&#34;&gt;&lt;em&gt;Health Economics&lt;/em&gt;, vol. 1 (The MIT Press, 2012)&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;
@@ -2058,12 +1969,12 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
 &lt;/div&gt;
 &lt;div id=&#34;accessing-data&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Accessing data&lt;/h3&gt;
-&lt;p&gt;For all assignments and in-class activities, I will house all of the links to the data on our class website, and I’ll place the relevant datasets on Canvas. For transparency, I will also point you to other GitHub repositories where available. If you’re new to Git or GitHub and want to understand some of that better, take a look at &lt;a href=&#34;https://grantmcdermott.com/&#34;&gt;Grant McDermott’s&lt;/a&gt; notes on &lt;a href=&#34;https://github.com/uo-ec607/lectures&#34;&gt;Data Science for Economists&lt;/a&gt; as well as &lt;a href=&#34;https://jennybryan.org/&#34;&gt;Jenny Bryan’s&lt;/a&gt; online reference book, &lt;a href=&#34;https://happygitwithr.com/&#34;&gt;Happy Git and GitHub with R&lt;/a&gt;. But again, knowledge of Git or GitHub is not expected or required for this class.&lt;/p&gt;
+&lt;p&gt;For all assignments and in-class activities, I will house all of the links to the data on our class website, and I’ll place the relevant datasets in a shared OneDrive folder. For transparency, I will also point you to other GitHub repositories where available. If you’re new to Git or GitHub and want to understand some of that better, take a look at &lt;a href=&#34;https://grantmcdermott.com/&#34;&gt;Grant McDermott’s&lt;/a&gt; notes on &lt;a href=&#34;https://github.com/uo-ec607/lectures&#34;&gt;Data Science for Economists&lt;/a&gt; as well as &lt;a href=&#34;https://jennybryan.org/&#34;&gt;Jenny Bryan’s&lt;/a&gt; online reference book, &lt;a href=&#34;https://happygitwithr.com/&#34;&gt;Happy Git and GitHub with R&lt;/a&gt;. But please note, knowledge of Git or GitHub is not expected or required for this class.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;turning-things-in&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Turning things in&lt;/h3&gt;
-&lt;p&gt;All assignments should be submitted as PDF files on Canvas. Since we’ll be using some math in all of our answers, I suggest that assignments be completed through &lt;a href=&#34;https://www.overleaf.com/&#34;&gt;Overleaf&lt;/a&gt;. As an Emory student, everyone has access to an institutional Overleaf account, which provides you with all the nice features of the product. You can use this to easily write PDF documents in a language known as “LaTeX”. For a brief introductory video and links to more info, please see the video &lt;a href=&#34;https://www.overleaf.com/learn/latex/Questions/Getting_started_with_LaTeX_and_Overleaf_(formerly_writeLaTeX)&#34;&gt;here&lt;/a&gt;. Overleaf is not a requirement, but I think it will save some you time in the long run. You are also welcome to use Word, Google Docs, LibreOffice, etc., and convert to PDF for your final submission.&lt;/p&gt;
-&lt;p&gt;The only &lt;strong&gt;requirements&lt;/strong&gt; are that your submission is a PDF and that your answers are legible and organized. Please &lt;strong&gt;DO NOT&lt;/strong&gt; write tiny answers in margins of papers, scan as PDF, and submit. I will deduct some points for these types of submissions.&lt;/p&gt;
+&lt;p&gt;All assignments should be submitted as PDF files on Canvas. Since we’ll be using some math in all of our answers, I encourage everyone to complete your assignments in &lt;a href=&#34;https://www.overleaf.com/&#34;&gt;Overleaf&lt;/a&gt;. As an Emory student, everyone has access to an institutional Overleaf account, which provides you with all the nice features of the product. You can use this to easily write PDF documents in a language known as “LaTeX”. For a brief introductory video and links to more info, please see the video &lt;a href=&#34;https://www.overleaf.com/learn/latex/Questions/Getting_started_with_LaTeX_and_Overleaf_(formerly_writeLaTeX)&#34;&gt;here&lt;/a&gt;. Overleaf is not a requirement, but I think it will save some you time in the long run. You are also welcome to use Word, Google Docs, LibreOffice, etc., and convert to PDF for your final submission.&lt;/p&gt;
+&lt;p&gt;The only &lt;strong&gt;requirements&lt;/strong&gt; are that your submission is a PDF and that your answers are legible and organized. Please &lt;strong&gt;DO NOT&lt;/strong&gt; write tiny answers in margins of papers, scan as PDF, and submit. I will not grade these types of submissions, and the assignment will be considered late until a legible submission is available.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;course-policies&#34; class=&#34;section level2&#34;&gt;
@@ -2076,14 +1987,15 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
 &lt;/div&gt;
 &lt;div id=&#34;office-hours&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Office hours&lt;/h3&gt;
-&lt;p&gt;My designated office hours will be on Monday and Wednesday from 1:30 to 3:00pm in PAIS 573. I’m also available outside of these times. I just ask that you schedule an appointment in advance. &lt;a href=&#34;https://mccarthy-meetings.youcanbook.me/&#34;&gt;Make an appointment with me here.&lt;/a&gt; While we call these “office hours” they really should be “student hours”. These are set times dedicated to all of you. This means that I will be in my office waiting for you to come by with whatever questions you have. Take a look at this video for a more interesting presentation of what office hours really are and why you should come!&lt;/p&gt;
+&lt;p&gt;My designated office hours will be on Monday and Wednesday from 1:30 to 2:30pm in R. Rollins, R432. I’m also available outside of these times. I just ask that you schedule an appointment in advance. &lt;a href=&#34;https://mccarthy-meetings.youcanbook.me/&#34;&gt;Make an appointment with me here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;While we call these “office hours” they really should be “student hours”. These are set times dedicated to all of you. This means that I will be in my office waiting for you to come by with whatever questions you have. Take a look at this video for a more interesting presentation of what office hours really are and why you should come!&lt;/p&gt;
 &lt;iframe src=&#34;https://player.vimeo.com/video/270014784&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen&#34; allowfullscreen style=&#34;display: block; margin: 0 auto 1rem;&#34;&gt;
 &lt;/iframe&gt;
 &lt;p&gt;For any questions that you don’t think need a meeting, you can always reach out to me through email. I do my best to respond within 24 hours to all emails.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;academic-integrity&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Academic integrity&lt;/h3&gt;
-&lt;p&gt;The Emory University Honor Code is taken seriously and governs all work in this course. Details about the Honor Code are available at &lt;a href=&#34;http://catalog.college.emory.edu/academic/policies-regulations/honor-code.html&#34;&gt;Emory Honor Code&lt;/a&gt;. By taking this course, you affirm that it is a violation of the code to cheat on exams, to plagiarize, to deviate from the instructions about collaboration on work that is submitted for grades, to give false information to a faculty member, and to undertake any other form of academic misconduct. You agree that the teacher is entitled to move you to another seat during examinations, without explanation. You also affirm that if you witness others violating the code you have a duty to report them to the honor council.&lt;/p&gt;
+&lt;p&gt;The Emory University Honor Code is taken seriously and governs all work in this course. Details about the Honor Code are available &lt;a href=&#34;http://catalog.college.emory.edu/academic/policies-regulations/honor-code.html&#34;&gt;here&lt;/a&gt;. By taking this course, you affirm that it is a violation of the code to cheat on exams, to plagiarize, to deviate from the instructions about collaboration on work that is submitted for grades, to give false information to a faculty member, and to undertake any other form of academic misconduct. You agree that the teacher is entitled to move you to another seat during examinations, without explanation. You also affirm that if you witness others violating the code you have a duty to report them to the honor council.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;accessibility-services&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Accessibility services&lt;/h3&gt;
@@ -2091,7 +2003,7 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
 &lt;/div&gt;
 &lt;div id=&#34;class-wide-announcements&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Class-wide announcements&lt;/h3&gt;
-&lt;p&gt;I will post regular announcements to the class on &lt;em&gt;Canvas&lt;/em&gt;, so please set up your notifications on &lt;em&gt;Canvas&lt;/em&gt; accordingly. I will also use &lt;em&gt;Canvas&lt;/em&gt; to post all grades and any other information that needs to stay in the class. All other course materials will be available on our class website, &lt;a href=&#34;https://econ372s23.classes.ianmccarthyecon.com&#34;&gt;econ372s23.classes.ianmccarthyecon.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I will post regular announcements to the class on &lt;strong&gt;Canvas&lt;/strong&gt;, so please set up your notifications accordingly. I will also use Canvas to post all grades and any other information that needs to stay in the class. All other course materials will be available on our class website, &lt;a href=&#34;https://econ372s23.classes.ianmccarthyecon.com&#34;&gt;econ372s23.classes.ianmccarthyecon.com&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;laurens-promise&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Lauren’s Promise&lt;/h3&gt;
@@ -2120,7 +2032,7 @@ player 2 receives payoff &lt;span class=&#34;math inline&#34;&gt;\(t_{2} = a &am
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Weekly check-in&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Participation&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;20&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;5%&lt;/td&gt;
 &lt;/tr&gt;
