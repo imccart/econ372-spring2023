@@ -1,6 +1,6 @@
 ---
 title: General information
-date: "2022-01-05"
+date: "2023-01-09"
 menu:
   resource:
     parent: Resources
