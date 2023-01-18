@@ -25,7 +25,8 @@ Part 1 of Module 1 is all about risk and uncertainty. We will eventually use the
 - Define risk aversion and diminishing marginal utility
  
 ## Activities
-- Discussion of Humana and importance of risk pools
+- Supplemental questions about insurance in the U.S., available [here](https://imccart.github.io/econ372-content/01-Insurance/preclass-01.html)
+- Discussion of Humana and importance of risk pools on the [Module 1: Overview](/content/00-content.html) page
 - In-class example on expected values
 - In-class problem on expected costs, expected utilities, and risk aversion. The worksheet is [here](/resource/wksheet1.html).
 
