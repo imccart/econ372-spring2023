@@ -49,8 +49,8 @@ Taking the expectation over these utility values yields: $E[u]=0.7 \times$ `r fo
 
 
 ### Question 3:
-**Calculate this person's utility if they were to incur the expected cost of illness with certainty. Is this utility higher or lower than what you found in part (2)?**
+**Calculate this person's utility if they were to incur the expected cost of illness. Is this utility higher or lower than what you found in part (2)?**
 
 
-If they are definitely going to be sick (i.e., with probability, $p=1$), then we just need to plug in the wealth value in the sick state (60,000) into the utility function, $u=(60,000)^{0.2}=$ `r format(60000^(0.2),digits=5,big.mark=",")`. As should be the case, this is lower than our expected utility from part (2).
+The expected cost of illness is 12,000, so the expected wealth is 88,000. We just need to calculate the utility at this expected monetary value, $u=(88,000)^{0.2}=$ `r format(88000^(0.2),digits=5,big.mark=",")`. As should be the case, this is higher than the expected utility from part (2) because this envisions a risk-less scenario whereas the expected utility in part (2) envisioned a risky scenario.
 
