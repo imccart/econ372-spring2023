@@ -16,6 +16,7 @@ type: docs
 This year, the final project is a 2-page policy brief. This is a big part of your grade and essentially replaces what would otherwise be a final exam. Please start as early as possible and save yourself lots of stress in April! Big thanks to [Prof. Rebecca Kreitzer](https://www.rebeccakreitzer.com/) for making her policy brief assignment publicly available on her website, which was the basis for our project.
 
 The goals of the policy brief are three-fold:
+
 1. Learn about and effectively communicate information about a health and/or healthcare problems and potential policy solutions that you are interested in.
 2. Learn practical skills about policy communication, data and information visualization, and editing.
 3. Learn ways to empower yourself and share your voice on issues you care about  
@@ -28,14 +29,14 @@ Policy briefs should be timely — addressing issues that are currently being fa
 The term "policy brief" can mean many things. In this class, a policy brief is a succinct 1-2 page document that
 
 - Targets a non-technical audience including policymakers and stakeholders
-- Provides an overview rather than specifics with enough information that someone can become relatively informed about and issue and have some idea of how to address it
+- Provides an overview rather than specifics with enough information that someone can become relatively informed about an issue and have some idea of how to address it
 - Raises awareness of an issue and potential policy solutions
 
 To help stay on track throughout the semester, we've divided the brief into three stages. Please use the links (or just navigate below) for details of each stage. Please also check out the section on [Other Resources] for additional information, including examples of policy briefs and other guides.
 
-1. [Annotated Bibliography]
-2. [Factsheet]
-3. [Final Policy Brief]
+1. [Annotated Bibliography], due on **March 1**
+2. [Factsheet], due on **April 3**
+3. [Final Policy Brief], due on **April 24**
 
 # Annotated Bibliography
 Step 1 is to identify a topic and create an annotated bibliography. This bibliography should organize the relevant sources to be included in your policy brief. You should include both an overview of the topic of your choice — a short paragraph no longer than six sentences — as well as an annotated bibliography including 8-10 high quality sources. At least 6 of those sources must be scholarly articles.
