@@ -26,7 +26,7 @@ This section of the class is all about calculating risk premiums and willingness
 - Discuss viability of high-risk pools
  
 ## Activities
-- Supplemental information about insurance (and uninsurance) in the US, available [here](https://imccart.github.io/econ372-content/01-Insurance/preclass-02.html)
+- Supplemental information about insurance (and uninsurance) in the US, available [here](https://imccart.github.io/econ372-content/01-Insurance/preclass-02.html) and [here](https://imccart.github.io/econ372-content/01-Insurance/preclass-03.html)
 - In-class problem on the demand for health insurance. The worksheet is [here](/resource/wksheet2.html).
 
 
