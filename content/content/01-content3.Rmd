@@ -27,6 +27,7 @@ In Part 3, we'll broaden our study of insurance purchasing to the market level a
  
 ## Activities
 - In-class problem on adverse selection. The worksheet is [here](/resource/wksheet3.html).
+- Supplemental information about uninsurance in the US, available [here](https://imccart.github.io/econ372-content/01-Insurance/preclass-04.html)
 
 
 ## Slides
