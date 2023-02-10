@@ -61,11 +61,11 @@ $$E\left[u(W)\right] = p u(W_{s}) + (1-p) u(W_{h}).$$
     
     + Are these data suggestive of a "death spiral?" Why or why not?
     
-5. In practice, adverse selection is really a problem for which insurance plan people select (rather than the decision to be insured or not, which is how our theoretical structure envisioned things). To look at this in the real world, we're going to use some data from **Medicare**. These data are available on our shared OneNote folder, the link to which is on Canvas. Take a look at the data in your favorite software, and answer the following questions:
+5. In practice, adverse selection is really a problem for which insurance plan people select (rather than the decision to be insured or not, which is how our theoretical structure envisioned things). To look at this in the real world, we're going to use some data from **Medicare**. These data are available on our shared OneDrive folder, the link to which is on Canvas. Take a look at the data in your favorite software, and answer the following questions:
 
     + How has enrollment in Medicare Advantage plans changed over time? Use a graph to support your answer.
     
-    + How have Medicare FFS costs changed over time? Use a graph to support your answer.
+    + How have Medicare fee-for-service (FFS) costs changed over time? Use a graph to support your answer.
     
     + Interpret enrollment patterns and FFS costs in the context of adverse selection. Can adverse selection explain these trends? Why or why not?
     
