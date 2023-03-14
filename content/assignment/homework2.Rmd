@@ -68,7 +68,7 @@ This is our second homework assignment of the semester. It covers questions rela
 
     + Identify a set of HCPCS codes that capture physician office visits. Do some internet digging first, just to see if you can find the codes that way. Ultimately, the best strategy is probably to identify the relevant codes based on the observed descriptions in the data.
     
-    + Identify the physicians with the most (top 10) E&M visits in 2018.
+    + Identify the physicians with the most (top 10) E&M visits in 2020.
     
     + How much would these physicians from part B (the top 10 physicians) stand to gain from the increased RVU rate? Show your results in a table. You can see the percentage increases from the CMS Final Rule Discussion document on Canvas.
     
