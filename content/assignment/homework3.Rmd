@@ -72,7 +72,7 @@ This is our third and final homework assignment of the semester. It covers quest
 
 
 ## Empirical Questions
-4. Let's study how our assessment of hospital markets and competitiveness changes depending on our definition of a market. For these questions, we're going to work with the hospital data available on our *Canvas* page. I created this dataset from the Hospital Cost Report Information System (HCRIS) and the Hospital Service Area Files.
+4. Let's study how our assessment of hospital markets and competitiveness changes depending on our definition of a market. For these questions, we're going to work with the hospital data available on our *OneDrive* folder. I created this dataset from the Hospital Cost Report Information System (HCRIS) and the Hospital Service Area Files.
 
     + Calculate hospital market shares when defining the "market" by zip code and using hospital discharges as your measure of quantity. Create a "violin plot" or a box plot of market shares over time.
 
