@@ -60,15 +60,15 @@ This is our third and final homework assignment of the semester. It covers quest
 
 
 
-3. From our Nash bargaining framework, assume that two agents are negotiating over how best to divide their quantity of good $x$. Normalize the value of the good to 1, and assume that player 1 receives utility $u_{1}=x^{\alpha}$ and player 2 receives utility $u_{2}=(1-x)^{\beta}$. If the players fail to reach an agreement, they each receive utility of 0.
+3. From our Nash bargaining framework, assume that two agents are negotiating over how best to divide their quantity of good $x$. Normalize the value of the good to 1, and assume that player 1 receives $x$ and player 2 receives $1-x$. Further assume that player 1 has some "bargaining power" denoted by $\alpha$ and player 2 has some bargaining power denoted by $\beta$. In this setup, the Nash bargaining solution is one that maximizes $(u_{1} - t_{1})^{\alpha}(u_{2}-t_{2})^{\beta}$, where $u_{1}$ and $u_{2}$ denote the payoffs under agreement and $t_{1}$ and $t_{2}$ denote the payoffs without agreement. 
 
-    + Find the symmetric Nash bargaining solution to this game and explain how the solution depends on $\alpha$ and $\beta$
+    + Assume that, if the players fail to reach an agreement, they each receive utility of 0, so that $t_{1}=t_{2}=0$. Find the symmetric Nash bargaining solution to this game and explain how the solution depends on $\alpha$ and $\beta$.
     
-    + What can you conclude about the outcome of bargaining in the case of one risk neutral and one risk averse agent?
+    + Assume that $\alpha$ and $\beta$ measure risk aversion among the players. What can you conclude about the outcome of bargaining in the case of one risk neutral and one risk averse agent?
     
-    + Assume instead that $\alpha=\beta$ and that player 2 now has some positive payoff, $a$, if the players fail to reach an agreement. In this case, player 2's gain from an agreement is then $u_{2}=(1-a-x)^{\beta}$. What is the bargaining solution in this game?
+    + Assume instead that $\alpha=\beta$ and that player 2 now has some positive payoff, $a$, regardless of the value of $x$. In other words, $t_{2}=a$, while $t_{1}$ is still 0. What is the bargaining solution in this game?
     
-    + Interpret your answer in part (3) in terms of the "outside option" of player 1 and player 2.
+    + Interpret your answer in part (3) in terms of the size of the "outside option" (i.e., the value of $a$).
 
 
 ## Empirical Questions
