@@ -79,7 +79,7 @@ The annotated bibliography is worth 20 points toward the final project grade (re
     - briefly reference an evidence-based policy solution to be considered in the brief
 
 2. **Annotated Bibliography** (10 points). The annotated bibliography must include:
-    - minimum of 8 high-quality sources, at least 6 of which are scholarly (academic, peer-reviewed or law revie) indicated by **bold font**
+    - minimum of 8 high-quality sources, at least 6 of which are scholarly (academic, peer-reviewed or law review) indicated by **bold font**
     - summarize each source, relevant data, and main contribution to the area of interest
     
     
@@ -102,7 +102,9 @@ Having established a topic and set of sources, stage 2 of the project is to crea
 
 
 # Final Policy Brief
-For stage 3, you will craft a professional, concise, and informative advocacy oriented 2-page policy brief on your topic. Your policy brief should draw attention to an important public policy issue within the health and/or healthcare market space; “define” the policy problem with evidence and other relevant context; and provide research and evidence-based policy recommendations or actions that reflect the constraints of the real world. The 2-page policy brief is worth 80 points toward you final project grade, allocated as follows:
+For stage 3, you will craft a professional, concise, and informative advocacy oriented 2-page policy brief on your topic. Your policy brief should draw attention to an important public policy issue within the health and/or healthcare market space; “define” the policy problem with evidence and other relevant context; and provide research and evidence-based policy recommendations or actions that reflect the constraints of the real world. 
+
+The 2-page policy brief is worth 80 points toward you final project grade, allocated as follows:
 
 1. **Problem Definition and Introduction** (15 points). Your introduction of the policy issue to the audience must be catchy/memorable, informative, easy to follow, and convey a sense of urgency.
 
@@ -116,6 +118,9 @@ For stage 3, you will craft a professional, concise, and informative advocacy or
 4. **Structure & Professionalism** (10 points). The brief should be well organized and easy to navigate for non-subject-matter experts, with very few or no grammatical errors, spelling mistakes, missing words, etc.
 
 5. **Visually Engaging & Memorable** (10 points). There should be an effective use of limited space, with attention drawn to key points and structure using font, color, boxes, or other visual devices. Your final brief must include at least one table and at least one figure/graphic.
+
+
+From the work on your annotated bibliography, you must also cite at least 8 sources (6 of which are academic, peer-reviewed sources). In-text citations should be in parenthesis, e.g., (McCarthy et al. 2023), and you should include a bibliography as part of the 2-page limit. Citations should be used in the introduction, main content, **and** advocacy sections.
 
 
 # Other Resources
