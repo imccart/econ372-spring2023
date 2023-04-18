@@ -39,7 +39,7 @@ To help stay on track throughout the semester, we've divided the brief into thre
 3. [Final Policy Brief], due on **April 24** and worth **80 points** toward your final project grade
 
 # Annotated Bibliography
-Step 1 is to identify a topic and create an annotated bibliography. This bibliography should organize the relevant sources to be included in your policy brief. You should include both an overview of the topic of your choice — a short paragraph no longer than six sentences — as well as an annotated bibliography including 8-10 high quality sources. At least 6 of those sources must be scholarly articles. Please see our [workshop slides](https://imccart.github.io/econ372-content/policy-brief/annotated-bibliography-workshop.pdf) for additional information and tips on forming your bibilography.
+Step 1 is to identify a topic and create an annotated bibliography. This bibliography should organize the relevant sources to be included in your policy brief. You should include both an overview of the topic of your choice — a short paragraph no longer than six sentences — as well as an annotated bibliography including 8-10 high quality sources. At least 6 of those sources must be scholarly articles. Please see our [workshop slides](https://imccart.github.io/econ372-content/policy-brief/annotated-bibliography-workshop.pdf) for additional information and tips on forming your bibliography.
 
 ## Selecting an initial topic
 While you have wide discretion to select a topic of your choosing, it should remain within the world of health policy and healthcare markets. Additionally, some ideas are better than others, and some ideas are easier than others. When selecting a topic, ask yourself the following questions: What issues are you passionate about? and Where can your voice make a difference? You will be working on this project for an entire semester, so you should pick something you are excited, inspired, motivated, or angry about rather than something that sounds like it will be easy. Also, you are an undergraduate student at Emory living in Georgia. Are there specific issues where your voice, perspective, or framing is especially useful?
@@ -102,7 +102,7 @@ Having established a topic and set of sources, stage 2 of the project is to crea
 
 
 # Final Policy Brief
-For stage 3, you will craft a professional, concise, and informative advocacy oriented 2-page policy brief on your topic. Your policy brief should draw attention to an important public policy issue within the health and/or healthcare market space; “define” the policy problem with evidence and other relevant context; and provide research and evidence-based policy recommendations or actions that reflect the constraints of the real world. 
+For stage 3, you will craft a professional, concise, and informative advocacy oriented 2-page policy brief on your topic. Your policy brief should draw attention to an important public policy issue within the health and/or healthcare market space; “define” the policy problem with evidence and other relevant context; and provide research and evidence-based policy recommendations or actions that reflect the constraints of the real world. Please see the slides for additional discussion on the policy brief, including examples and other frequently asked questions, [here](https://imccart.github.io/econ372-content/policy-brief/Policy brief next steps.pptx).
 
 The 2-page policy brief is worth 80 points toward you final project grade, allocated as follows:
 
