@@ -102,7 +102,7 @@ Having established a topic and set of sources, stage 2 of the project is to crea
 
 
 # Final Policy Brief
-For stage 3, you will craft a professional, concise, and informative advocacy oriented 2-page policy brief on your topic. Your policy brief should draw attention to an important public policy issue within the health and/or healthcare market space; “define” the policy problem with evidence and other relevant context; and provide research and evidence-based policy recommendations or actions that reflect the constraints of the real world. Please see the slides for additional discussion on the policy brief, including examples and other frequently asked questions, [here](https://imccart.github.io/econ372-content/policy-brief/Policy brief next steps.pptx).
+For stage 3, you will craft a professional, concise, and informative advocacy oriented 2-page policy brief on your topic. Your policy brief should draw attention to an important public policy issue within the health and/or healthcare market space; “define” the policy problem with evidence and other relevant context; and provide research and evidence-based policy recommendations or actions that reflect the constraints of the real world. Please see the slides for additional discussion on the policy brief, including examples and other frequently asked questions, [here](https://imccart.github.io/econ372-content/policy-brief/policy-brief-faq.pptx).
 
 The 2-page policy brief is worth 80 points toward you final project grade, allocated as follows:
 
